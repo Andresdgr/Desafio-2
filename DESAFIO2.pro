@@ -8,7 +8,8 @@ SOURCES += \
         estadisticasequipo.cpp \
         gestordatos.cpp \
         jugador.cpp \
-        main.cpp
+        main.cpp \
+        partido.cpp
 
 HEADERS += \
     equipo.h \
@@ -16,4 +17,5 @@ HEADERS += \
     gestordatos.h \
     jugador.h \
     lista.h \
-    nodo.h
+    nodo.h \
+    partido.h

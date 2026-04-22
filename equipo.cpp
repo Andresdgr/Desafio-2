@@ -1,5 +1,6 @@
 #include "equipo.h"
 #include "jugador.h"
+#include <cstdlib>
 
 // Constructor por defecto
 Equipo::Equipo()
@@ -144,4 +145,36 @@ void Equipo::inicializarJugadores()
         Jugador& j = jugadores.consultar(i);
         j.setGoles(j.getGoles() + 1);
     }
+}
+
+Lista<Jugador> Equipo::seleccionarTitulares()
+{
+    Lista<Jugador> titulares;
+
+    int n = jugadores.tamano();
+
+    while (titulares.tamano() < 11)
+    {
+        int idx = rand() % n;
+
+        Jugador& candidato = jugadores.consultar(idx);
+
+        bool repetido = false;
+
+        for (int i = 0; i < titulares.tamano(); i++)
+        {
+            if (titulares.consultar(i).getNumeroCamiseta() == candidato.getNumeroCamiseta())
+            {
+                repetido = true;
+                break;
+            }
+        }
+
+        if (!repetido)
+        {
+            titulares.agregar(candidato, titulares.tamano());
+        }
+    }
+
+    return titulares;
 }

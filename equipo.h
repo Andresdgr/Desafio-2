@@ -36,6 +36,7 @@ public:
     string getFederacion() const;
     string getConfederacion() const;
     EstadisticasEquipo getEstadisticas() const;//estadisticas es un objeto de estadisticasEquipo
+    Lista<Jugador>& getJugadores();
 
     // SETTERS
     void setRankingFIFA(int rankingFIFA);
@@ -44,13 +45,14 @@ public:
     void setFederacion(const string& federacion);
     void setConfederacion(const string& confederacion);
     void setEstadisticas(const EstadisticasEquipo& estadisticas);
-
+    Lista<Jugador> seleccionarTitulares();
 
     // recarga de Operador ==
     bool operator==(const Equipo& otro) const;
 
-    Lista<Jugador>& getJugadores();
+
     void inicializarJugadores();
+
 };
 
 #endif // EQUIPO_H

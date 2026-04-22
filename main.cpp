@@ -2,11 +2,13 @@
 #include "gestordatos.h"
 #include "lista.h"
 #include "equipo.h"
+#include "partido.h"
 
 using namespace std;
 
 int main()
 {
+    srand(time(0));
     try
     {
         Lista<Equipo> equipos;
@@ -14,6 +16,26 @@ int main()
 
 
         gestor.cargarEquiposDesdeCSV("C:/Users/Andres/OneDrive - Universidad de Antioquia/Escritorio/Desafio 2/selecciones_clasificadas_mundial.csv", equipos);
+
+        // tomar dos equipos
+        Equipo& e1 = equipos.consultar(0);
+        Equipo& e2 = equipos.consultar(1);
+
+        // inicializar jugadores
+        e1.inicializarJugadores();
+        e2.inicializarJugadores();
+
+        // crear partido
+        Partido p(&e1, &e2);
+
+        // simular
+        p.simular();
+
+        // mostrar resultado
+        cout << e1.getPais() << " " << p.getGoles1()
+             << " vs "
+             << p.getGoles2() << " " << e2.getPais()
+             << endl;
 
         cout << "Cantidad de equipos cargados: " << equipos.tamano() << endl;
         cout << "----------------------------------------" << endl;
