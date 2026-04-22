@@ -147,9 +147,9 @@ void Equipo::inicializarJugadores()
     }
 }
 
-Lista<Jugador> Equipo::seleccionarTitulares()
+Lista<Jugador*> Equipo::seleccionarTitulares()
 {
-    Lista<Jugador> titulares;
+    Lista<Jugador*> titulares;
 
     int n = jugadores.tamano();
 
@@ -163,7 +163,7 @@ Lista<Jugador> Equipo::seleccionarTitulares()
 
         for (int i = 0; i < titulares.tamano(); i++)
         {
-            if (titulares.consultar(i).getNumeroCamiseta() == candidato.getNumeroCamiseta())
+            if (titulares.consultar(i)->getNumeroCamiseta() == candidato.getNumeroCamiseta())
             {
                 repetido = true;
                 break;
@@ -172,7 +172,7 @@ Lista<Jugador> Equipo::seleccionarTitulares()
 
         if (!repetido)
         {
-            titulares.agregar(candidato, titulares.tamano());
+            titulares.agregar(&candidato, titulares.tamano());
         }
     }
 

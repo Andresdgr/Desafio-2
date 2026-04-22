@@ -45,7 +45,7 @@ public:
     void setFederacion(const string& federacion);
     void setConfederacion(const string& confederacion);
     void setEstadisticas(const EstadisticasEquipo& estadisticas);
-    Lista<Jugador> seleccionarTitulares();
+    Lista<Jugador*> seleccionarTitulares();
 
     // recarga de Operador ==
     bool operator==(const Equipo& otro) const;

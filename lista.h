@@ -36,6 +36,7 @@ public:
     T& consultar(int i);
     const T& consultar(int i) const;
 
+    Lista<T>& operator=(const Lista<T>& otra);
 private:
     void destruirLista();
 };
@@ -236,6 +237,41 @@ const T& Lista<T>::consultar(int i) const
     }
 
     return actual->getData();
+}
+
+template <typename T>
+Lista<T>& Lista<T>::operator=(const Lista<T>& otra)
+{
+    if (this != &otra)
+    {
+        destruirLista();
+
+        Nodo<T>* actual = otra.head;
+        Nodo<T>* ultimoNodo = nullptr;
+
+        head = nullptr;
+        size = 0;
+
+        while (actual != nullptr)
+        {
+            Nodo<T>* nuevo = new Nodo<T>(actual->getData());
+
+            if (head == nullptr)
+            {
+                head = nuevo;
+            }
+            else
+            {
+                ultimoNodo->setPtrNext(nuevo);
+            }
+
+            ultimoNodo = nuevo;
+            actual = actual->getPtrNext();
+            size++;
+        }
+    }
+
+    return *this;
 }
 
 #endif // LISTA_H

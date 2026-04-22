@@ -1,4 +1,5 @@
 #include <iostream>
+#include <ctime>
 #include "gestordatos.h"
 #include "lista.h"
 #include "equipo.h"
@@ -17,11 +18,15 @@ int main()
 
         gestor.cargarEquiposDesdeCSV("C:/Users/Andres/OneDrive - Universidad de Antioquia/Escritorio/Desafio 2/selecciones_clasificadas_mundial.csv", equipos);
 
+
+        cout << "Cantidad de equipos cargados: " << equipos.tamano() << endl;
+        cout << "----------------------------------------" << endl;
+
         // tomar dos equipos
-        Equipo& e1 = equipos.consultar(0);
+        Equipo& e1 = equipos.consultar(12);
         Equipo& e2 = equipos.consultar(1);
 
-        // inicializar jugadores
+        // inicializar jugadores UNA sola vez
         e1.inicializarJugadores();
         e2.inicializarJugadores();
 
@@ -31,15 +36,27 @@ int main()
         // simular
         p.simular();
 
-        // mostrar resultado
-        cout << e1.getPais() << " " << p.getGoles1()
-             << " vs "
-             << p.getGoles2() << " " << e2.getPais()
-             << endl;
+        // resultado
+        cout << endl;
+        cout << e1.getPais() << " " << p.getGoles1() << " vs " << p.getGoles2() << " " << e2.getPais() << endl;
 
-        cout << "Cantidad de equipos cargados: " << equipos.tamano() << endl;
-        cout << "----------------------------------------" << endl;
+        Jugador& j = e1.getJugadores().consultar(0);
 
+        cout << "Goles primer jugador: " << j.getGoles() << endl;
+        cout << "Amarillas: " << j.getTarjetasAmarillas() << endl;
+        cout << "Rojas: " << j.getTarjetasRojas() << endl;
+        cout << "Faltas: " << j.getFaltas() << endl;
+
+
+        // verificar que los jugadores si cambiaron
+        cout << endl;
+        for (int i = 0; i < e1.getJugadores().tamano(); i++)
+        {
+            Jugador& j = e1.getJugadores().consultar(i);
+
+            cout << "Jugador " << j.getNumeroCamiseta()<< " goles: " << j.getGoles()<< endl;
+        }
+        /*
         for (int i = 0; i < equipos.tamano(); i++)
         {
             Equipo& equipo = equipos.consultar(i);
@@ -65,7 +82,7 @@ int main()
             cout << "Partidos empatados: " << equipo.getEstadisticas().getPartidosEmpatados() << endl;
             cout << "Partidos perdidos: " << equipo.getEstadisticas().getPartidosPerdidos() << endl;
             cout << "----------------------------------------" << endl;
-        }
+        }*/
     }
     catch (const exception& e)
     {

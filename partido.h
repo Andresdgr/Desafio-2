@@ -11,15 +11,19 @@ private:
     Equipo* equipo1;
     Equipo* equipo2;
 
-    Lista<Jugador> titulares1;
-    Lista<Jugador> titulares2;
+    Lista<Jugador*> titulares1;
+    Lista<Jugador*> titulares2;
 
     int goles1;
     int goles2;
 
+    // funciones auxiliares internas
+    double calcularLambda(Equipo* A, Equipo* B);
+    int generarGoles(double lambda);
+
 public:
     Partido(Equipo* e1, Equipo* e2);
-
+    bool ocurre(double probabilidad);
     void simular();
 
     int getGoles1() const;

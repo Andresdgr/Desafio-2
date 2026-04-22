@@ -30,9 +30,19 @@ public:
     string getApellido() const;
     int getNumeroCamiseta() const;
     int getGoles() const;
+    int getTarjetasAmarillas() const;
+    int getTarjetasRojas() const;
+    int getFaltas() const;
 
     // Setters básicos
     void setGoles(int goles);
+    void agregarGol();
+    void agregarMinutos(int minutos);
+    void agregarAsistencia();
+    void agregarAmarilla();
+    void agregarRoja();
+    void agregarFalta();
+    void incrementarPartidos();
 };
 
 #endif
