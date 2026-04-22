@@ -7,11 +7,13 @@ SOURCES += \
         equipo.cpp \
         estadisticasequipo.cpp \
         gestordatos.cpp \
+        jugador.cpp \
         main.cpp
 
 HEADERS += \
     equipo.h \
     estadisticasequipo.h \
     gestordatos.h \
+    jugador.h \
     lista.h \
     nodo.h

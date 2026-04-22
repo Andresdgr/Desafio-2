@@ -3,6 +3,9 @@
 
 #include <string>
 #include "estadisticasequipo.h"
+#include "lista.h"
+#include "jugador.h"
+
 
 using namespace std;
 
@@ -15,6 +18,7 @@ private:
     string federacion;
     string confederacion;
     EstadisticasEquipo estadisticas;
+    Lista<Jugador> jugadores;
 
 public:
     // Constructores
@@ -41,8 +45,12 @@ public:
     void setConfederacion(const string& confederacion);
     void setEstadisticas(const EstadisticasEquipo& estadisticas);
 
+
     // recarga de Operador ==
     bool operator==(const Equipo& otro) const;
+
+    Lista<Jugador>& getJugadores();
+    void inicializarJugadores();
 };
 
 #endif // EQUIPO_H

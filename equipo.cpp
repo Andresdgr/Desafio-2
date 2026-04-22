@@ -1,4 +1,5 @@
 #include "equipo.h"
+#include "jugador.h"
 
 // Constructor por defecto
 Equipo::Equipo()
@@ -105,4 +106,42 @@ void Equipo::setEstadisticas(const EstadisticasEquipo& estadisticas)
 bool Equipo::operator==(const Equipo& otro) const
 {
     return pais == otro.pais;
+}
+
+Lista<Jugador>& Equipo::getJugadores()
+{
+    return jugadores;
+}
+
+void Equipo::inicializarJugadores()
+{
+    int golesEquipo = estadisticas.getGolesAFavor();
+    int n = 26;
+    int base = golesEquipo / n;
+    int extra = golesEquipo % n;
+
+    for (int i = 1; i <= 26; i++)
+    {
+        string nombre = "nombre" + to_string(i);
+        string apellido = "apellido" + to_string(i);
+
+        Jugador jugador(nombre, apellido, i);
+
+        jugadores.agregar(jugador, jugadores.tamano());
+    }
+
+
+    // repartir base a todos
+    for (int i = 0; i < n; i++)
+    {
+        Jugador& j = jugadores.consultar(i);
+        j.setGoles(base);
+    }
+
+    // repartir sobrantes a los primeros "extra"
+    for (int i = 0; i < extra; i++)
+    {
+        Jugador& j = jugadores.consultar(i);
+        j.setGoles(j.getGoles() + 1);
+    }
 }

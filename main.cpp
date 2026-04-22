@@ -13,14 +13,23 @@ int main()
         GestorDatos gestor;
 
 
-        gestor.cargarEquiposDesdeCSV("C:/udea/informatica_2/DESAFIO2/selecciones_clasificadas_mundial.csv", equipos);
+        gestor.cargarEquiposDesdeCSV("C:/Users/Andres/OneDrive - Universidad de Antioquia/Escritorio/Desafio 2/selecciones_clasificadas_mundial.csv", equipos);
 
         cout << "Cantidad de equipos cargados: " << equipos.tamano() << endl;
         cout << "----------------------------------------" << endl;
 
         for (int i = 0; i < equipos.tamano(); i++)
         {
-            Equipo equipo = equipos.consultar(i);
+            Equipo& equipo = equipos.consultar(i);
+            equipo.inicializarJugadores();
+            Jugador& jugador = equipo.getJugadores().consultar(i);
+
+
+            cout << "Cantidad jugadores: " << equipo.getJugadores().tamano() << endl;
+
+            cout << "Primer jugador: " << equipo.getJugadores().consultar(0).getNombre();
+            cout << endl;
+            cout<< "Goles Primer jugador: "<< jugador.getGoles() << endl;
 
             cout << "Equipo #" << i + 1 << endl;
             cout << "Ranking FIFA: " << equipo.getRankingFIFA() << endl;
