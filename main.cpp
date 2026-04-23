@@ -50,12 +50,16 @@ int main()
 
         // verificar que los jugadores si cambiaron
         cout << endl;
-        for (int i = 0; i < e1.getJugadores().tamano(); i++)
+        cout << "Goleadores equipo 1:" << endl;
+        for (int i = 0; i < 11; i++)
         {
-            Jugador& j = e1.getJugadores().consultar(i);
-
-            cout << "Jugador " << j.getNumeroCamiseta()<< " goles: " << j.getGoles()<< endl;
+            Jugador* j = p.getTitulares1().consultar(i);
+            if (j->getGoles() > 0)
+            {
+                cout << "Camiseta " << j->getNumeroCamiseta()<<" Goles: "<< j->getGoles() << endl;
+            }
         }
+        cout << endl;
         /*
         for (int i = 0; i < equipos.tamano(); i++)
         {

@@ -28,6 +28,8 @@ public:
 
     int getGoles1() const;
     int getGoles2() const;
+    Lista<Jugador*>& getTitulares1();
+    Lista<Jugador*>& getTitulares2();
 };
 
 #endif

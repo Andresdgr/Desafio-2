@@ -25,7 +25,7 @@ double Partido::calcularLambda(Equipo* A, Equipo* B)
     double beta = 0.4;
     double mu = 1.35;
 
-    return mu * (alpha * GF + beta * GC) / 100.0;
+    return mu * (alpha * GF + beta * GC) / 70.0;
 }
 
 int Partido::generarGoles(double lambda)
@@ -156,5 +156,39 @@ void Partido::simular()
             }
         }
     }
+
+    // actualizar estadísticas equipo 1
+    EstadisticasEquipo est1 = equipo1->getEstadisticas();
+    EstadisticasEquipo est2 = equipo2->getEstadisticas();
+
+    // goles
+    est1.setGolesAFavor(est1.getGolesAFavor() + goles1);
+    est1.setGolesEnContra(est1.getGolesEnContra() + goles2);
+
+    est2.setGolesAFavor(est2.getGolesAFavor() + goles2);
+    est2.setGolesEnContra(est2.getGolesEnContra() + goles1);
+
+    // resultado
+    if (goles1 > goles2)
+    {
+        est1.setPartidosGanados(est1.getPartidosGanados() + 1);
+        est2.setPartidosPerdidos(est2.getPartidosPerdidos() + 1);
+    }
+    else if (goles1 < goles2)
+    {
+        est2.setPartidosGanados(est2.getPartidosGanados() + 1);
+        est1.setPartidosPerdidos(est1.getPartidosPerdidos() + 1);
+    }
+    else
+    {
+        est1.setPartidosEmpatados(est1.getPartidosEmpatados() + 1);
+        est2.setPartidosEmpatados(est2.getPartidosEmpatados() + 1);
+    }
+
+    // guardar cambios
+    equipo1->setEstadisticas(est1);
+    equipo2->setEstadisticas(est2);
 }
 
+Lista<Jugador*>& Partido::getTitulares1() { return titulares1; }
+Lista<Jugador*>& Partido::getTitulares2() { return titulares2; }
