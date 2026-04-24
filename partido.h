@@ -22,6 +22,7 @@ private:
     int generarGoles(double lambda);
 
 public:
+    Partido();
     Partido(Equipo* e1, Equipo* e2);
     bool ocurre(double probabilidad);
     void simular();

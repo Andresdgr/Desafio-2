@@ -3,6 +3,14 @@
 #include <iostream>
 using namespace std;
 
+Partido::Partido()
+{
+    equipo1 = nullptr;
+    equipo2 = nullptr;
+    goles1 = 0;
+    goles2 = 0;
+}
+
 Partido::Partido(Equipo* e1, Equipo* e2)
 {
     equipo1 = e1;

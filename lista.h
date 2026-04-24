@@ -37,6 +37,8 @@ public:
     const T& consultar(int i) const;
 
     Lista<T>& operator=(const Lista<T>& otra);
+    void reducirTamano();
+
 private:
     void destruirLista();
 };
@@ -272,6 +274,32 @@ Lista<T>& Lista<T>::operator=(const Lista<T>& otra)
     }
 
     return *this;
+}
+
+template <typename T>
+void Lista<T>::reducirTamano()
+{
+    if (size == 0) return;
+
+    Nodo<T>* actual = head;
+
+    if (size == 1)
+    {
+        delete head;
+        head = nullptr;
+    }
+    else
+    {
+        for (int i = 0; i < size - 2; i++)
+        {
+            actual = actual->getPtrNext();
+        }
+
+        delete actual->getPtrNext();
+        actual->setPtrNext(nullptr);
+    }
+
+    size--;
 }
 
 #endif // LISTA_H

@@ -4,8 +4,42 @@
 #include "lista.h"
 #include "equipo.h"
 #include "partido.h"
+#include "grupo.h"
+#include "bombo.h"
 
 using namespace std;
+
+void ordenarEquiposPorRanking(Lista<Equipo>& equipos)
+{
+    for (int i = 0; i < equipos.tamano(); i++)
+    {
+        for (int j = i + 1; j < equipos.tamano(); j++)
+        {
+            if (equipos.consultar(j).getRankingFIFA() < equipos.consultar(i).getRankingFIFA())
+            {
+                Equipo temp = equipos.consultar(i);
+                equipos.consultar(i) = equipos.consultar(j);
+                equipos.consultar(j) = temp;
+            }
+        }
+    }
+}
+
+void crearBombos(Lista<Equipo>& equipos, Bombo bombos[4])
+{
+    ordenarEquiposPorRanking(equipos);
+
+    int idx = 0;
+
+    for (int b = 0; b < 4; b++)
+    {
+        for (int i = 0; i < 12; i++)
+        {
+            bombos[b].agregarEquipo(&equipos.consultar(idx));
+            idx++;
+        }
+    }
+}
 
 int main()
 {
@@ -60,6 +94,38 @@ int main()
             }
         }
         cout << endl;
+
+        Grupo grupoA('A');
+
+        for (int i = 0; i < 4; i++)
+        {
+            Equipo& e = equipos.consultar(i);
+            e.inicializarJugadores();
+            grupoA.agregarEquipo(&e);
+        }
+
+        grupoA.generarPartidos();
+        grupoA.simular();
+        grupoA.imprimir();
+
+
+
+
+        Bombo bombos[4];
+
+        crearBombos(equipos, bombos);
+
+        for (int b = 0; b < 4; b++)
+        {
+            cout << "Bombo " << b+1 << endl;
+
+            for (int i = 0; i < bombos[b].tamano(); i++)
+            {
+                cout << bombos[b].getEquipos().consultar(i)->getPais() << endl;
+            }
+
+            cout << "-------------------" << endl;
+        }
         /*
         for (int i = 0; i < equipos.tamano(); i++)
         {
