@@ -26,17 +26,22 @@ EstadisticasEquipo::EstadisticasEquipo(int gf, int gc, int pg, int pe, int pp, i
 }
 
 
-EstadisticasEquipo::EstadisticasEquipo(const EstadisticasEquipo& otra)
+EstadisticasEquipo& EstadisticasEquipo::operator=(const EstadisticasEquipo& otra)
 {
-    golesAFavor = otra.golesAFavor;
-    golesEnContra = otra.golesEnContra;
-    partidosGanados = otra.partidosGanados;
-    partidosEmpatados = otra.partidosEmpatados;
-    partidosPerdidos = otra.partidosPerdidos;
-    tarjetasAmarillas = otra.tarjetasAmarillas;
-    tarjetasRojas = otra.tarjetasRojas;
-    faltas = otra.faltas;
+    if (this != &otra)
+    {
+        golesAFavor = otra.golesAFavor;
+        golesEnContra = otra.golesEnContra;
+        partidosGanados = otra.partidosGanados;
+        partidosEmpatados = otra.partidosEmpatados;
+        partidosPerdidos = otra.partidosPerdidos;
+        tarjetasAmarillas = otra.tarjetasAmarillas;
+        tarjetasRojas = otra.tarjetasRojas;
+        faltas = otra.faltas;
+    }
+    return *this;
 }
+
 
 // GETTERS
 int EstadisticasEquipo::getGolesAFavor() const {

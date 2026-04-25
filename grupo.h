@@ -13,6 +13,7 @@ private:
     Lista<Partido> partidos;
 
 public:
+    Grupo();
     Grupo(char letra);
 
     void agregarEquipo(Equipo* equipo);
@@ -21,6 +22,9 @@ public:
     void simular();
 
     void imprimir();
+
+    int getCantidadEquipos() const;
+    Equipo* getEquipo(int i);
 
 };
 

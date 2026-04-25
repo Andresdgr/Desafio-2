@@ -3,6 +3,11 @@
 
 using namespace std;
 
+Grupo::Grupo()
+{
+    letra = '?';
+}
+
 Grupo::Grupo(char letra)
 {
     this->letra = letra;
@@ -48,4 +53,14 @@ void Grupo::imprimir()
     }
 
     cout << "------------------------" << endl;
+}
+
+int Grupo::getCantidadEquipos() const
+{
+    return equipos.tamano();
+}
+
+Equipo* Grupo::getEquipo(int i)
+{
+    return equipos.consultar(i);
 }

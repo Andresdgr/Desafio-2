@@ -26,7 +26,7 @@ public:
     Equipo(int rankingFIFA, const string& pais, const string& directorTecnico,
            const string& federacion, const string& confederacion,
            const EstadisticasEquipo& estadisticas);
-    Equipo(const Equipo& copia);
+    Equipo& operator=(const Equipo& otro);
     //~Equipo();
 
     // GETTERS

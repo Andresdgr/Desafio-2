@@ -26,14 +26,19 @@ Equipo::Equipo(int rankingFIFA, const string& pais, const string& directorTecnic
 }
 
 // Constructor de copia
-Equipo::Equipo(const Equipo& copia)
+Equipo& Equipo::operator=(const Equipo& otro)
 {
-    rankingFIFA = copia.rankingFIFA;
-    pais = copia.pais;
-    directorTecnico = copia.directorTecnico;
-    federacion = copia.federacion;
-    confederacion = copia.confederacion;
-    estadisticas = copia.estadisticas;
+    if (this != &otro)
+    {
+        rankingFIFA = otro.rankingFIFA;
+        pais = otro.pais;
+        directorTecnico = otro.directorTecnico;
+        federacion = otro.federacion;
+        confederacion = otro.confederacion;
+        estadisticas = otro.estadisticas;
+        jugadores = otro.jugadores;
+    }
+    return *this;
 }
 
 // Destructor

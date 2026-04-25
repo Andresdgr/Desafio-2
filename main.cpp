@@ -41,6 +41,72 @@ void crearBombos(Lista<Equipo>& equipos, Bombo bombos[4])
     }
 }
 
+bool esValido(Grupo& grupo, Equipo* candidato)
+{
+    int uefaCount = 0;
+
+    for (int i = 0; i < 4; i++)
+    {
+        // evitar crash si grupo aún no está lleno
+        if (i >= grupo.getCantidadEquipos()) break;
+
+        Equipo* e = grupo.getEquipo(i);
+
+        if (e->getConfederacion() == candidato->getConfederacion())
+        {
+            if (e->getConfederacion() == "UEFA")
+            {
+                uefaCount++;
+                if (uefaCount >= 2)
+                    return false;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    }
+
+    return true;
+}
+
+void crearGrupos(Bombo bombos[4], Grupo grupos[12])
+{
+    // inicializar letras
+    for (int i = 0; i < 12; i++)
+    {
+        grupos[i] = Grupo('A' + i);
+    }
+
+    // recorrer bombos
+    for (int b = 0; b < 4; b++)
+    {
+        for (int g = 0; g < 12; g++)
+        {
+            bool asignado = false;
+
+            int intentos = 0;
+
+            while (!asignado && intentos < 50)
+            {
+                Equipo* candidato = bombos[b].sacarAleatorio();
+
+                if (esValido(grupos[g], candidato))
+                {
+                    grupos[g].agregarEquipo(candidato);
+                    asignado = true;
+                }
+                else
+                {
+                    bombos[b].agregarEquipo(candidato);
+                }
+
+                intentos++;
+            }
+        }
+    }
+}
+
 int main()
 {
     srand(time(0));
@@ -95,36 +161,24 @@ int main()
         }
         cout << endl;
 
-        Grupo grupoA('A');
-
-        for (int i = 0; i < 4; i++)
-        {
-            Equipo& e = equipos.consultar(i);
-            e.inicializarJugadores();
-            grupoA.agregarEquipo(&e);
-        }
-
-        grupoA.generarPartidos();
-        grupoA.simular();
-        grupoA.imprimir();
-
-
-
-
         Bombo bombos[4];
-
         crearBombos(equipos, bombos);
 
-        for (int b = 0; b < 4; b++)
-        {
-            cout << "Bombo " << b+1 << endl;
+        Grupo grupos[12];
+        crearGrupos(bombos, grupos);
 
-            for (int i = 0; i < bombos[b].tamano(); i++)
+        for (int i = 0; i < 12; i++)
+        {
+            cout << "Grupo " << char('A' + i) << endl;
+
+            for (int j = 0; j < grupos[i].getCantidadEquipos(); j++)
             {
-                cout << bombos[b].getEquipos().consultar(i)->getPais() << endl;
+                Equipo* e = grupos[i].getEquipo(j);
+
+                cout << e->getPais() << " (" << e->getConfederacion() << ")" << endl;
             }
 
-            cout << "-------------------" << endl;
+            cout << endl;
         }
         /*
         for (int i = 0; i < equipos.tamano(); i++)

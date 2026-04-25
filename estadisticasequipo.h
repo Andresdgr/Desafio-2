@@ -22,7 +22,7 @@ public:
     EstadisticasEquipo(int gf, int gc, int pg, int pe, int pp, int ta, int tr, int f);
 
     // Constructor de copia
-    EstadisticasEquipo(const EstadisticasEquipo& otra);
+    EstadisticasEquipo& operator=(const EstadisticasEquipo& otro);
 
     // Destructor
   //  ~EstadisticasEquipo();
