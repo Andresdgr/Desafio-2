@@ -89,3 +89,32 @@ void EstadisticasEquipo::setTarjetasRojas(int tr) {
 void EstadisticasEquipo::setFaltas(int f) {
     faltas = f;
 }
+
+EstadisticasEquipo& EstadisticasEquipo::operator=(const EstadisticasEquipo& otra)
+{
+    if (this != &otra)
+    {
+        golesAFavor = otra.golesAFavor;
+        golesEnContra = otra.golesEnContra;
+        partidosGanados = otra.partidosGanados;
+        partidosEmpatados = otra.partidosEmpatados;
+        partidosPerdidos = otra.partidosPerdidos;
+        tarjetasAmarillas = otra.tarjetasAmarillas;
+        tarjetasRojas = otra.tarjetasRojas;
+        faltas = otra.faltas;
+    }
+
+    return *this;
+}
+
+int EstadisticasEquipo::memoryUsage() const
+{
+    return sizeof(golesAFavor)
+    + sizeof(golesEnContra)
+        + sizeof(partidosGanados)
+        + sizeof(partidosEmpatados)
+        + sizeof(partidosPerdidos)
+        + sizeof(tarjetasAmarillas)
+        + sizeof(tarjetasRojas)
+        + sizeof(faltas);
+}

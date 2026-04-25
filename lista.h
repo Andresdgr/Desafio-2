@@ -2,6 +2,7 @@
 #define LISTA_H
 
 #include "nodo.h"
+#include "medidorrecursos.h"
 #include <stdexcept>
 
 template <typename T>
@@ -10,37 +11,37 @@ class Lista
 private:
     Nodo<T>* head;
     int size;
+    static int totalMemory;
 
 public:
-    // Constructor por defecto
     Lista();
-
-    // Constructor de copia
     Lista(const Lista<T>& otra);
-
-    // Destructor
+    Lista<T>& operator=(const Lista<T>& otra);
     ~Lista();
 
-    // Métodos básicos
     int tamano() const;
     bool esVacia() const;
+
     T& primero();
     const T& primero() const;
+
     T& ultimo();
     const T& ultimo() const;
 
-    //agregar
-    void agregar(const T& e, int i);
-
-    //consultar
     T& consultar(int i);
     const T& consultar(int i) const;
+
+    void agregar(const T& e, int i);
+    void ordenar();
+
+    int memoryUsage() const;
 
 private:
     void destruirLista();
 };
 
-// Implementación
+template <typename T>
+int Lista<T>::totalMemory = sizeof(Lista<T>);
 
 template <typename T>
 Lista<T>::Lista()
@@ -56,25 +57,35 @@ Lista<T>::Lista(const Lista<T>& otra)
     size = 0;
 
     Nodo<T>* actual = otra.head;
-    Nodo<T>* ultimoNodo = nullptr;
 
     while (actual != nullptr)
     {
-        Nodo<T>* nuevo = new Nodo<T>(actual->getData());
+        MedidorRecursos::sumarIteracion();
 
-        if (head == nullptr)
-        {
-            head = nuevo;
-        }
-        else
-        {
-            ultimoNodo->setPtrNext(nuevo);
-        }
-
-        ultimoNodo = nuevo;
+        agregar(actual->getData(), size);
         actual = actual->getPtrNext();
-        size++;
     }
+}
+
+template <typename T>
+Lista<T>& Lista<T>::operator=(const Lista<T>& otra)
+{
+    if (this != &otra)
+    {
+        destruirLista();
+
+        Nodo<T>* actual = otra.head;
+
+        while (actual != nullptr)
+        {
+            MedidorRecursos::sumarIteracion();
+
+            agregar(actual->getData(), size);
+            actual = actual->getPtrNext();
+        }
+    }
+
+    return *this;
 }
 
 template <typename T>
@@ -99,9 +110,7 @@ template <typename T>
 T& Lista<T>::primero()
 {
     if (esVacia())
-    {
-        throw std::out_of_range("La lista esta vacia");
-    }
+        throw std::out_of_range("Lista vacia");
 
     return head->getData();
 }
@@ -110,9 +119,7 @@ template <typename T>
 const T& Lista<T>::primero() const
 {
     if (esVacia())
-    {
-        throw std::out_of_range("La lista esta vacia");
-    }
+        throw std::out_of_range("Lista vacia");
 
     return head->getData();
 }
@@ -121,14 +128,13 @@ template <typename T>
 T& Lista<T>::ultimo()
 {
     if (esVacia())
-    {
-        throw std::out_of_range("La lista esta vacia");
-    }
+        throw std::out_of_range("Lista vacia");
 
     Nodo<T>* actual = head;
 
     while (actual->getPtrNext() != nullptr)
     {
+        MedidorRecursos::sumarIteracion();
         actual = actual->getPtrNext();
     }
 
@@ -139,14 +145,13 @@ template <typename T>
 const T& Lista<T>::ultimo() const
 {
     if (esVacia())
-    {
-        throw std::out_of_range("La lista esta vacia");
-    }
+        throw std::out_of_range("Lista vacia");
 
     Nodo<T>* actual = head;
 
     while (actual->getPtrNext() != nullptr)
     {
+        MedidorRecursos::sumarIteracion();
         actual = actual->getPtrNext();
     }
 
@@ -154,30 +159,47 @@ const T& Lista<T>::ultimo() const
 }
 
 template <typename T>
-void Lista<T>::destruirLista()
+T& Lista<T>::consultar(int i)
 {
+    if (i < 0 || i >= size)
+        throw std::out_of_range("Posicion invalida");
+
     Nodo<T>* actual = head;
 
-    while (actual != nullptr)
+    for (int pos = 0; pos < i; pos++)
     {
-        Nodo<T>* temporal = actual;
+        MedidorRecursos::sumarIteracion();
         actual = actual->getPtrNext();
-        delete temporal;
     }
 
-    head = nullptr;
-    size = 0;
+    return actual->getData();
 }
-// agregar
+
+template <typename T>
+const T& Lista<T>::consultar(int i) const
+{
+    if (i < 0 || i >= size)
+        throw std::out_of_range("Posicion invalida");
+
+    Nodo<T>* actual = head;
+
+    for (int pos = 0; pos < i; pos++)
+    {
+        MedidorRecursos::sumarIteracion();
+        actual = actual->getPtrNext();
+    }
+
+    return actual->getData();
+}
+
 template <typename T>
 void Lista<T>::agregar(const T& e, int i)
 {
     if (i < 0 || i > size)
-    {
-        throw std::out_of_range("Posicion invalida para insertar");
-    }
+        throw std::out_of_range("Posicion invalida");
 
     Nodo<T>* nuevo = new Nodo<T>(e);
+    totalMemory += sizeof(Nodo<T>);
 
     if (i == 0)
     {
@@ -190,6 +212,7 @@ void Lista<T>::agregar(const T& e, int i)
 
         for (int pos = 0; pos < i - 1; pos++)
         {
+            MedidorRecursos::sumarIteracion();
             actual = actual->getPtrNext();
         }
 
@@ -200,42 +223,64 @@ void Lista<T>::agregar(const T& e, int i)
     size++;
 }
 
-// consultar
-
 template <typename T>
-T& Lista<T>::consultar(int i)
+void Lista<T>::ordenar()
 {
-    if (i < 0 || i >= size)
+    if (size <= 1)
+        return;
+
+    bool cambio;
+
+    do
     {
-        throw std::out_of_range("Posicion invalida para consultar");
-    }
+        cambio = false;
+        Nodo<T>* actual = head;
 
-    Nodo<T>* actual = head;
+        while (actual != nullptr && actual->getPtrNext() != nullptr)
+        {
+            MedidorRecursos::sumarIteracion();
 
-    for (int pos = 0; pos < i; pos++)
-    {
-        actual = actual->getPtrNext();
-    }
+            Nodo<T>* siguiente = actual->getPtrNext();
 
-    return actual->getData();
+            if (siguiente->getData() < actual->getData())
+            {
+                T temp = actual->getData();
+                actual->setData(siguiente->getData());
+                siguiente->setData(temp);
+
+                cambio = true;
+            }
+
+            actual = actual->getPtrNext();
+        }
+
+    } while (cambio);
 }
 
 template <typename T>
-const T& Lista<T>::consultar(int i) const
+int Lista<T>::memoryUsage() const
 {
-    if (i < 0 || i >= size)
-    {
-        throw std::out_of_range("Posicion invalida para consultar");
-    }
-
-    Nodo<T>* actual = head;
-
-    for (int pos = 0; pos < i; pos++)
-    {
-        actual = actual->getPtrNext();
-    }
-
-    return actual->getData();
+    return totalMemory;
 }
 
-#endif // LISTA_H
+template <typename T>
+void Lista<T>::destruirLista()
+{
+    Nodo<T>* actual = head;
+
+    while (actual != nullptr)
+    {
+        MedidorRecursos::sumarIteracion();
+
+        Nodo<T>* temp = actual;
+        actual = actual->getPtrNext();
+
+        delete temp;
+        totalMemory -= sizeof(Nodo<T>);
+    }
+
+    head = nullptr;
+    size = 0;
+}
+
+#endif

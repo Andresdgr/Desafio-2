@@ -9,39 +9,29 @@ private:
     Nodo<T>* ptrNext;
 
 public:
-    // Constructor con dato
     Nodo(const T& data);
-
-    // Constructor de copia
     Nodo(const Nodo<T>& otro);
-
-    // Destructor
     ~Nodo();
 
-    // Getters
     T& getData();
     const T& getData() const;
+
     Nodo<T>* getPtrNext() const;
 
-    // Setters
     void setData(const T& data);
     void setPtrNext(Nodo<T>* ptrNext);
 };
 
-// Implementación
-
 template <typename T>
 Nodo<T>::Nodo(const T& data)
+    : data(data), ptrNext(nullptr)
 {
-    this->data = data;
-    ptrNext = nullptr;
 }
 
 template <typename T>
 Nodo<T>::Nodo(const Nodo<T>& otro)
+    : data(otro.data), ptrNext(nullptr)
 {
-    data = otro.data;
-    ptrNext = nullptr;
 }
 
 template <typename T>
@@ -79,4 +69,4 @@ void Nodo<T>::setPtrNext(Nodo<T>* ptrNext)
     this->ptrNext = ptrNext;
 }
 
-#endif // NODO_H
+#endif

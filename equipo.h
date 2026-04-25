@@ -3,6 +3,9 @@
 
 #include <string>
 #include "estadisticasequipo.h"
+#include "jugador.h"
+#include "lista.h"
+#include "estadisticastorneoequipo.h"
 
 using namespace std;
 
@@ -14,26 +17,35 @@ private:
     string directorTecnico;
     string federacion;
     string confederacion;
+
     EstadisticasEquipo estadisticas;
+    Lista<Jugador> jugadores;
+    EstadisticasTorneoEquipo estadisticasTorneo;
 
 public:
-    // Constructores
     Equipo();
-    Equipo(int rankingFIFA, const string& pais, const string& directorTecnico,
-           const string& federacion, const string& confederacion,
-           const EstadisticasEquipo& estadisticas);
-    Equipo(const Equipo& copia);
-    //~Equipo();
 
-    // GETTERS
+    Equipo(int rankingFIFA,
+           const string& pais,
+           const string& directorTecnico,
+           const string& federacion,
+           const string& confederacion,
+           const EstadisticasEquipo& estadisticas);
+
+    Equipo(const Equipo& otro);
+    Equipo& operator=(const Equipo& otro);
+    ~Equipo();
+
     int getRankingFIFA() const;
     string getPais() const;
     string getDirectorTecnico() const;
     string getFederacion() const;
     string getConfederacion() const;
-    EstadisticasEquipo getEstadisticas() const;//estadisticas es un objeto de estadisticasEquipo
+    EstadisticasEquipo getEstadisticas() const;
 
-    // SETTERS
+    Lista<Jugador>& getJugadores();
+    const Lista<Jugador>& getJugadores() const;
+
     void setRankingFIFA(int rankingFIFA);
     void setPais(const string& pais);
     void setDirectorTecnico(const string& directorTecnico);
@@ -41,8 +53,16 @@ public:
     void setConfederacion(const string& confederacion);
     void setEstadisticas(const EstadisticasEquipo& estadisticas);
 
-    // recarga de Operador ==
+    void generarJugadores();
+
     bool operator==(const Equipo& otro) const;
+    bool operator<(const Equipo& otro) const;
+
+    int memoryUsage() const;
+    EstadisticasTorneoEquipo getEstadisticasTorneo() const;
+    void setEstadisticasTorneo(const EstadisticasTorneoEquipo& estadisticasTorneo);
+
+
 };
 
-#endif // EQUIPO_H
+#endif

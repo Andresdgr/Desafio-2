@@ -25,7 +25,7 @@ public:
     EstadisticasEquipo(const EstadisticasEquipo& otra);
 
     // Destructor
-  //  ~EstadisticasEquipo();
+  // ~EstadisticasEquipo();
 
     // Getters
     int getGolesAFavor() const;
@@ -46,6 +46,9 @@ public:
     void setTarjetasAmarillas(int ta);
     void setTarjetasRojas(int tr);
     void setFaltas(int f);
+
+    EstadisticasEquipo& operator=(const EstadisticasEquipo& otra);
+    int memoryUsage() const;
 };
 
 #endif

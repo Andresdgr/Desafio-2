@@ -1,19 +1,17 @@
 #include "gestordatos.h"
+#include "medidorrecursos.h"
 #include <fstream>
 #include <sstream>
 #include <stdexcept>
 
-// Constructor por defecto
 GestorDatos::GestorDatos()
 {
 }
 
-// Constructor de copia
-GestorDatos::GestorDatos(const GestorDatos& otro)
+GestorDatos::GestorDatos(const GestorDatos& /*otro*/)
 {
 }
 
-// Destructor
 GestorDatos::~GestorDatos()
 {
 }
@@ -29,21 +27,22 @@ void GestorDatos::cargarEquiposDesdeCSV(const string& rutaArchivo, Lista<Equipo>
 
     string linea;
 
-    // Saltar la primera línea (título)
     getline(archivo, linea);
+    MedidorRecursos::sumarIteracion();
 
-    // Saltar la segunda línea (encabezados)
     getline(archivo, linea);
+    MedidorRecursos::sumarIteracion();
 
     while (getline(archivo, linea))
     {
+        MedidorRecursos::sumarIteracion();
+
         if (linea.empty())
         {
             continue;
         }
 
         stringstream ss(linea);
-        string campo;
 
         string rankingStr;
         string pais;
@@ -67,6 +66,8 @@ void GestorDatos::cargarEquiposDesdeCSV(const string& rutaArchivo, Lista<Equipo>
         getline(ss, partidosEmpatadosStr, ';');
         getline(ss, partidosPerdidosStr, ';');
 
+        MedidorRecursos::sumarIteraciones(10);
+
         int rankingFIFA = stoi(rankingStr);
         int golesAFavor = stoi(golesAFavorStr);
         int golesEnContra = stoi(golesEnContraStr);
@@ -84,7 +85,7 @@ void GestorDatos::cargarEquiposDesdeCSV(const string& rutaArchivo, Lista<Equipo>
             0,
             0
             );
-//contruir equipo
+
         Equipo equipo(
             rankingFIFA,
             pais,
