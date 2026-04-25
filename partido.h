@@ -35,9 +35,11 @@ private:
     bool camisetaYaSeleccionada(Lista<int>& camisetas, int numero) const;
 
     void asignarGolesAJugadores(Lista<Jugador*>& titulares, Lista<int>& goleadores, int goles);
-    void simularEventosJugadores(Lista<Jugador*>& titulares);
+    void simularEventosJugadores(Lista<Jugador*>& titulares, int minutos);
 
     void actualizarEstadisticasEquipos();
+
+    void simularConConfiguracion(int minutos, bool romperEmpate);
 
 public:
     Partido();
@@ -61,8 +63,11 @@ public:
     string getFecha() const;
 
     void configurarLogistica(const string& fecha);
-    void simular();
+
+    void simular();              // fase de grupos: 90 minutos
+    void simularEliminacion();   // eliminatorias: 120 minutos y rompe empate
+
     void imprimirResultado() const;
 };
 
-#endif // PARTIDO_H
+#endif

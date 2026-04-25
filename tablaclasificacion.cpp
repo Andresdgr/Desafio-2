@@ -38,11 +38,12 @@ void TablaClasificacion::generarDesdeGrupo(const Grupo& grupo)
     for (int i = 0; i < grupo.tamano(); i++)
     {
         Equipo equipo = grupo.getEquipos().consultar(i);
-        FilaClasificacion fila(equipo);
+
+        FilaClasificacion fila(equipo, grupo.getNombre());
+
         filas.agregar(fila, filas.tamano());
     }
 }
-
 void TablaClasificacion::ordenar()
 {
     filas.ordenar();

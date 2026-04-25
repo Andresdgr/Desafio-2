@@ -2,6 +2,7 @@
 
 FilaClasificacion::FilaClasificacion()
 {
+    grupoOrigen = ' ';
     puntos = 0;
     partidosJugados = 0;
     partidosGanados = 0;
@@ -14,6 +15,23 @@ FilaClasificacion::FilaClasificacion()
 FilaClasificacion::FilaClasificacion(const Equipo& equipo)
 {
     this->equipo = equipo;
+    grupoOrigen = ' ';
+
+    puntos = 0;
+    partidosJugados = 0;
+    partidosGanados = 0;
+    partidosEmpatados = 0;
+    partidosPerdidos = 0;
+    golesAFavor = 0;
+    golesEnContra = 0;
+
+    cargarDesdeEquipo();
+}
+
+FilaClasificacion::FilaClasificacion(const Equipo& equipo, char grupoOrigen)
+{
+    this->equipo = equipo;
+    this->grupoOrigen = grupoOrigen;
 
     puntos = 0;
     partidosJugados = 0;
@@ -29,6 +47,7 @@ FilaClasificacion::FilaClasificacion(const Equipo& equipo)
 FilaClasificacion::FilaClasificacion(const FilaClasificacion& otra)
 {
     equipo = otra.equipo;
+    grupoOrigen = otra.grupoOrigen;
     puntos = otra.puntos;
     partidosJugados = otra.partidosJugados;
     partidosGanados = otra.partidosGanados;
@@ -43,6 +62,7 @@ FilaClasificacion& FilaClasificacion::operator=(const FilaClasificacion& otra)
     if (this != &otra)
     {
         equipo = otra.equipo;
+        grupoOrigen = otra.grupoOrigen;
         puntos = otra.puntos;
         partidosJugados = otra.partidosJugados;
         partidosGanados = otra.partidosGanados;
@@ -62,6 +82,11 @@ FilaClasificacion::~FilaClasificacion()
 Equipo FilaClasificacion::getEquipo() const
 {
     return equipo;
+}
+
+char FilaClasificacion::getGrupoOrigen() const
+{
+    return grupoOrigen;
 }
 
 int FilaClasificacion::getPuntos() const
@@ -108,6 +133,11 @@ void FilaClasificacion::setEquipo(const Equipo& equipo)
 {
     this->equipo = equipo;
     cargarDesdeEquipo();
+}
+
+void FilaClasificacion::setGrupoOrigen(char grupoOrigen)
+{
+    this->grupoOrigen = grupoOrigen;
 }
 
 void FilaClasificacion::cargarDesdeEquipo()

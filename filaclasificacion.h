@@ -8,6 +8,7 @@ class FilaClasificacion
 {
 private:
     Equipo equipo;
+    char grupoOrigen;
 
     int puntos;
     int partidosJugados;
@@ -20,11 +21,13 @@ private:
 public:
     FilaClasificacion();
     FilaClasificacion(const Equipo& equipo);
+    FilaClasificacion(const Equipo& equipo, char grupoOrigen);
     FilaClasificacion(const FilaClasificacion& otra);
     FilaClasificacion& operator=(const FilaClasificacion& otra);
     ~FilaClasificacion();
 
     Equipo getEquipo() const;
+    char getGrupoOrigen() const;
 
     int getPuntos() const;
     int getPartidosJugados() const;
@@ -36,10 +39,11 @@ public:
     int getDiferenciaGoles() const;
 
     void setEquipo(const Equipo& equipo);
+    void setGrupoOrigen(char grupoOrigen);
 
     void cargarDesdeEquipo();
 
     bool operator<(const FilaClasificacion& otra) const;
 };
 
-#endif // FILACLASIFICACION_H
+#endif

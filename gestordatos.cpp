@@ -1,5 +1,6 @@
 #include "gestordatos.h"
 #include "medidorrecursos.h"
+
 #include <fstream>
 #include <sstream>
 #include <stdexcept>
@@ -96,6 +97,98 @@ void GestorDatos::cargarEquiposDesdeCSV(const string& rutaArchivo, Lista<Equipo>
             );
 
         equipos.agregar(equipo, equipos.tamano());
+    }
+
+    archivo.close();
+}
+
+void GestorDatos::guardarHistoricoEquipos(const string& rutaArchivo, Lista<Grupo>& grupos)
+{
+    ofstream archivo(rutaArchivo);
+
+    if (!archivo.is_open())
+    {
+        throw runtime_error("No se pudo crear el archivo historico de equipos");
+    }
+
+    archivo << "pais;rankingFIFA;golesAFavor;golesEnContra;partidosGanados;"
+            << "partidosEmpatados;partidosPerdidos;tarjetasAmarillas;"
+            << "tarjetasRojas;faltas\n";
+
+    for (int i = 0; i < grupos.tamano(); i++)
+    {
+        MedidorRecursos::sumarIteracion();
+
+        Grupo& grupo = grupos.consultar(i);
+
+        for (int j = 0; j < grupo.tamano(); j++)
+        {
+            MedidorRecursos::sumarIteracion();
+
+            Equipo& equipo = grupo.getEquipos().consultar(j);
+            EstadisticasEquipo est = equipo.getEstadisticas();
+
+            archivo << equipo.getPais() << ";"
+                    << equipo.getRankingFIFA() << ";"
+                    << est.getGolesAFavor() << ";"
+                    << est.getGolesEnContra() << ";"
+                    << est.getPartidosGanados() << ";"
+                    << est.getPartidosEmpatados() << ";"
+                    << est.getPartidosPerdidos() << ";"
+                    << est.getTarjetasAmarillas() << ";"
+                    << est.getTarjetasRojas() << ";"
+                    << est.getFaltas()
+                    << "\n";
+        }
+    }
+
+    archivo.close();
+}
+
+void GestorDatos::guardarHistoricoJugadores(const string& rutaArchivo, Lista<Grupo>& grupos)
+{
+    ofstream archivo(rutaArchivo);
+
+    if (!archivo.is_open())
+    {
+        throw runtime_error("No se pudo crear el archivo historico de jugadores");
+    }
+
+    archivo << "pais;numeroCamiseta;nombre;posicion;minutosJugados;goles;"
+            << "tarjetasAmarillas;tarjetasRojas;faltas\n";
+
+    for (int i = 0; i < grupos.tamano(); i++)
+    {
+        MedidorRecursos::sumarIteracion();
+
+        Grupo& grupo = grupos.consultar(i);
+
+        for (int j = 0; j < grupo.tamano(); j++)
+        {
+            MedidorRecursos::sumarIteracion();
+
+            Equipo& equipo = grupo.getEquipos().consultar(j);
+            Lista<Jugador>& jugadores = equipo.getJugadores();
+
+            for (int k = 0; k < jugadores.tamano(); k++)
+            {
+                MedidorRecursos::sumarIteracion();
+
+                Jugador& jugador = jugadores.consultar(k);
+                EstadisticasJugador est = jugador.getEstadisticas();
+
+                archivo << equipo.getPais() << ";"
+                        << jugador.getNumeroCamiseta() << ";"
+                        << jugador.getNombre() << ";"
+                        << jugador.getPosicion() << ";"
+                        << est.getMinutosJugados() << ";"
+                        << est.getGoles() << ";"
+                        << est.getTarjetasAmarillas() << ";"
+                        << est.getTarjetasRojas() << ";"
+                        << est.getFaltas()
+                        << "\n";
+            }
+        }
     }
 
     archivo.close();

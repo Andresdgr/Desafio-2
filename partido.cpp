@@ -202,7 +202,7 @@ void Partido::seleccionarTitulares(Equipo* equipo, Lista<Jugador*>& titulares)
     }
 }
 
-void Partido::simularEventosJugadores(Lista<Jugador*>& titulares)
+void Partido::simularEventosJugadores(Lista<Jugador*>& titulares, int minutos)
 {
     for (int i = 0; i < titulares.tamano(); i++)
     {
@@ -215,7 +215,7 @@ void Partido::simularEventosJugadores(Lista<Jugador*>& titulares)
 
         EstadisticasJugador est = jugador->getEstadisticas();
 
-        est.agregarMinutos(90);
+        est.agregarMinutos(minutos);
 
         int probPrimeraAmarilla = rand() % 10000;
         if (probPrimeraAmarilla < 600)
@@ -277,6 +277,16 @@ void Partido::asignarGolesAJugadores(Lista<Jugador*>& titulares, Lista<int>& gol
 
 void Partido::simular()
 {
+    simularConConfiguracion(90, false);
+}
+
+void Partido::simularEliminacion()
+{
+    simularConConfiguracion(120, true);
+}
+
+void Partido::simularConConfiguracion(int minutos, bool romperEmpate)
+{
     MedidorRecursos::sumarIteracion();
 
     if (equipo1 == nullptr || equipo2 == nullptr)
@@ -337,12 +347,26 @@ void Partido::simular()
     asignarGolesAJugadores(titularesEquipo1, goleadoresEquipo1, golesEquipo1);
     asignarGolesAJugadores(titularesEquipo2, goleadoresEquipo2, golesEquipo2);
 
-    simularEventosJugadores(titularesEquipo1);
-    simularEventosJugadores(titularesEquipo2);
+    if (romperEmpate && golesEquipo1 == golesEquipo2)
+    {
+        if (equipo1->getRankingFIFA() < equipo2->getRankingFIFA())
+        {
+            golesEquipo1++;
+            asignarGolesAJugadores(titularesEquipo1, goleadoresEquipo1, 1);
+        }
+        else
+        {
+            golesEquipo2++;
+            asignarGolesAJugadores(titularesEquipo2, goleadoresEquipo2, 1);
+        }
+    }
+
+    simularEventosJugadores(titularesEquipo1, minutos);
+    simularEventosJugadores(titularesEquipo2, minutos);
 
     jugado = true;
 
-    MedidorRecursos::sumarIteraciones(30);
+    MedidorRecursos::sumarIteraciones(35);
 
     actualizarEstadisticasEquipos();
 }

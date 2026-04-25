@@ -6,6 +6,7 @@ CONFIG -= qt
 SOURCES += \
         bombo.cpp \
         calendario.cpp \
+        eliminatorias.cpp \
         equipo.cpp \
         estadisticasequipo.cpp \
         estadisticasjugador.cpp \
@@ -22,6 +23,7 @@ SOURCES += \
 HEADERS += \
     bombo.h \
     calendario.h \
+    eliminatorias.h \
     equipo.h \
     estadisticasequipo.h \
     estadisticasjugador.h \

@@ -21,8 +21,8 @@ public:
     void ordenar();
     void imprimir() const;
 
-    int tamano() const;
     FilaClasificacion getFila(int posicion) const;
+    int tamano() const;
 
     Lista<FilaClasificacion>& getFilas();
     const Lista<FilaClasificacion>& getFilas() const;
