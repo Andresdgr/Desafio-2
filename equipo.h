@@ -17,10 +17,9 @@ private:
     string directorTecnico;
     string federacion;
     string confederacion;
-
-    EstadisticasEquipo estadisticas;
     Lista<Jugador> jugadores;
-    EstadisticasTorneoEquipo estadisticasTorneo;
+    EstadisticasEquipo estadisticas; // datos cargados desde el CSV
+    EstadisticasTorneoEquipo estadisticasTorneo;// datos generados durante la sumulacion
 
 public:
     Equipo();

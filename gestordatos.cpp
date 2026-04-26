@@ -193,3 +193,75 @@ void GestorDatos::guardarHistoricoJugadores(const string& rutaArchivo, Lista<Gru
 
     archivo.close();
 }
+
+void GestorDatos::guardarHistoricoEquipoDesdeLista(const string& rutaArchivo, Lista<Equipo>& equipos)
+{
+    ofstream archivo(rutaArchivo);
+
+    if (!archivo.is_open())
+    {
+        throw runtime_error("No se pudo crear el archivo historico de equipos");
+    }
+
+    archivo << "pais;rankingFIFA;golesAFavor;golesEnContra;partidosGanados;"
+            << "partidosEmpatados;partidosPerdidos;tarjetasAmarillas;"
+            << "tarjetasRojas;faltas\n";
+
+    for (int i = 0; i < equipos.tamano(); i++)
+    {
+        Equipo& equipo = equipos.consultar(i);
+        EstadisticasEquipo est = equipo.getEstadisticas();
+
+        archivo << equipo.getPais() << ";"
+                << equipo.getRankingFIFA() << ";"
+                << est.getGolesAFavor() << ";"
+                << est.getGolesEnContra() << ";"
+                << est.getPartidosGanados() << ";"
+                << est.getPartidosEmpatados() << ";"
+                << est.getPartidosPerdidos() << ";"
+                << est.getTarjetasAmarillas() << ";"
+                << est.getTarjetasRojas() << ";"
+                << est.getFaltas()
+                << "\n";
+    }
+
+    archivo.close();
+}
+
+void GestorDatos::guardarHistoricoJugadoresDesdeLista(const string& rutaArchivo, Lista<Equipo>& equipos)
+{
+    ofstream archivo(rutaArchivo);
+
+    if (!archivo.is_open())
+    {
+        throw runtime_error("No se pudo crear el archivo historico de jugadores");
+    }
+
+    archivo << "pais;numeroCamiseta;nombre;posicion;minutosJugados;goles;"
+            << "tarjetasAmarillas;tarjetasRojas;faltas\n";
+
+    for (int i = 0; i < equipos.tamano(); i++)
+    {
+        Equipo& equipo = equipos.consultar(i);
+        Lista<Jugador>& jugadores = equipo.getJugadores();
+
+        for (int j = 0; j < jugadores.tamano(); j++)
+        {
+            Jugador& jugador = jugadores.consultar(j);
+            EstadisticasJugador est = jugador.getEstadisticas();
+
+            archivo << equipo.getPais() << ";"
+                    << jugador.getNumeroCamiseta() << ";"
+                    << jugador.getNombre() << ";"
+                    << jugador.getPosicion() << ";"
+                    << est.getMinutosJugados() << ";"
+                    << est.getGoles() << ";"
+                    << est.getTarjetasAmarillas() << ";"
+                    << est.getTarjetasRojas() << ";"
+                    << est.getFaltas()
+                    << "\n";
+        }
+    }
+
+    archivo.close();
+}

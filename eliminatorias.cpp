@@ -10,7 +10,10 @@ static const string FECHA_ELIMINATORIAS = "10/07/2026";
 
 Eliminatorias::Eliminatorias()
 {
+    contadorPartidosEliminatorias = 0;
 }
+
+
 
 Eliminatorias::Eliminatorias(const Eliminatorias& otra)
 {
@@ -66,12 +69,11 @@ void Eliminatorias::agregarCruceEquipos(const Equipo& equipoA,
     Equipo& e1 = equiposRonda.consultar(equiposRonda.tamano() - 2);
     Equipo& e2 = equiposRonda.consultar(equiposRonda.tamano() - 1);
 
+
     Partido partido(&e1, &e2);
     partido.configurarLogistica(FECHA_ELIMINATORIAS);
 
     partidos.agregar(partido, partidos.tamano());
-
-    MedidorRecursos::sumarIteracion();
 }
 
 Lista<Partido> Eliminatorias::generarDieciseisavos(Lista<FilaClasificacion>& primeros,

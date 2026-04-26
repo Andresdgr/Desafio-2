@@ -289,6 +289,14 @@ void Partido::simularConConfiguracion(int minutos, bool romperEmpate)
 {
     MedidorRecursos::sumarIteracion();
 
+    //limpiar estado del partido anterior
+
+    titularesEquipo1 = Lista<Jugador*>();
+    titularesEquipo2 = Lista<Jugador*>();
+
+    goleadoresEquipo1 = Lista<int>();
+    goleadoresEquipo2 = Lista<int>();
+
     if (equipo1 == nullptr || equipo2 == nullptr)
         return;
 

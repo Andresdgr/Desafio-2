@@ -26,6 +26,9 @@ private:
                          int inicio,
                          int fin) const;
 
+    int contadorPartidosEliminatorias;
+    string calcularFechaEliminatoria() const;
+
 public:
     Eliminatorias();
     Eliminatorias(const Eliminatorias& otra);

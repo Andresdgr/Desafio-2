@@ -20,6 +20,8 @@ public:
 
     void guardarHistoricoEquipos(const string& rutaArchivo, Lista<Grupo>& grupos);
     void guardarHistoricoJugadores(const string& rutaArchivo, Lista<Grupo>& grupos);
+    void guardarHistoricoEquipoDesdeLista(const string& rutaArchivo, Lista<Equipo>& equipos);
+    void guardarHistoricoJugadoresDesdeLista(const string& rutaArchivo, Lista<Equipo>& equipos);
 
 };
 

@@ -1,1105 +1,737 @@
 pais;numeroCamiseta;nombre;posicion;minutosJugados;goles;tarjetasAmarillas;tarjetasRojas;faltas
-United States;1;United States_Jugador_1;Portero;90;0;0;0;0
-United States;2;United States_Jugador_2;Defensa;0;0;0;0;0
-United States;3;United States_Jugador_3;Defensa;180;0;0;0;0
-United States;4;United States_Jugador_4;Defensa;0;0;0;0;0
-United States;5;United States_Jugador_5;Defensa;180;0;0;0;0
-United States;6;United States_Jugador_6;Defensa;90;0;0;0;0
-United States;7;United States_Jugador_7;Defensa;180;2;0;0;1
-United States;8;United States_Jugador_8;Defensa;270;1;0;0;0
-United States;9;United States_Jugador_9;Mediocampo;90;0;0;0;0
-United States;10;United States_Jugador_10;Mediocampo;90;0;0;0;2
-United States;11;United States_Jugador_11;Mediocampo;0;0;0;0;0
-United States;12;United States_Jugador_12;Mediocampo;180;0;0;0;0
-United States;13;United States_Jugador_13;Mediocampo;180;0;0;0;1
-United States;14;United States_Jugador_14;Mediocampo;0;0;0;0;0
-United States;15;United States_Jugador_15;Mediocampo;270;1;0;0;0
-United States;16;United States_Jugador_16;Mediocampo;90;0;0;0;0
-United States;17;United States_Jugador_17;Delantero;180;0;0;0;1
-United States;18;United States_Jugador_18;Delantero;90;0;0;0;0
-United States;19;United States_Jugador_19;Delantero;180;0;0;0;0
-United States;20;United States_Jugador_20;Delantero;90;0;0;0;0
-United States;21;United States_Jugador_21;Delantero;270;1;1;0;0
-United States;22;United States_Jugador_22;Delantero;90;0;0;0;0
-United States;23;United States_Jugador_23;Delantero;180;0;0;0;0
-Uruguay;1;Uruguay_Jugador_1;Portero;180;1;0;0;0
-Uruguay;2;Uruguay_Jugador_2;Defensa;90;0;0;0;0
-Uruguay;3;Uruguay_Jugador_3;Defensa;180;0;0;0;1
-Uruguay;4;Uruguay_Jugador_4;Defensa;90;0;0;0;0
-Uruguay;5;Uruguay_Jugador_5;Defensa;180;0;0;0;0
-Uruguay;6;Uruguay_Jugador_6;Defensa;180;0;0;0;0
-Uruguay;7;Uruguay_Jugador_7;Defensa;0;0;0;0;0
-Uruguay;8;Uruguay_Jugador_8;Defensa;180;0;0;0;0
-Uruguay;9;Uruguay_Jugador_9;Mediocampo;180;0;0;0;2
-Uruguay;10;Uruguay_Jugador_10;Mediocampo;180;0;0;0;1
-Uruguay;11;Uruguay_Jugador_11;Mediocampo;0;0;0;0;0
-Uruguay;12;Uruguay_Jugador_12;Mediocampo;90;0;0;0;0
-Uruguay;13;Uruguay_Jugador_13;Mediocampo;0;0;0;0;0
-Uruguay;14;Uruguay_Jugador_14;Mediocampo;0;0;0;0;0
-Uruguay;15;Uruguay_Jugador_15;Mediocampo;0;0;0;0;0
-Uruguay;16;Uruguay_Jugador_16;Mediocampo;180;0;1;0;1
-Uruguay;17;Uruguay_Jugador_17;Delantero;180;0;0;0;0
-Uruguay;18;Uruguay_Jugador_18;Delantero;180;0;0;0;0
-Uruguay;19;Uruguay_Jugador_19;Delantero;270;0;0;0;0
-Uruguay;20;Uruguay_Jugador_20;Delantero;90;0;0;0;0
-Uruguay;21;Uruguay_Jugador_21;Delantero;180;1;0;0;0
-Uruguay;22;Uruguay_Jugador_22;Delantero;180;0;0;0;0
-Uruguay;23;Uruguay_Jugador_23;Delantero;180;0;0;0;0
-Serbia;1;Serbia_Jugador_1;Portero;180;0;0;0;0
-Serbia;2;Serbia_Jugador_2;Defensa;90;0;0;0;0
-Serbia;3;Serbia_Jugador_3;Defensa;90;1;0;0;0
-Serbia;4;Serbia_Jugador_4;Defensa;90;0;0;0;0
-Serbia;5;Serbia_Jugador_5;Defensa;180;0;0;0;1
-Serbia;6;Serbia_Jugador_6;Defensa;90;0;0;0;0
-Serbia;7;Serbia_Jugador_7;Defensa;0;0;0;0;0
-Serbia;8;Serbia_Jugador_8;Defensa;90;0;1;0;0
-Serbia;9;Serbia_Jugador_9;Mediocampo;270;0;1;0;1
-Serbia;10;Serbia_Jugador_10;Mediocampo;90;0;0;0;1
-Serbia;11;Serbia_Jugador_11;Mediocampo;180;1;0;0;1
-Serbia;12;Serbia_Jugador_12;Mediocampo;180;0;0;0;0
-Serbia;13;Serbia_Jugador_13;Mediocampo;90;2;0;0;0
-Serbia;14;Serbia_Jugador_14;Mediocampo;90;0;0;0;0
-Serbia;15;Serbia_Jugador_15;Mediocampo;180;0;0;0;1
-Serbia;16;Serbia_Jugador_16;Mediocampo;270;0;0;0;0
-Serbia;17;Serbia_Jugador_17;Delantero;180;0;0;0;0
-Serbia;18;Serbia_Jugador_18;Delantero;180;0;0;0;1
+Serbia;1;Serbia_Jugador_1;Portero;210;0;0;0;0
+Serbia;2;Serbia_Jugador_2;Defensa;510;1;0;0;0
+Serbia;3;Serbia_Jugador_3;Defensa;300;2;0;0;0
+Serbia;4;Serbia_Jugador_4;Defensa;90;1;0;0;0
+Serbia;5;Serbia_Jugador_5;Defensa;390;2;0;0;0
+Serbia;6;Serbia_Jugador_6;Defensa;300;0;0;0;0
+Serbia;7;Serbia_Jugador_7;Defensa;90;0;0;0;0
+Serbia;8;Serbia_Jugador_8;Defensa;420;0;1;0;0
+Serbia;9;Serbia_Jugador_9;Mediocampo;210;0;1;0;0
+Serbia;10;Serbia_Jugador_10;Mediocampo;300;1;0;0;0
+Serbia;11;Serbia_Jugador_11;Mediocampo;330;0;1;0;0
+Serbia;12;Serbia_Jugador_12;Mediocampo;420;1;1;0;0
+Serbia;13;Serbia_Jugador_13;Mediocampo;0;0;0;0;0
+Serbia;14;Serbia_Jugador_14;Mediocampo;300;2;0;0;1
+Serbia;15;Serbia_Jugador_15;Mediocampo;210;0;0;0;0
+Serbia;16;Serbia_Jugador_16;Mediocampo;90;0;0;0;0
+Serbia;17;Serbia_Jugador_17;Delantero;330;1;0;0;1
+Serbia;18;Serbia_Jugador_18;Delantero;300;1;0;0;1
 Serbia;19;Serbia_Jugador_19;Delantero;180;0;0;0;0
-Serbia;20;Serbia_Jugador_20;Delantero;90;0;0;0;0
-Serbia;21;Serbia_Jugador_21;Delantero;90;0;0;0;0
-Serbia;22;Serbia_Jugador_22;Delantero;90;0;0;0;0
-Serbia;23;Serbia_Jugador_23;Delantero;0;0;0;0;0
-Scotland;1;Scotland_Jugador_1;Portero;90;1;0;0;0
-Scotland;2;Scotland_Jugador_2;Defensa;270;0;1;0;1
-Scotland;3;Scotland_Jugador_3;Defensa;180;0;0;0;0
-Scotland;4;Scotland_Jugador_4;Defensa;180;0;0;0;0
-Scotland;5;Scotland_Jugador_5;Defensa;90;0;0;0;0
-Scotland;6;Scotland_Jugador_6;Defensa;0;0;0;0;0
-Scotland;7;Scotland_Jugador_7;Defensa;0;0;0;0;0
-Scotland;8;Scotland_Jugador_8;Defensa;90;0;0;0;1
-Scotland;9;Scotland_Jugador_9;Mediocampo;90;0;0;0;0
-Scotland;10;Scotland_Jugador_10;Mediocampo;90;0;0;0;0
-Scotland;11;Scotland_Jugador_11;Mediocampo;0;0;0;0;0
-Scotland;12;Scotland_Jugador_12;Mediocampo;270;0;0;0;0
-Scotland;13;Scotland_Jugador_13;Mediocampo;270;0;0;0;1
-Scotland;14;Scotland_Jugador_14;Mediocampo;90;0;0;0;0
-Scotland;15;Scotland_Jugador_15;Mediocampo;180;0;0;0;0
-Scotland;16;Scotland_Jugador_16;Mediocampo;90;0;0;0;0
-Scotland;17;Scotland_Jugador_17;Delantero;0;0;0;0;0
-Scotland;18;Scotland_Jugador_18;Delantero;180;0;1;0;0
-Scotland;19;Scotland_Jugador_19;Delantero;90;0;0;0;1
-Scotland;20;Scotland_Jugador_20;Delantero;180;0;1;0;0
-Scotland;21;Scotland_Jugador_21;Delantero;180;0;0;0;0
-Scotland;22;Scotland_Jugador_22;Delantero;180;0;0;0;1
-Scotland;23;Scotland_Jugador_23;Delantero;180;0;0;0;0
-France;1;France_Jugador_1;Portero;90;1;0;0;0
-France;2;France_Jugador_2;Defensa;90;0;1;0;0
-France;3;France_Jugador_3;Defensa;180;0;0;0;0
-France;4;France_Jugador_4;Defensa;90;1;0;0;1
-France;5;France_Jugador_5;Defensa;270;0;0;0;1
-France;6;France_Jugador_6;Defensa;270;0;0;0;0
-France;7;France_Jugador_7;Defensa;270;0;0;0;3
-France;8;France_Jugador_8;Defensa;0;0;0;0;0
-France;9;France_Jugador_9;Mediocampo;270;0;0;0;1
-France;10;France_Jugador_10;Mediocampo;0;0;0;0;0
-France;11;France_Jugador_11;Mediocampo;90;0;0;0;0
-France;12;France_Jugador_12;Mediocampo;0;0;0;0;0
-France;13;France_Jugador_13;Mediocampo;90;1;0;0;0
-France;14;France_Jugador_14;Mediocampo;0;0;0;0;0
-France;15;France_Jugador_15;Mediocampo;90;0;0;0;0
-France;16;France_Jugador_16;Mediocampo;270;0;0;0;0
-France;17;France_Jugador_17;Delantero;90;0;0;0;0
-France;18;France_Jugador_18;Delantero;0;0;0;0;0
-France;19;France_Jugador_19;Delantero;90;1;0;0;0
-France;20;France_Jugador_20;Delantero;270;1;1;0;1
-France;21;France_Jugador_21;Delantero;90;0;0;0;0
-France;22;France_Jugador_22;Delantero;180;0;0;0;0
-France;23;France_Jugador_23;Delantero;180;0;0;0;0
-Colombia;1;Colombia_Jugador_1;Portero;0;0;0;0;0
-Colombia;2;Colombia_Jugador_2;Defensa;90;0;0;0;0
-Colombia;3;Colombia_Jugador_3;Defensa;90;0;1;0;0
-Colombia;4;Colombia_Jugador_4;Defensa;180;0;0;0;0
-Colombia;5;Colombia_Jugador_5;Defensa;0;0;0;0;0
-Colombia;6;Colombia_Jugador_6;Defensa;180;0;0;0;0
-Colombia;7;Colombia_Jugador_7;Defensa;180;0;0;0;0
-Colombia;8;Colombia_Jugador_8;Defensa;180;0;0;0;1
-Colombia;9;Colombia_Jugador_9;Mediocampo;180;0;0;0;0
-Colombia;10;Colombia_Jugador_10;Mediocampo;180;0;0;0;0
-Colombia;11;Colombia_Jugador_11;Mediocampo;90;0;0;0;1
-Colombia;12;Colombia_Jugador_12;Mediocampo;90;0;0;0;0
-Colombia;13;Colombia_Jugador_13;Mediocampo;0;0;0;0;0
-Colombia;14;Colombia_Jugador_14;Mediocampo;270;2;0;0;1
-Colombia;15;Colombia_Jugador_15;Mediocampo;90;1;0;0;0
-Colombia;16;Colombia_Jugador_16;Mediocampo;180;0;0;0;0
-Colombia;17;Colombia_Jugador_17;Delantero;90;0;0;0;1
-Colombia;18;Colombia_Jugador_18;Delantero;180;0;0;0;0
-Colombia;19;Colombia_Jugador_19;Delantero;90;0;0;0;0
-Colombia;20;Colombia_Jugador_20;Delantero;0;0;0;0;0
-Colombia;21;Colombia_Jugador_21;Delantero;270;0;1;0;0
-Colombia;22;Colombia_Jugador_22;Delantero;180;1;0;0;1
-Colombia;23;Colombia_Jugador_23;Delantero;180;0;1;0;0
-Sweden;1;Sweden_Jugador_1;Portero;0;0;0;0;0
-Sweden;2;Sweden_Jugador_2;Defensa;90;0;0;0;0
-Sweden;3;Sweden_Jugador_3;Defensa;90;0;0;0;1
-Sweden;4;Sweden_Jugador_4;Defensa;90;0;0;0;0
-Sweden;5;Sweden_Jugador_5;Defensa;180;0;1;0;0
-Sweden;6;Sweden_Jugador_6;Defensa;0;0;0;0;0
-Sweden;7;Sweden_Jugador_7;Defensa;180;0;0;0;0
-Sweden;8;Sweden_Jugador_8;Defensa;180;0;0;0;0
-Sweden;9;Sweden_Jugador_9;Mediocampo;0;0;0;0;0
-Sweden;10;Sweden_Jugador_10;Mediocampo;180;0;0;0;0
-Sweden;11;Sweden_Jugador_11;Mediocampo;90;0;0;0;0
-Sweden;12;Sweden_Jugador_12;Mediocampo;270;0;1;0;0
-Sweden;13;Sweden_Jugador_13;Mediocampo;180;0;1;0;2
-Sweden;14;Sweden_Jugador_14;Mediocampo;90;0;0;0;0
-Sweden;15;Sweden_Jugador_15;Mediocampo;90;0;0;0;0
-Sweden;16;Sweden_Jugador_16;Mediocampo;180;0;0;0;1
-Sweden;17;Sweden_Jugador_17;Delantero;180;1;0;0;1
-Sweden;18;Sweden_Jugador_18;Delantero;90;0;0;0;0
-Sweden;19;Sweden_Jugador_19;Delantero;180;0;0;0;0
-Sweden;20;Sweden_Jugador_20;Delantero;270;0;0;0;1
-Sweden;21;Sweden_Jugador_21;Delantero;180;0;0;0;0
-Sweden;22;Sweden_Jugador_22;Delantero;180;0;0;0;1
-Sweden;23;Sweden_Jugador_23;Delantero;0;0;0;0;0
-Uzbekistan;1;Uzbekistan_Jugador_1;Portero;180;0;1;0;1
-Uzbekistan;2;Uzbekistan_Jugador_2;Defensa;270;0;0;0;0
-Uzbekistan;3;Uzbekistan_Jugador_3;Defensa;90;0;0;0;0
-Uzbekistan;4;Uzbekistan_Jugador_4;Defensa;90;0;0;0;1
-Uzbekistan;5;Uzbekistan_Jugador_5;Defensa;180;0;0;0;1
-Uzbekistan;6;Uzbekistan_Jugador_6;Defensa;90;0;0;0;0
-Uzbekistan;7;Uzbekistan_Jugador_7;Defensa;90;1;0;0;0
-Uzbekistan;8;Uzbekistan_Jugador_8;Defensa;90;0;0;0;0
-Uzbekistan;9;Uzbekistan_Jugador_9;Mediocampo;270;0;0;0;0
-Uzbekistan;10;Uzbekistan_Jugador_10;Mediocampo;90;0;0;0;1
-Uzbekistan;11;Uzbekistan_Jugador_11;Mediocampo;90;0;0;0;0
-Uzbekistan;12;Uzbekistan_Jugador_12;Mediocampo;180;0;0;0;0
-Uzbekistan;13;Uzbekistan_Jugador_13;Mediocampo;90;0;0;0;0
-Uzbekistan;14;Uzbekistan_Jugador_14;Mediocampo;180;0;0;0;1
-Uzbekistan;15;Uzbekistan_Jugador_15;Mediocampo;0;0;0;0;0
-Uzbekistan;16;Uzbekistan_Jugador_16;Mediocampo;270;0;0;0;0
-Uzbekistan;17;Uzbekistan_Jugador_17;Delantero;90;0;0;0;0
-Uzbekistan;18;Uzbekistan_Jugador_18;Delantero;270;0;0;0;1
-Uzbekistan;19;Uzbekistan_Jugador_19;Delantero;90;0;0;0;0
-Uzbekistan;20;Uzbekistan_Jugador_20;Delantero;90;1;0;0;1
-Uzbekistan;21;Uzbekistan_Jugador_21;Delantero;0;0;0;0;0
-Uzbekistan;22;Uzbekistan_Jugador_22;Delantero;0;0;0;0;0
-Uzbekistan;23;Uzbekistan_Jugador_23;Delantero;180;1;1;0;0
-Spain;1;Spain_Jugador_1;Portero;180;0;0;0;0
-Spain;2;Spain_Jugador_2;Defensa;0;0;0;0;0
-Spain;3;Spain_Jugador_3;Defensa;180;0;0;0;1
-Spain;4;Spain_Jugador_4;Defensa;90;1;0;0;0
-Spain;5;Spain_Jugador_5;Defensa;90;0;0;0;1
-Spain;6;Spain_Jugador_6;Defensa;180;1;0;0;0
-Spain;7;Spain_Jugador_7;Defensa;90;0;0;0;1
-Spain;8;Spain_Jugador_8;Defensa;180;0;0;0;1
-Spain;9;Spain_Jugador_9;Mediocampo;180;0;0;0;0
-Spain;10;Spain_Jugador_10;Mediocampo;90;0;0;0;0
-Spain;11;Spain_Jugador_11;Mediocampo;180;1;0;0;0
-Spain;12;Spain_Jugador_12;Mediocampo;180;0;1;0;0
-Spain;13;Spain_Jugador_13;Mediocampo;180;0;0;0;0
-Spain;14;Spain_Jugador_14;Mediocampo;180;0;1;0;0
-Spain;15;Spain_Jugador_15;Mediocampo;180;0;0;0;0
-Spain;16;Spain_Jugador_16;Mediocampo;180;1;0;0;0
-Spain;17;Spain_Jugador_17;Delantero;0;0;0;0;0
-Spain;18;Spain_Jugador_18;Delantero;180;1;0;0;0
-Spain;19;Spain_Jugador_19;Delantero;90;0;0;0;1
-Spain;20;Spain_Jugador_20;Delantero;90;0;0;0;0
-Spain;21;Spain_Jugador_21;Delantero;0;0;0;0;0
-Spain;22;Spain_Jugador_22;Delantero;180;0;0;0;0
-Spain;23;Spain_Jugador_23;Delantero;90;0;0;0;0
-Croatia;1;Croatia_Jugador_1;Portero;90;0;0;0;0
-Croatia;2;Croatia_Jugador_2;Defensa;90;0;0;0;0
-Croatia;3;Croatia_Jugador_3;Defensa;90;0;0;0;0
-Croatia;4;Croatia_Jugador_4;Defensa;180;0;0;0;0
-Croatia;5;Croatia_Jugador_5;Defensa;90;0;0;0;1
-Croatia;6;Croatia_Jugador_6;Defensa;180;1;0;0;0
-Croatia;7;Croatia_Jugador_7;Defensa;270;0;1;0;0
-Croatia;8;Croatia_Jugador_8;Defensa;90;0;1;0;0
-Croatia;9;Croatia_Jugador_9;Mediocampo;270;0;1;0;1
-Croatia;10;Croatia_Jugador_10;Mediocampo;90;0;0;0;0
-Croatia;11;Croatia_Jugador_11;Mediocampo;180;0;0;0;0
-Croatia;12;Croatia_Jugador_12;Mediocampo;90;1;0;0;0
-Croatia;13;Croatia_Jugador_13;Mediocampo;180;0;0;0;0
-Croatia;14;Croatia_Jugador_14;Mediocampo;180;1;1;0;1
-Croatia;15;Croatia_Jugador_15;Mediocampo;90;0;0;0;0
-Croatia;16;Croatia_Jugador_16;Mediocampo;180;0;0;0;0
-Croatia;17;Croatia_Jugador_17;Delantero;90;0;0;0;0
-Croatia;18;Croatia_Jugador_18;Delantero;0;0;0;0;0
-Croatia;19;Croatia_Jugador_19;Delantero;90;0;0;0;1
-Croatia;20;Croatia_Jugador_20;Delantero;90;0;0;0;0
-Croatia;21;Croatia_Jugador_21;Delantero;90;0;0;0;0
-Croatia;22;Croatia_Jugador_22;Delantero;90;0;0;0;0
-Croatia;23;Croatia_Jugador_23;Delantero;180;0;0;0;1
-Egypt;1;Egypt_Jugador_1;Portero;90;0;0;0;0
-Egypt;2;Egypt_Jugador_2;Defensa;180;0;0;0;0
-Egypt;3;Egypt_Jugador_3;Defensa;90;0;0;0;1
-Egypt;4;Egypt_Jugador_4;Defensa;90;0;0;0;0
-Egypt;5;Egypt_Jugador_5;Defensa;180;0;0;0;0
-Egypt;6;Egypt_Jugador_6;Defensa;180;0;0;0;0
-Egypt;7;Egypt_Jugador_7;Defensa;270;1;0;0;0
-Egypt;8;Egypt_Jugador_8;Defensa;180;1;0;0;2
-Egypt;9;Egypt_Jugador_9;Mediocampo;180;0;0;0;1
-Egypt;10;Egypt_Jugador_10;Mediocampo;180;0;1;0;1
-Egypt;11;Egypt_Jugador_11;Mediocampo;180;0;1;0;0
-Egypt;12;Egypt_Jugador_12;Mediocampo;0;0;0;0;0
-Egypt;13;Egypt_Jugador_13;Mediocampo;90;0;0;0;0
-Egypt;14;Egypt_Jugador_14;Mediocampo;180;1;0;0;0
-Egypt;15;Egypt_Jugador_15;Mediocampo;90;0;0;0;0
-Egypt;16;Egypt_Jugador_16;Mediocampo;90;0;1;0;0
-Egypt;17;Egypt_Jugador_17;Delantero;0;0;0;0;0
-Egypt;18;Egypt_Jugador_18;Delantero;180;1;1;0;1
-Egypt;19;Egypt_Jugador_19;Delantero;180;0;0;0;0
-Egypt;20;Egypt_Jugador_20;Delantero;90;0;0;0;1
-Egypt;21;Egypt_Jugador_21;Delantero;90;0;0;0;0
-Egypt;22;Egypt_Jugador_22;Delantero;90;0;0;0;0
-Egypt;23;Egypt_Jugador_23;Delantero;90;0;0;0;0
-South Africa;1;South Africa_Jugador_1;Portero;90;0;0;0;0
-South Africa;2;South Africa_Jugador_2;Defensa;180;0;0;0;0
-South Africa;3;South Africa_Jugador_3;Defensa;180;1;0;0;0
-South Africa;4;South Africa_Jugador_4;Defensa;180;0;0;0;1
-South Africa;5;South Africa_Jugador_5;Defensa;90;0;0;0;0
-South Africa;6;South Africa_Jugador_6;Defensa;180;0;0;0;1
-South Africa;7;South Africa_Jugador_7;Defensa;90;0;0;0;0
-South Africa;8;South Africa_Jugador_8;Defensa;90;0;0;0;0
-South Africa;9;South Africa_Jugador_9;Mediocampo;0;0;0;0;0
-South Africa;10;South Africa_Jugador_10;Mediocampo;180;0;1;0;0
-South Africa;11;South Africa_Jugador_11;Mediocampo;90;0;0;0;0
-South Africa;12;South Africa_Jugador_12;Mediocampo;90;0;0;0;1
-South Africa;13;South Africa_Jugador_13;Mediocampo;180;0;0;0;0
-South Africa;14;South Africa_Jugador_14;Mediocampo;0;0;0;0;0
-South Africa;15;South Africa_Jugador_15;Mediocampo;180;0;0;0;0
-South Africa;16;South Africa_Jugador_16;Mediocampo;180;0;1;0;0
-South Africa;17;South Africa_Jugador_17;Delantero;90;0;0;0;0
-South Africa;18;South Africa_Jugador_18;Delantero;90;0;0;0;0
-South Africa;19;South Africa_Jugador_19;Delantero;180;0;0;0;0
-South Africa;20;South Africa_Jugador_20;Delantero;180;0;0;0;1
-South Africa;21;South Africa_Jugador_21;Delantero;90;0;0;0;0
-South Africa;22;South Africa_Jugador_22;Delantero;180;0;0;0;0
-South Africa;23;South Africa_Jugador_23;Delantero;180;0;2;0;0
-Argentina;1;Argentina_Jugador_1;Portero;180;0;0;0;2
-Argentina;2;Argentina_Jugador_2;Defensa;90;1;0;0;0
-Argentina;3;Argentina_Jugador_3;Defensa;0;0;0;0;0
-Argentina;4;Argentina_Jugador_4;Defensa;90;0;0;0;0
-Argentina;5;Argentina_Jugador_5;Defensa;270;0;0;0;2
-Argentina;6;Argentina_Jugador_6;Defensa;180;0;0;0;2
-Argentina;7;Argentina_Jugador_7;Defensa;180;0;0;0;1
-Argentina;8;Argentina_Jugador_8;Defensa;90;0;0;0;0
-Argentina;9;Argentina_Jugador_9;Mediocampo;90;0;0;0;0
-Argentina;10;Argentina_Jugador_10;Mediocampo;270;1;0;0;1
-Argentina;11;Argentina_Jugador_11;Mediocampo;90;0;0;0;0
-Argentina;12;Argentina_Jugador_12;Mediocampo;90;0;0;0;0
-Argentina;13;Argentina_Jugador_13;Mediocampo;90;0;0;0;0
-Argentina;14;Argentina_Jugador_14;Mediocampo;90;0;0;0;0
-Argentina;15;Argentina_Jugador_15;Mediocampo;90;0;0;0;0
-Argentina;16;Argentina_Jugador_16;Mediocampo;180;1;0;0;1
-Argentina;17;Argentina_Jugador_17;Delantero;180;0;1;0;0
-Argentina;18;Argentina_Jugador_18;Delantero;90;0;0;0;0
-Argentina;19;Argentina_Jugador_19;Delantero;270;1;0;0;0
-Argentina;20;Argentina_Jugador_20;Delantero;90;0;0;0;0
-Argentina;21;Argentina_Jugador_21;Delantero;90;0;1;0;0
-Argentina;22;Argentina_Jugador_22;Delantero;0;0;0;0;0
-Argentina;23;Argentina_Jugador_23;Delantero;180;0;0;0;0
-Mexico;1;Mexico_Jugador_1;Portero;180;0;0;0;0
-Mexico;2;Mexico_Jugador_2;Defensa;90;0;0;0;0
-Mexico;3;Mexico_Jugador_3;Defensa;0;0;0;0;0
-Mexico;4;Mexico_Jugador_4;Defensa;180;0;0;0;0
-Mexico;5;Mexico_Jugador_5;Defensa;180;0;1;0;1
-Mexico;6;Mexico_Jugador_6;Defensa;270;0;1;0;2
-Mexico;7;Mexico_Jugador_7;Defensa;180;0;0;0;0
-Mexico;8;Mexico_Jugador_8;Defensa;90;0;0;0;0
-Mexico;9;Mexico_Jugador_9;Mediocampo;0;0;0;0;0
-Mexico;10;Mexico_Jugador_10;Mediocampo;0;0;0;0;0
-Mexico;11;Mexico_Jugador_11;Mediocampo;180;1;0;0;0
-Mexico;12;Mexico_Jugador_12;Mediocampo;180;0;1;0;1
-Mexico;13;Mexico_Jugador_13;Mediocampo;180;0;0;0;1
-Mexico;14;Mexico_Jugador_14;Mediocampo;180;0;0;0;0
-Mexico;15;Mexico_Jugador_15;Mediocampo;0;0;0;0;0
-Mexico;16;Mexico_Jugador_16;Mediocampo;180;0;0;0;0
-Mexico;17;Mexico_Jugador_17;Delantero;90;0;0;0;1
-Mexico;18;Mexico_Jugador_18;Delantero;90;0;0;0;0
-Mexico;19;Mexico_Jugador_19;Delantero;180;0;0;0;2
-Mexico;20;Mexico_Jugador_20;Delantero;180;1;1;0;0
-Mexico;21;Mexico_Jugador_21;Delantero;90;0;0;0;1
-Mexico;22;Mexico_Jugador_22;Delantero;90;0;0;0;0
-Mexico;23;Mexico_Jugador_23;Delantero;180;0;0;0;1
-Canada;1;Canada_Jugador_1;Portero;90;0;0;0;1
-Canada;2;Canada_Jugador_2;Defensa;90;1;0;0;0
-Canada;3;Canada_Jugador_3;Defensa;180;0;1;0;1
-Canada;4;Canada_Jugador_4;Defensa;90;0;0;0;0
-Canada;5;Canada_Jugador_5;Defensa;90;0;0;0;1
-Canada;6;Canada_Jugador_6;Defensa;270;1;3;0;0
-Canada;7;Canada_Jugador_7;Defensa;90;0;0;0;1
-Canada;8;Canada_Jugador_8;Defensa;180;0;0;0;0
-Canada;9;Canada_Jugador_9;Mediocampo;180;0;0;0;0
-Canada;10;Canada_Jugador_10;Mediocampo;90;0;0;0;0
-Canada;11;Canada_Jugador_11;Mediocampo;180;0;0;0;0
-Canada;12;Canada_Jugador_12;Mediocampo;90;0;0;0;0
-Canada;13;Canada_Jugador_13;Mediocampo;270;0;0;0;1
-Canada;14;Canada_Jugador_14;Mediocampo;90;0;0;0;0
-Canada;15;Canada_Jugador_15;Mediocampo;90;0;0;0;0
-Canada;16;Canada_Jugador_16;Mediocampo;0;0;0;0;0
-Canada;17;Canada_Jugador_17;Delantero;90;2;0;0;0
-Canada;18;Canada_Jugador_18;Delantero;90;1;0;0;0
-Canada;19;Canada_Jugador_19;Delantero;90;0;0;0;1
-Canada;20;Canada_Jugador_20;Delantero;90;0;0;0;0
-Canada;21;Canada_Jugador_21;Delantero;270;0;0;0;1
-Canada;22;Canada_Jugador_22;Delantero;90;0;0;0;0
-Canada;23;Canada_Jugador_23;Delantero;180;0;0;0;0
-Saudi Arabia;1;Saudi Arabia_Jugador_1;Portero;90;0;0;0;0
-Saudi Arabia;2;Saudi Arabia_Jugador_2;Defensa;270;0;0;0;0
-Saudi Arabia;3;Saudi Arabia_Jugador_3;Defensa;90;2;0;0;0
-Saudi Arabia;4;Saudi Arabia_Jugador_4;Defensa;90;0;0;0;0
-Saudi Arabia;5;Saudi Arabia_Jugador_5;Defensa;90;0;0;0;0
-Saudi Arabia;6;Saudi Arabia_Jugador_6;Defensa;180;0;0;0;1
-Saudi Arabia;7;Saudi Arabia_Jugador_7;Defensa;0;0;0;0;0
-Saudi Arabia;8;Saudi Arabia_Jugador_8;Defensa;180;0;0;0;1
-Saudi Arabia;9;Saudi Arabia_Jugador_9;Mediocampo;180;0;0;0;1
-Saudi Arabia;10;Saudi Arabia_Jugador_10;Mediocampo;270;1;0;0;0
-Saudi Arabia;11;Saudi Arabia_Jugador_11;Mediocampo;0;0;0;0;0
-Saudi Arabia;12;Saudi Arabia_Jugador_12;Mediocampo;0;0;0;0;0
-Saudi Arabia;13;Saudi Arabia_Jugador_13;Mediocampo;90;1;0;0;1
-Saudi Arabia;14;Saudi Arabia_Jugador_14;Mediocampo;180;3;0;0;0
-Saudi Arabia;15;Saudi Arabia_Jugador_15;Mediocampo;180;0;0;0;0
-Saudi Arabia;16;Saudi Arabia_Jugador_16;Mediocampo;0;0;0;0;0
-Saudi Arabia;17;Saudi Arabia_Jugador_17;Delantero;180;0;0;0;0
-Saudi Arabia;18;Saudi Arabia_Jugador_18;Delantero;90;0;0;0;0
-Saudi Arabia;19;Saudi Arabia_Jugador_19;Delantero;90;0;0;0;0
-Saudi Arabia;20;Saudi Arabia_Jugador_20;Delantero;270;0;0;0;1
-Saudi Arabia;21;Saudi Arabia_Jugador_21;Delantero;90;2;0;0;0
-Saudi Arabia;22;Saudi Arabia_Jugador_22;Delantero;180;0;1;0;1
-Saudi Arabia;23;Saudi Arabia_Jugador_23;Delantero;180;0;0;0;0
-England;1;England_Jugador_1;Portero;180;0;0;0;0
-England;2;England_Jugador_2;Defensa;90;0;0;0;0
-England;3;England_Jugador_3;Defensa;90;0;0;0;0
-England;4;England_Jugador_4;Defensa;180;0;0;0;0
-England;5;England_Jugador_5;Defensa;90;0;0;0;0
-England;6;England_Jugador_6;Defensa;180;0;0;0;0
-England;7;England_Jugador_7;Defensa;270;0;0;0;1
-England;8;England_Jugador_8;Defensa;0;0;0;0;0
-England;9;England_Jugador_9;Mediocampo;180;0;0;0;1
-England;10;England_Jugador_10;Mediocampo;0;0;0;0;0
-England;11;England_Jugador_11;Mediocampo;90;0;1;0;0
-England;12;England_Jugador_12;Mediocampo;90;0;0;0;1
-England;13;England_Jugador_13;Mediocampo;270;0;0;0;0
-England;14;England_Jugador_14;Mediocampo;0;0;0;0;0
-England;15;England_Jugador_15;Mediocampo;0;0;0;0;0
-England;16;England_Jugador_16;Mediocampo;180;0;0;0;0
-England;17;England_Jugador_17;Delantero;180;1;0;0;0
-England;18;England_Jugador_18;Delantero;180;0;0;0;0
-England;19;England_Jugador_19;Delantero;180;0;0;0;1
-England;20;England_Jugador_20;Delantero;180;0;0;0;1
-England;21;England_Jugador_21;Delantero;90;0;0;0;1
-England;22;England_Jugador_22;Delantero;270;0;0;0;0
-England;23;England_Jugador_23;Delantero;0;0;0;0;0
-Japan;1;Japan_Jugador_1;Portero;90;0;0;0;0
-Japan;2;Japan_Jugador_2;Defensa;180;0;0;0;0
-Japan;3;Japan_Jugador_3;Defensa;90;0;0;0;0
-Japan;4;Japan_Jugador_4;Defensa;90;0;0;0;1
-Japan;5;Japan_Jugador_5;Defensa;180;0;1;0;0
-Japan;6;Japan_Jugador_6;Defensa;180;0;0;0;0
-Japan;7;Japan_Jugador_7;Defensa;180;0;0;0;1
-Japan;8;Japan_Jugador_8;Defensa;180;2;0;0;0
-Japan;9;Japan_Jugador_9;Mediocampo;0;0;0;0;0
-Japan;10;Japan_Jugador_10;Mediocampo;0;0;0;0;0
-Japan;11;Japan_Jugador_11;Mediocampo;180;0;1;0;0
-Japan;12;Japan_Jugador_12;Mediocampo;0;0;0;0;0
-Japan;13;Japan_Jugador_13;Mediocampo;0;0;0;0;0
-Japan;14;Japan_Jugador_14;Mediocampo;90;0;1;0;0
-Japan;15;Japan_Jugador_15;Mediocampo;0;0;0;0;0
-Japan;16;Japan_Jugador_16;Mediocampo;180;0;0;0;0
-Japan;17;Japan_Jugador_17;Delantero;180;0;0;0;0
-Japan;18;Japan_Jugador_18;Delantero;180;0;0;0;0
-Japan;19;Japan_Jugador_19;Delantero;270;0;1;0;0
-Japan;20;Japan_Jugador_20;Delantero;90;0;0;0;0
-Japan;21;Japan_Jugador_21;Delantero;180;0;0;0;0
-Japan;22;Japan_Jugador_22;Delantero;180;0;1;0;0
-Japan;23;Japan_Jugador_23;Delantero;270;0;0;0;1
-Paraguay;1;Paraguay_Jugador_1;Portero;180;0;0;0;0
-Paraguay;2;Paraguay_Jugador_2;Defensa;90;0;0;0;0
-Paraguay;3;Paraguay_Jugador_3;Defensa;90;0;0;0;0
-Paraguay;4;Paraguay_Jugador_4;Defensa;90;1;0;0;0
-Paraguay;5;Paraguay_Jugador_5;Defensa;270;0;0;0;0
-Paraguay;6;Paraguay_Jugador_6;Defensa;180;0;0;0;0
-Paraguay;7;Paraguay_Jugador_7;Defensa;90;0;0;0;0
-Paraguay;8;Paraguay_Jugador_8;Defensa;0;0;0;0;0
-Paraguay;9;Paraguay_Jugador_9;Mediocampo;90;0;0;0;0
-Paraguay;10;Paraguay_Jugador_10;Mediocampo;90;0;0;0;1
-Paraguay;11;Paraguay_Jugador_11;Mediocampo;90;0;0;0;0
-Paraguay;12;Paraguay_Jugador_12;Mediocampo;180;0;0;0;1
-Paraguay;13;Paraguay_Jugador_13;Mediocampo;180;0;0;0;1
-Paraguay;14;Paraguay_Jugador_14;Mediocampo;90;0;0;0;0
-Paraguay;15;Paraguay_Jugador_15;Mediocampo;90;0;0;0;0
-Paraguay;16;Paraguay_Jugador_16;Mediocampo;0;0;0;0;0
-Paraguay;17;Paraguay_Jugador_17;Delantero;0;0;0;0;0
-Paraguay;18;Paraguay_Jugador_18;Delantero;180;0;1;0;1
-Paraguay;19;Paraguay_Jugador_19;Delantero;90;0;0;0;0
-Paraguay;20;Paraguay_Jugador_20;Delantero;180;0;0;0;1
-Paraguay;21;Paraguay_Jugador_21;Delantero;270;1;0;0;0
-Paraguay;22;Paraguay_Jugador_22;Delantero;270;0;0;0;0
-Paraguay;23;Paraguay_Jugador_23;Delantero;180;0;0;0;2
-Bosnia and Herzegovina;1;Bosnia and Herzegovina_Jugador_1;Portero;90;0;0;0;0
-Bosnia and Herzegovina;2;Bosnia and Herzegovina_Jugador_2;Defensa;90;0;0;0;0
-Bosnia and Herzegovina;3;Bosnia and Herzegovina_Jugador_3;Defensa;90;0;0;0;0
-Bosnia and Herzegovina;4;Bosnia and Herzegovina_Jugador_4;Defensa;90;0;0;0;0
-Bosnia and Herzegovina;5;Bosnia and Herzegovina_Jugador_5;Defensa;180;2;0;0;0
-Bosnia and Herzegovina;6;Bosnia and Herzegovina_Jugador_6;Defensa;180;0;0;0;0
-Bosnia and Herzegovina;7;Bosnia and Herzegovina_Jugador_7;Defensa;180;0;0;0;0
-Bosnia and Herzegovina;8;Bosnia and Herzegovina_Jugador_8;Defensa;180;1;0;0;0
-Bosnia and Herzegovina;9;Bosnia and Herzegovina_Jugador_9;Mediocampo;0;0;0;0;0
-Bosnia and Herzegovina;10;Bosnia and Herzegovina_Jugador_10;Mediocampo;90;2;1;0;0
-Bosnia and Herzegovina;11;Bosnia and Herzegovina_Jugador_11;Mediocampo;180;0;0;0;1
-Bosnia and Herzegovina;12;Bosnia and Herzegovina_Jugador_12;Mediocampo;270;0;1;0;0
-Bosnia and Herzegovina;13;Bosnia and Herzegovina_Jugador_13;Mediocampo;0;0;0;0;0
-Bosnia and Herzegovina;14;Bosnia and Herzegovina_Jugador_14;Mediocampo;180;0;0;0;0
-Bosnia and Herzegovina;15;Bosnia and Herzegovina_Jugador_15;Mediocampo;90;1;0;0;0
-Bosnia and Herzegovina;16;Bosnia and Herzegovina_Jugador_16;Mediocampo;0;0;0;0;0
-Bosnia and Herzegovina;17;Bosnia and Herzegovina_Jugador_17;Delantero;90;0;0;0;0
-Bosnia and Herzegovina;18;Bosnia and Herzegovina_Jugador_18;Delantero;180;0;0;0;0
-Bosnia and Herzegovina;19;Bosnia and Herzegovina_Jugador_19;Delantero;270;0;0;0;0
-Bosnia and Herzegovina;20;Bosnia and Herzegovina_Jugador_20;Delantero;180;0;0;0;0
-Bosnia and Herzegovina;21;Bosnia and Herzegovina_Jugador_21;Delantero;0;0;0;0;0
-Bosnia and Herzegovina;22;Bosnia and Herzegovina_Jugador_22;Delantero;270;1;0;0;1
-Bosnia and Herzegovina;23;Bosnia and Herzegovina_Jugador_23;Delantero;90;0;0;0;1
-Portugal;1;Portugal_Jugador_1;Portero;90;0;0;0;0
-Portugal;2;Portugal_Jugador_2;Defensa;90;0;0;0;0
-Portugal;3;Portugal_Jugador_3;Defensa;90;0;0;0;1
-Portugal;4;Portugal_Jugador_4;Defensa;180;1;2;0;0
-Portugal;5;Portugal_Jugador_5;Defensa;180;0;1;0;0
-Portugal;6;Portugal_Jugador_6;Defensa;0;0;0;0;0
-Portugal;7;Portugal_Jugador_7;Defensa;270;0;0;0;3
-Portugal;8;Portugal_Jugador_8;Defensa;90;0;0;0;0
-Portugal;9;Portugal_Jugador_9;Mediocampo;180;0;0;0;0
-Portugal;10;Portugal_Jugador_10;Mediocampo;90;0;0;0;0
-Portugal;11;Portugal_Jugador_11;Mediocampo;90;0;0;0;0
-Portugal;12;Portugal_Jugador_12;Mediocampo;180;0;0;0;0
-Portugal;13;Portugal_Jugador_13;Mediocampo;270;1;0;0;1
-Portugal;14;Portugal_Jugador_14;Mediocampo;90;0;0;0;0
-Portugal;15;Portugal_Jugador_15;Mediocampo;90;0;0;0;0
-Portugal;16;Portugal_Jugador_16;Mediocampo;180;0;0;0;1
-Portugal;17;Portugal_Jugador_17;Delantero;90;1;1;0;0
-Portugal;18;Portugal_Jugador_18;Delantero;90;0;0;0;0
-Portugal;19;Portugal_Jugador_19;Delantero;90;0;0;0;1
-Portugal;20;Portugal_Jugador_20;Delantero;180;1;1;0;1
-Portugal;21;Portugal_Jugador_21;Delantero;180;0;0;0;0
-Portugal;22;Portugal_Jugador_22;Delantero;180;1;0;0;1
-Portugal;23;Portugal_Jugador_23;Delantero;0;0;0;0;0
-Iran;1;Iran_Jugador_1;Portero;0;0;0;0;0
-Iran;2;Iran_Jugador_2;Defensa;180;1;0;0;1
-Iran;3;Iran_Jugador_3;Defensa;90;0;0;0;0
-Iran;4;Iran_Jugador_4;Defensa;90;0;0;0;0
-Iran;5;Iran_Jugador_5;Defensa;90;0;0;0;1
-Iran;6;Iran_Jugador_6;Defensa;90;0;0;0;0
-Iran;7;Iran_Jugador_7;Defensa;270;0;0;0;1
-Iran;8;Iran_Jugador_8;Defensa;180;1;0;0;0
-Iran;9;Iran_Jugador_9;Mediocampo;180;0;0;0;0
-Iran;10;Iran_Jugador_10;Mediocampo;90;1;0;0;0
-Iran;11;Iran_Jugador_11;Mediocampo;180;0;0;0;1
-Iran;12;Iran_Jugador_12;Mediocampo;180;2;0;0;0
-Iran;13;Iran_Jugador_13;Mediocampo;180;0;0;0;0
-Iran;14;Iran_Jugador_14;Mediocampo;180;0;1;0;1
-Iran;15;Iran_Jugador_15;Mediocampo;90;1;0;0;0
-Iran;16;Iran_Jugador_16;Mediocampo;90;0;0;0;0
-Iran;17;Iran_Jugador_17;Delantero;180;0;0;0;1
-Iran;18;Iran_Jugador_18;Delantero;180;1;0;0;1
-Iran;19;Iran_Jugador_19;Delantero;180;0;0;0;0
-Iran;20;Iran_Jugador_20;Delantero;180;0;0;0;1
-Iran;21;Iran_Jugador_21;Delantero;0;0;0;0;0
-Iran;22;Iran_Jugador_22;Delantero;0;0;0;0;0
-Iran;23;Iran_Jugador_23;Delantero;90;0;0;0;0
-Panama;1;Panama_Jugador_1;Portero;90;0;0;0;1
-Panama;2;Panama_Jugador_2;Defensa;90;0;0;0;1
-Panama;3;Panama_Jugador_3;Defensa;180;0;0;0;1
-Panama;4;Panama_Jugador_4;Defensa;90;0;1;0;0
-Panama;5;Panama_Jugador_5;Defensa;180;0;1;0;0
-Panama;6;Panama_Jugador_6;Defensa;180;1;0;0;0
-Panama;7;Panama_Jugador_7;Defensa;0;0;0;0;0
-Panama;8;Panama_Jugador_8;Defensa;180;1;1;0;1
-Panama;9;Panama_Jugador_9;Mediocampo;270;1;1;0;2
-Panama;10;Panama_Jugador_10;Mediocampo;90;0;0;0;1
-Panama;11;Panama_Jugador_11;Mediocampo;90;0;1;0;0
-Panama;12;Panama_Jugador_12;Mediocampo;90;0;0;0;0
-Panama;13;Panama_Jugador_13;Mediocampo;270;0;0;0;0
-Panama;14;Panama_Jugador_14;Mediocampo;180;0;0;0;0
-Panama;15;Panama_Jugador_15;Mediocampo;0;0;0;0;0
-Panama;16;Panama_Jugador_16;Mediocampo;180;0;0;0;0
-Panama;17;Panama_Jugador_17;Delantero;90;0;0;0;1
-Panama;18;Panama_Jugador_18;Delantero;180;1;1;0;0
-Panama;19;Panama_Jugador_19;Delantero;180;0;0;0;1
-Panama;20;Panama_Jugador_20;Delantero;0;0;0;0;0
-Panama;21;Panama_Jugador_21;Delantero;90;0;0;0;1
-Panama;22;Panama_Jugador_22;Delantero;180;0;0;0;0
-Panama;23;Panama_Jugador_23;Delantero;90;0;0;0;0
-Iraq;1;Iraq_Jugador_1;Portero;0;0;0;0;0
-Iraq;2;Iraq_Jugador_2;Defensa;180;0;1;0;0
-Iraq;3;Iraq_Jugador_3;Defensa;270;1;0;0;1
-Iraq;4;Iraq_Jugador_4;Defensa;90;0;1;0;0
-Iraq;5;Iraq_Jugador_5;Defensa;90;0;0;0;0
-Iraq;6;Iraq_Jugador_6;Defensa;90;0;0;0;0
-Iraq;7;Iraq_Jugador_7;Defensa;90;0;1;0;1
-Iraq;8;Iraq_Jugador_8;Defensa;180;0;0;0;0
-Iraq;9;Iraq_Jugador_9;Mediocampo;270;0;0;0;1
-Iraq;10;Iraq_Jugador_10;Mediocampo;90;0;0;0;0
-Iraq;11;Iraq_Jugador_11;Mediocampo;90;0;0;0;0
-Iraq;12;Iraq_Jugador_12;Mediocampo;180;0;0;0;0
-Iraq;13;Iraq_Jugador_13;Mediocampo;180;0;0;0;0
-Iraq;14;Iraq_Jugador_14;Mediocampo;0;0;0;0;0
-Iraq;15;Iraq_Jugador_15;Mediocampo;180;0;0;0;1
-Iraq;16;Iraq_Jugador_16;Mediocampo;270;0;1;0;0
-Iraq;17;Iraq_Jugador_17;Delantero;180;0;0;0;0
-Iraq;18;Iraq_Jugador_18;Delantero;90;0;0;0;0
-Iraq;19;Iraq_Jugador_19;Delantero;90;0;0;0;0
-Iraq;20;Iraq_Jugador_20;Delantero;180;0;0;0;0
-Iraq;21;Iraq_Jugador_21;Delantero;0;0;0;0;0
-Iraq;22;Iraq_Jugador_22;Delantero;180;0;0;0;1
-Iraq;23;Iraq_Jugador_23;Delantero;0;0;0;0;0
-Brazil;1;Brazil_Jugador_1;Portero;180;0;0;0;0
-Brazil;2;Brazil_Jugador_2;Defensa;180;0;0;0;0
-Brazil;3;Brazil_Jugador_3;Defensa;180;0;0;0;0
-Brazil;4;Brazil_Jugador_4;Defensa;270;1;0;0;1
-Brazil;5;Brazil_Jugador_5;Defensa;180;0;0;0;1
-Brazil;6;Brazil_Jugador_6;Defensa;180;0;0;0;0
-Brazil;7;Brazil_Jugador_7;Defensa;180;0;0;0;0
-Brazil;8;Brazil_Jugador_8;Defensa;90;0;0;0;0
-Brazil;9;Brazil_Jugador_9;Mediocampo;90;0;0;0;0
-Brazil;10;Brazil_Jugador_10;Mediocampo;180;1;0;0;3
-Brazil;11;Brazil_Jugador_11;Mediocampo;90;0;0;0;0
-Brazil;12;Brazil_Jugador_12;Mediocampo;90;0;0;0;0
-Brazil;13;Brazil_Jugador_13;Mediocampo;90;0;0;0;0
-Brazil;14;Brazil_Jugador_14;Mediocampo;90;0;0;0;1
-Brazil;15;Brazil_Jugador_15;Mediocampo;180;1;0;0;1
-Brazil;16;Brazil_Jugador_16;Mediocampo;90;0;0;0;0
-Brazil;17;Brazil_Jugador_17;Delantero;90;0;0;0;1
-Brazil;18;Brazil_Jugador_18;Delantero;90;0;0;0;0
-Brazil;19;Brazil_Jugador_19;Delantero;90;1;0;0;1
-Brazil;20;Brazil_Jugador_20;Delantero;90;1;0;0;0
-Brazil;21;Brazil_Jugador_21;Delantero;90;0;0;0;0
-Brazil;22;Brazil_Jugador_22;Delantero;90;0;0;0;0
-Brazil;23;Brazil_Jugador_23;Delantero;90;0;0;0;0
-Senegal;1;Senegal_Jugador_1;Portero;0;0;0;0;0
-Senegal;2;Senegal_Jugador_2;Defensa;180;1;0;0;0
-Senegal;3;Senegal_Jugador_3;Defensa;180;0;0;0;2
-Senegal;4;Senegal_Jugador_4;Defensa;0;0;0;0;0
-Senegal;5;Senegal_Jugador_5;Defensa;180;0;1;0;0
-Senegal;6;Senegal_Jugador_6;Defensa;270;0;0;0;0
-Senegal;7;Senegal_Jugador_7;Defensa;90;0;0;0;0
-Senegal;8;Senegal_Jugador_8;Defensa;270;0;0;0;0
-Senegal;9;Senegal_Jugador_9;Mediocampo;180;0;0;0;0
-Senegal;10;Senegal_Jugador_10;Mediocampo;0;0;0;0;0
-Senegal;11;Senegal_Jugador_11;Mediocampo;0;0;0;0;0
-Senegal;12;Senegal_Jugador_12;Mediocampo;90;0;0;0;0
-Senegal;13;Senegal_Jugador_13;Mediocampo;90;0;0;0;0
-Senegal;14;Senegal_Jugador_14;Mediocampo;180;1;0;0;1
-Senegal;15;Senegal_Jugador_15;Mediocampo;90;0;0;0;0
-Senegal;16;Senegal_Jugador_16;Mediocampo;270;0;0;0;0
-Senegal;17;Senegal_Jugador_17;Delantero;180;0;1;0;0
-Senegal;18;Senegal_Jugador_18;Delantero;90;0;0;0;0
-Senegal;19;Senegal_Jugador_19;Delantero;270;0;1;0;1
-Senegal;20;Senegal_Jugador_20;Delantero;90;0;0;0;0
-Senegal;21;Senegal_Jugador_21;Delantero;180;0;0;0;0
-Senegal;22;Senegal_Jugador_22;Delantero;90;0;0;0;0
-Senegal;23;Senegal_Jugador_23;Delantero;0;0;0;0;0
-Nigeria;1;Nigeria_Jugador_1;Portero;90;0;0;0;1
-Nigeria;2;Nigeria_Jugador_2;Defensa;270;0;0;0;0
-Nigeria;3;Nigeria_Jugador_3;Defensa;0;0;0;0;0
-Nigeria;4;Nigeria_Jugador_4;Defensa;90;0;0;0;0
-Nigeria;5;Nigeria_Jugador_5;Defensa;270;0;0;0;0
-Nigeria;6;Nigeria_Jugador_6;Defensa;270;1;0;0;0
-Nigeria;7;Nigeria_Jugador_7;Defensa;0;0;0;0;0
-Nigeria;8;Nigeria_Jugador_8;Defensa;90;0;1;0;0
-Nigeria;9;Nigeria_Jugador_9;Mediocampo;180;0;0;0;0
-Nigeria;10;Nigeria_Jugador_10;Mediocampo;180;0;1;0;0
-Nigeria;11;Nigeria_Jugador_11;Mediocampo;90;0;0;0;0
-Nigeria;12;Nigeria_Jugador_12;Mediocampo;180;0;0;0;0
-Nigeria;13;Nigeria_Jugador_13;Mediocampo;180;0;0;0;0
-Nigeria;14;Nigeria_Jugador_14;Mediocampo;90;0;0;0;0
-Nigeria;15;Nigeria_Jugador_15;Mediocampo;90;0;0;0;0
-Nigeria;16;Nigeria_Jugador_16;Mediocampo;90;0;0;0;0
-Nigeria;17;Nigeria_Jugador_17;Delantero;90;0;0;0;0
-Nigeria;18;Nigeria_Jugador_18;Delantero;180;0;1;0;1
-Nigeria;19;Nigeria_Jugador_19;Delantero;90;0;0;0;0
-Nigeria;20;Nigeria_Jugador_20;Delantero;90;1;0;0;0
-Nigeria;21;Nigeria_Jugador_21;Delantero;180;0;0;0;1
-Nigeria;22;Nigeria_Jugador_22;Delantero;90;0;0;0;1
-Nigeria;23;Nigeria_Jugador_23;Delantero;90;1;0;0;0
-Jordan;1;Jordan_Jugador_1;Portero;90;0;1;0;0
-Jordan;2;Jordan_Jugador_2;Defensa;90;0;0;0;0
-Jordan;3;Jordan_Jugador_3;Defensa;180;0;0;0;0
-Jordan;4;Jordan_Jugador_4;Defensa;270;0;0;0;1
-Jordan;5;Jordan_Jugador_5;Defensa;90;0;0;0;0
-Jordan;6;Jordan_Jugador_6;Defensa;0;0;0;0;0
-Jordan;7;Jordan_Jugador_7;Defensa;180;0;1;0;1
-Jordan;8;Jordan_Jugador_8;Defensa;270;1;0;0;0
-Jordan;9;Jordan_Jugador_9;Mediocampo;180;0;0;0;0
-Jordan;10;Jordan_Jugador_10;Mediocampo;0;0;0;0;0
-Jordan;11;Jordan_Jugador_11;Mediocampo;180;0;0;0;1
-Jordan;12;Jordan_Jugador_12;Mediocampo;0;0;0;0;0
-Jordan;13;Jordan_Jugador_13;Mediocampo;180;1;0;0;0
-Jordan;14;Jordan_Jugador_14;Mediocampo;90;0;0;0;0
-Jordan;15;Jordan_Jugador_15;Mediocampo;180;1;0;0;0
-Jordan;16;Jordan_Jugador_16;Mediocampo;270;1;0;0;0
-Jordan;17;Jordan_Jugador_17;Delantero;180;0;0;0;0
-Jordan;18;Jordan_Jugador_18;Delantero;0;0;0;0;0
-Jordan;19;Jordan_Jugador_19;Delantero;0;0;0;0;0
-Jordan;20;Jordan_Jugador_20;Delantero;90;1;0;0;0
-Jordan;21;Jordan_Jugador_21;Delantero;180;0;0;0;2
-Jordan;22;Jordan_Jugador_22;Delantero;90;1;0;0;0
-Jordan;23;Jordan_Jugador_23;Delantero;180;0;0;0;0
-Netherlands;1;Netherlands_Jugador_1;Portero;90;0;0;0;0
-Netherlands;2;Netherlands_Jugador_2;Defensa;90;0;0;0;0
-Netherlands;3;Netherlands_Jugador_3;Defensa;90;0;1;0;1
-Netherlands;4;Netherlands_Jugador_4;Defensa;180;0;0;0;1
-Netherlands;5;Netherlands_Jugador_5;Defensa;90;0;0;0;0
-Netherlands;6;Netherlands_Jugador_6;Defensa;180;0;0;0;3
-Netherlands;7;Netherlands_Jugador_7;Defensa;180;1;1;0;1
-Netherlands;8;Netherlands_Jugador_8;Defensa;90;1;1;0;0
-Netherlands;9;Netherlands_Jugador_9;Mediocampo;90;0;0;0;0
-Netherlands;10;Netherlands_Jugador_10;Mediocampo;90;0;0;0;0
-Netherlands;11;Netherlands_Jugador_11;Mediocampo;270;0;0;0;1
-Netherlands;12;Netherlands_Jugador_12;Mediocampo;90;0;0;0;0
-Netherlands;13;Netherlands_Jugador_13;Mediocampo;90;0;0;0;0
-Netherlands;14;Netherlands_Jugador_14;Mediocampo;180;0;0;0;1
-Netherlands;15;Netherlands_Jugador_15;Mediocampo;180;0;0;0;0
-Netherlands;16;Netherlands_Jugador_16;Mediocampo;270;0;0;0;2
-Netherlands;17;Netherlands_Jugador_17;Delantero;180;0;0;0;1
-Netherlands;18;Netherlands_Jugador_18;Delantero;180;1;0;0;1
-Netherlands;19;Netherlands_Jugador_19;Delantero;90;0;0;0;0
-Netherlands;20;Netherlands_Jugador_20;Delantero;0;0;0;0;0
-Netherlands;21;Netherlands_Jugador_21;Delantero;180;0;1;0;0
-Netherlands;22;Netherlands_Jugador_22;Delantero;90;0;0;0;0
-Netherlands;23;Netherlands_Jugador_23;Delantero;0;0;0;0;0
-Denmark;1;Denmark_Jugador_1;Portero;0;0;0;0;0
-Denmark;2;Denmark_Jugador_2;Defensa;0;0;0;0;0
-Denmark;3;Denmark_Jugador_3;Defensa;180;0;0;0;0
-Denmark;4;Denmark_Jugador_4;Defensa;90;0;0;0;0
-Denmark;5;Denmark_Jugador_5;Defensa;90;0;0;0;0
-Denmark;6;Denmark_Jugador_6;Defensa;180;0;0;0;0
-Denmark;7;Denmark_Jugador_7;Defensa;180;0;2;0;0
-Denmark;8;Denmark_Jugador_8;Defensa;180;0;0;0;0
-Denmark;9;Denmark_Jugador_9;Mediocampo;90;0;0;0;0
-Denmark;10;Denmark_Jugador_10;Mediocampo;180;1;0;0;0
-Denmark;11;Denmark_Jugador_11;Mediocampo;90;0;0;0;0
-Denmark;12;Denmark_Jugador_12;Mediocampo;180;0;0;0;0
-Denmark;13;Denmark_Jugador_13;Mediocampo;180;1;0;0;2
-Denmark;14;Denmark_Jugador_14;Mediocampo;180;0;0;0;0
-Denmark;15;Denmark_Jugador_15;Mediocampo;90;0;0;0;0
-Denmark;16;Denmark_Jugador_16;Mediocampo;180;0;0;0;0
-Denmark;17;Denmark_Jugador_17;Delantero;0;0;0;0;0
-Denmark;18;Denmark_Jugador_18;Delantero;90;0;0;0;0
-Denmark;19;Denmark_Jugador_19;Delantero;270;1;0;0;0
-Denmark;20;Denmark_Jugador_20;Delantero;180;0;0;0;0
-Denmark;21;Denmark_Jugador_21;Delantero;180;0;0;0;0
-Denmark;22;Denmark_Jugador_22;Delantero;90;0;0;0;0
-Denmark;23;Denmark_Jugador_23;Delantero;90;0;0;0;0
-Costa Rica;1;Costa Rica_Jugador_1;Portero;180;0;0;0;0
-Costa Rica;2;Costa Rica_Jugador_2;Defensa;90;1;0;0;0
-Costa Rica;3;Costa Rica_Jugador_3;Defensa;0;0;0;0;0
-Costa Rica;4;Costa Rica_Jugador_4;Defensa;270;0;1;0;3
-Costa Rica;5;Costa Rica_Jugador_5;Defensa;180;0;0;0;0
-Costa Rica;6;Costa Rica_Jugador_6;Defensa;270;0;0;0;0
-Costa Rica;7;Costa Rica_Jugador_7;Defensa;0;0;0;0;0
+Serbia;20;Serbia_Jugador_20;Delantero;120;0;0;0;0
+Serbia;21;Serbia_Jugador_21;Delantero;210;1;1;0;0
+Serbia;22;Serbia_Jugador_22;Delantero;210;0;0;0;0
+Serbia;23;Serbia_Jugador_23;Delantero;90;0;0;0;0
+Costa Rica;1;Costa Rica_Jugador_1;Portero;300;0;0;0;0
+Costa Rica;2;Costa Rica_Jugador_2;Defensa;300;2;0;0;1
+Costa Rica;3;Costa Rica_Jugador_3;Defensa;180;1;0;0;0
+Costa Rica;4;Costa Rica_Jugador_4;Defensa;210;1;0;0;1
+Costa Rica;5;Costa Rica_Jugador_5;Defensa;390;0;0;0;0
+Costa Rica;6;Costa Rica_Jugador_6;Defensa;120;1;0;0;0
+Costa Rica;7;Costa Rica_Jugador_7;Defensa;90;0;0;0;0
 Costa Rica;8;Costa Rica_Jugador_8;Defensa;0;0;0;0;0
-Costa Rica;9;Costa Rica_Jugador_9;Mediocampo;180;0;0;0;0
-Costa Rica;10;Costa Rica_Jugador_10;Mediocampo;270;0;0;0;0
-Costa Rica;11;Costa Rica_Jugador_11;Mediocampo;90;0;0;0;0
-Costa Rica;12;Costa Rica_Jugador_12;Mediocampo;180;0;0;0;0
-Costa Rica;13;Costa Rica_Jugador_13;Mediocampo;0;0;0;0;0
-Costa Rica;14;Costa Rica_Jugador_14;Mediocampo;90;0;0;0;0
+Costa Rica;9;Costa Rica_Jugador_9;Mediocampo;300;1;0;0;0
+Costa Rica;10;Costa Rica_Jugador_10;Mediocampo;90;0;0;0;0
+Costa Rica;11;Costa Rica_Jugador_11;Mediocampo;180;0;0;0;0
+Costa Rica;12;Costa Rica_Jugador_12;Mediocampo;120;1;0;0;0
+Costa Rica;13;Costa Rica_Jugador_13;Mediocampo;180;0;0;0;0
+Costa Rica;14;Costa Rica_Jugador_14;Mediocampo;300;1;0;0;0
 Costa Rica;15;Costa Rica_Jugador_15;Mediocampo;90;0;0;0;0
-Costa Rica;16;Costa Rica_Jugador_16;Mediocampo;90;0;0;0;1
-Costa Rica;17;Costa Rica_Jugador_17;Delantero;180;0;0;0;0
-Costa Rica;18;Costa Rica_Jugador_18;Delantero;180;0;0;0;1
-Costa Rica;19;Costa Rica_Jugador_19;Delantero;90;1;0;0;0
-Costa Rica;20;Costa Rica_Jugador_20;Delantero;90;0;0;0;1
-Costa Rica;21;Costa Rica_Jugador_21;Delantero;180;1;0;0;1
-Costa Rica;22;Costa Rica_Jugador_22;Delantero;180;1;1;0;0
-Costa Rica;23;Costa Rica_Jugador_23;Delantero;90;0;0;0;0
-Ghana;1;Ghana_Jugador_1;Portero;180;1;1;0;0
-Ghana;2;Ghana_Jugador_2;Defensa;270;0;0;0;0
-Ghana;3;Ghana_Jugador_3;Defensa;90;0;0;0;1
-Ghana;4;Ghana_Jugador_4;Defensa;0;0;0;0;0
-Ghana;5;Ghana_Jugador_5;Defensa;180;1;0;0;1
-Ghana;6;Ghana_Jugador_6;Defensa;180;0;0;0;0
-Ghana;7;Ghana_Jugador_7;Defensa;90;0;0;0;0
-Ghana;8;Ghana_Jugador_8;Defensa;270;3;1;0;0
-Ghana;9;Ghana_Jugador_9;Mediocampo;180;0;0;0;1
-Ghana;10;Ghana_Jugador_10;Mediocampo;90;0;0;0;1
-Ghana;11;Ghana_Jugador_11;Mediocampo;180;0;0;0;0
-Ghana;12;Ghana_Jugador_12;Mediocampo;0;0;0;0;0
-Ghana;13;Ghana_Jugador_13;Mediocampo;270;0;0;0;1
-Ghana;14;Ghana_Jugador_14;Mediocampo;90;0;0;0;0
-Ghana;15;Ghana_Jugador_15;Mediocampo;90;0;0;0;1
-Ghana;16;Ghana_Jugador_16;Mediocampo;90;0;0;0;0
-Ghana;17;Ghana_Jugador_17;Delantero;180;0;0;0;0
-Ghana;18;Ghana_Jugador_18;Delantero;0;0;0;0;0
-Ghana;19;Ghana_Jugador_19;Delantero;0;0;0;0;0
-Ghana;20;Ghana_Jugador_20;Delantero;270;0;0;0;0
-Ghana;21;Ghana_Jugador_21;Delantero;90;0;0;0;0
-Ghana;22;Ghana_Jugador_22;Delantero;90;0;0;0;0
-Ghana;23;Ghana_Jugador_23;Delantero;90;0;1;0;1
-Belgium;1;Belgium_Jugador_1;Portero;90;0;0;0;0
-Belgium;2;Belgium_Jugador_2;Defensa;180;0;1;0;0
-Belgium;3;Belgium_Jugador_3;Defensa;180;0;0;0;0
-Belgium;4;Belgium_Jugador_4;Defensa;180;0;0;0;0
-Belgium;5;Belgium_Jugador_5;Defensa;180;1;0;0;0
-Belgium;6;Belgium_Jugador_6;Defensa;90;0;0;0;0
-Belgium;7;Belgium_Jugador_7;Defensa;0;0;0;0;0
-Belgium;8;Belgium_Jugador_8;Defensa;0;0;0;0;0
-Belgium;9;Belgium_Jugador_9;Mediocampo;270;0;1;0;1
-Belgium;10;Belgium_Jugador_10;Mediocampo;90;1;0;0;0
-Belgium;11;Belgium_Jugador_11;Mediocampo;180;0;0;0;0
-Belgium;12;Belgium_Jugador_12;Mediocampo;90;0;0;0;0
-Belgium;13;Belgium_Jugador_13;Mediocampo;90;0;0;0;0
-Belgium;14;Belgium_Jugador_14;Mediocampo;90;0;0;0;0
-Belgium;15;Belgium_Jugador_15;Mediocampo;90;0;0;0;0
-Belgium;16;Belgium_Jugador_16;Mediocampo;270;0;0;0;1
-Belgium;17;Belgium_Jugador_17;Delantero;90;0;0;0;0
-Belgium;18;Belgium_Jugador_18;Delantero;180;0;0;0;1
-Belgium;19;Belgium_Jugador_19;Delantero;90;0;0;0;0
-Belgium;20;Belgium_Jugador_20;Delantero;90;0;0;0;0
-Belgium;21;Belgium_Jugador_21;Delantero;90;0;0;0;1
-Belgium;22;Belgium_Jugador_22;Delantero;180;0;0;0;0
-Belgium;23;Belgium_Jugador_23;Delantero;180;1;0;0;1
-Austria;1;Austria_Jugador_1;Portero;180;1;0;0;0
-Austria;2;Austria_Jugador_2;Defensa;180;0;0;0;0
-Austria;3;Austria_Jugador_3;Defensa;180;0;0;0;0
-Austria;4;Austria_Jugador_4;Defensa;90;0;0;0;0
-Austria;5;Austria_Jugador_5;Defensa;180;0;1;0;1
-Austria;6;Austria_Jugador_6;Defensa;90;0;0;0;0
-Austria;7;Austria_Jugador_7;Defensa;90;0;0;0;1
-Austria;8;Austria_Jugador_8;Defensa;270;0;0;0;1
-Austria;9;Austria_Jugador_9;Mediocampo;270;0;1;0;0
-Austria;10;Austria_Jugador_10;Mediocampo;180;3;0;0;0
-Austria;11;Austria_Jugador_11;Mediocampo;90;0;0;0;0
-Austria;12;Austria_Jugador_12;Mediocampo;0;0;0;0;0
-Austria;13;Austria_Jugador_13;Mediocampo;0;0;0;0;0
-Austria;14;Austria_Jugador_14;Mediocampo;0;0;0;0;0
-Austria;15;Austria_Jugador_15;Mediocampo;180;0;0;0;0
-Austria;16;Austria_Jugador_16;Mediocampo;90;0;0;0;0
-Austria;17;Austria_Jugador_17;Delantero;90;0;0;0;0
-Austria;18;Austria_Jugador_18;Delantero;90;0;0;0;0
-Austria;19;Austria_Jugador_19;Delantero;0;0;0;0;0
-Austria;20;Austria_Jugador_20;Delantero;180;0;0;0;0
-Austria;21;Austria_Jugador_21;Delantero;270;0;1;0;1
-Austria;22;Austria_Jugador_22;Delantero;90;0;0;0;0
-Austria;23;Austria_Jugador_23;Delantero;180;0;0;0;2
-Tunisia;1;Tunisia_Jugador_1;Portero;90;0;0;0;0
-Tunisia;2;Tunisia_Jugador_2;Defensa;90;0;0;0;0
-Tunisia;3;Tunisia_Jugador_3;Defensa;180;1;0;0;0
-Tunisia;4;Tunisia_Jugador_4;Defensa;270;0;0;0;1
-Tunisia;5;Tunisia_Jugador_5;Defensa;90;0;0;0;0
-Tunisia;6;Tunisia_Jugador_6;Defensa;0;0;0;0;0
-Tunisia;7;Tunisia_Jugador_7;Defensa;180;1;0;0;1
-Tunisia;8;Tunisia_Jugador_8;Defensa;270;0;0;0;1
-Tunisia;9;Tunisia_Jugador_9;Mediocampo;0;0;0;0;0
-Tunisia;10;Tunisia_Jugador_10;Mediocampo;90;0;0;0;0
-Tunisia;11;Tunisia_Jugador_11;Mediocampo;90;0;1;0;0
-Tunisia;12;Tunisia_Jugador_12;Mediocampo;90;0;0;0;0
-Tunisia;13;Tunisia_Jugador_13;Mediocampo;180;0;0;0;0
-Tunisia;14;Tunisia_Jugador_14;Mediocampo;180;1;0;0;2
-Tunisia;15;Tunisia_Jugador_15;Mediocampo;180;1;0;0;0
-Tunisia;16;Tunisia_Jugador_16;Mediocampo;180;0;0;0;0
-Tunisia;17;Tunisia_Jugador_17;Delantero;90;0;0;0;0
-Tunisia;18;Tunisia_Jugador_18;Delantero;90;0;0;0;0
-Tunisia;19;Tunisia_Jugador_19;Delantero;90;0;0;0;1
-Tunisia;20;Tunisia_Jugador_20;Delantero;180;0;0;0;1
-Tunisia;21;Tunisia_Jugador_21;Delantero;90;0;0;0;0
-Tunisia;22;Tunisia_Jugador_22;Delantero;180;0;0;0;0
-Tunisia;23;Tunisia_Jugador_23;Delantero;90;0;0;0;0
-DR Congo;1;DR Congo_Jugador_1;Portero;180;0;0;0;0
-DR Congo;2;DR Congo_Jugador_2;Defensa;270;0;0;0;0
-DR Congo;3;DR Congo_Jugador_3;Defensa;0;0;0;0;0
-DR Congo;4;DR Congo_Jugador_4;Defensa;180;0;0;0;2
-DR Congo;5;DR Congo_Jugador_5;Defensa;0;0;0;0;0
-DR Congo;6;DR Congo_Jugador_6;Defensa;90;1;0;0;1
-DR Congo;7;DR Congo_Jugador_7;Defensa;180;0;1;0;0
+Costa Rica;16;Costa Rica_Jugador_16;Mediocampo;180;0;0;0;1
+Costa Rica;17;Costa Rica_Jugador_17;Delantero;300;0;0;0;0
+Costa Rica;18;Costa Rica_Jugador_18;Delantero;90;0;0;0;1
+Costa Rica;19;Costa Rica_Jugador_19;Delantero;180;0;0;0;0
+Costa Rica;20;Costa Rica_Jugador_20;Delantero;300;0;0;0;1
+Costa Rica;21;Costa Rica_Jugador_21;Delantero;0;0;0;0;0
+Costa Rica;22;Costa Rica_Jugador_22;Delantero;180;0;0;0;0
+Costa Rica;23;Costa Rica_Jugador_23;Delantero;210;0;0;0;0
+France;1;France_Jugador_1;Portero;330;0;0;0;0
+France;2;France_Jugador_2;Defensa;630;0;1;0;1
+France;3;France_Jugador_3;Defensa;300;0;0;0;2
+France;4;France_Jugador_4;Defensa;540;2;0;0;2
+France;5;France_Jugador_5;Defensa;210;0;0;0;0
+France;6;France_Jugador_6;Defensa;450;0;0;0;2
+France;7;France_Jugador_7;Defensa;300;1;1;0;2
+France;8;France_Jugador_8;Defensa;300;0;0;0;0
+France;9;France_Jugador_9;Mediocampo;510;1;0;0;0
+France;10;France_Jugador_10;Mediocampo;240;1;1;0;1
+France;11;France_Jugador_11;Mediocampo;210;1;1;0;0
+France;12;France_Jugador_12;Mediocampo;300;0;1;0;0
+France;13;France_Jugador_13;Mediocampo;330;1;0;0;1
+France;14;France_Jugador_14;Mediocampo;510;1;2;0;1
+France;15;France_Jugador_15;Mediocampo;570;0;0;0;1
+France;16;France_Jugador_16;Mediocampo;450;1;0;0;0
+France;17;France_Jugador_17;Delantero;120;1;1;0;0
+France;18;France_Jugador_18;Delantero;660;0;0;0;1
+France;19;France_Jugador_19;Delantero;120;0;0;0;0
+France;20;France_Jugador_20;Delantero;0;0;0;0;0
+France;21;France_Jugador_21;Delantero;270;0;1;0;2
+France;22;France_Jugador_22;Delantero;330;1;0;0;0
+France;23;France_Jugador_23;Delantero;570;1;1;0;1
+Egypt;1;Egypt_Jugador_1;Portero;180;0;0;0;0
+Egypt;2;Egypt_Jugador_2;Defensa;180;0;0;0;0
+Egypt;3;Egypt_Jugador_3;Defensa;300;0;0;0;0
+Egypt;4;Egypt_Jugador_4;Defensa;390;1;1;0;0
+Egypt;5;Egypt_Jugador_5;Defensa;300;1;1;0;1
+Egypt;6;Egypt_Jugador_6;Defensa;90;0;0;0;1
+Egypt;7;Egypt_Jugador_7;Defensa;120;0;0;0;0
+Egypt;8;Egypt_Jugador_8;Defensa;210;0;0;0;0
+Egypt;9;Egypt_Jugador_9;Mediocampo;90;0;0;0;0
+Egypt;10;Egypt_Jugador_10;Mediocampo;210;0;0;0;0
+Egypt;11;Egypt_Jugador_11;Mediocampo;210;0;0;0;1
+Egypt;12;Egypt_Jugador_12;Mediocampo;300;3;0;0;0
+Egypt;13;Egypt_Jugador_13;Mediocampo;210;0;0;0;1
+Egypt;14;Egypt_Jugador_14;Mediocampo;180;0;0;0;0
+Egypt;15;Egypt_Jugador_15;Mediocampo;180;1;0;0;0
+Egypt;16;Egypt_Jugador_16;Mediocampo;90;0;0;0;0
+Egypt;17;Egypt_Jugador_17;Delantero;180;0;0;0;0
+Egypt;18;Egypt_Jugador_18;Delantero;0;0;0;0;0
+Egypt;19;Egypt_Jugador_19;Delantero;120;0;0;0;0
+Egypt;20;Egypt_Jugador_20;Delantero;270;0;1;0;0
+Egypt;21;Egypt_Jugador_21;Delantero;0;0;0;0;0
+Egypt;22;Egypt_Jugador_22;Delantero;90;0;0;0;0
+Egypt;23;Egypt_Jugador_23;Delantero;390;0;0;0;1
+Croatia;1;Croatia_Jugador_1;Portero;510;0;0;0;0
+Croatia;2;Croatia_Jugador_2;Defensa;180;0;1;0;1
+Croatia;3;Croatia_Jugador_3;Defensa;300;1;0;0;0
+Croatia;4;Croatia_Jugador_4;Defensa;420;1;0;0;0
+Croatia;5;Croatia_Jugador_5;Defensa;120;0;0;0;0
+Croatia;6;Croatia_Jugador_6;Defensa;210;2;0;0;0
+Croatia;7;Croatia_Jugador_7;Defensa;180;1;0;0;2
+Croatia;8;Croatia_Jugador_8;Defensa;330;0;0;0;1
+Croatia;9;Croatia_Jugador_9;Mediocampo;330;0;0;0;1
+Croatia;10;Croatia_Jugador_10;Mediocampo;330;1;0;0;1
+Croatia;11;Croatia_Jugador_11;Mediocampo;210;0;0;0;0
+Croatia;12;Croatia_Jugador_12;Mediocampo;420;1;0;0;2
+Croatia;13;Croatia_Jugador_13;Mediocampo;420;3;0;0;0
+Croatia;14;Croatia_Jugador_14;Mediocampo;450;0;0;0;0
+Croatia;15;Croatia_Jugador_15;Mediocampo;210;0;1;0;0
+Croatia;16;Croatia_Jugador_16;Mediocampo;300;0;0;0;0
+Croatia;17;Croatia_Jugador_17;Delantero;330;0;1;0;0
+Croatia;18;Croatia_Jugador_18;Delantero;420;0;0;0;0
+Croatia;19;Croatia_Jugador_19;Delantero;210;0;0;0;0
+Croatia;20;Croatia_Jugador_20;Delantero;420;2;2;0;2
+Croatia;21;Croatia_Jugador_21;Delantero;120;0;0;0;0
+Croatia;22;Croatia_Jugador_22;Delantero;300;0;1;0;1
+Croatia;23;Croatia_Jugador_23;Delantero;210;0;0;0;0
+Sweden;1;Sweden_Jugador_1;Portero;210;0;0;0;0
+Sweden;2;Sweden_Jugador_2;Defensa;180;0;0;0;0
+Sweden;3;Sweden_Jugador_3;Defensa;210;0;0;0;0
+Sweden;4;Sweden_Jugador_4;Defensa;210;0;0;0;0
+Sweden;5;Sweden_Jugador_5;Defensa;180;0;0;0;0
+Sweden;6;Sweden_Jugador_6;Defensa;210;0;0;0;0
+Sweden;7;Sweden_Jugador_7;Defensa;300;2;0;0;0
+Sweden;8;Sweden_Jugador_8;Defensa;300;0;1;0;1
+Sweden;9;Sweden_Jugador_9;Mediocampo;270;0;0;0;1
+Sweden;10;Sweden_Jugador_10;Mediocampo;180;1;0;0;0
+Sweden;11;Sweden_Jugador_11;Mediocampo;0;0;0;0;0
+Sweden;12;Sweden_Jugador_12;Mediocampo;0;0;0;0;0
+Sweden;13;Sweden_Jugador_13;Mediocampo;390;2;0;0;1
+Sweden;14;Sweden_Jugador_14;Mediocampo;390;0;0;0;0
+Sweden;15;Sweden_Jugador_15;Mediocampo;300;1;0;0;1
+Sweden;16;Sweden_Jugador_16;Mediocampo;90;0;0;0;0
+Sweden;17;Sweden_Jugador_17;Delantero;90;0;0;0;1
+Sweden;18;Sweden_Jugador_18;Delantero;180;0;0;0;0
+Sweden;19;Sweden_Jugador_19;Delantero;0;0;0;0;0
+Sweden;20;Sweden_Jugador_20;Delantero;120;0;0;0;0
+Sweden;21;Sweden_Jugador_21;Delantero;0;0;0;0;0
+Sweden;22;Sweden_Jugador_22;Delantero;180;0;0;0;1
+Sweden;23;Sweden_Jugador_23;Delantero;300;1;0;0;1
+Canada;1;Canada_Jugador_1;Portero;300;0;1;0;0
+Canada;2;Canada_Jugador_2;Defensa;90;0;0;0;0
+Canada;3;Canada_Jugador_3;Defensa;270;0;0;0;0
+Canada;4;Canada_Jugador_4;Defensa;0;0;0;0;0
+Canada;5;Canada_Jugador_5;Defensa;210;0;0;0;0
+Canada;6;Canada_Jugador_6;Defensa;180;2;0;0;0
+Canada;7;Canada_Jugador_7;Defensa;90;0;0;0;0
+Canada;8;Canada_Jugador_8;Defensa;210;0;0;0;0
+Canada;9;Canada_Jugador_9;Mediocampo;90;0;0;0;0
+Canada;10;Canada_Jugador_10;Mediocampo;120;0;0;0;0
+Canada;11;Canada_Jugador_11;Mediocampo;390;2;0;0;1
+Canada;12;Canada_Jugador_12;Mediocampo;90;0;0;0;0
+Canada;13;Canada_Jugador_13;Mediocampo;300;2;0;0;0
+Canada;14;Canada_Jugador_14;Mediocampo;210;0;0;0;0
+Canada;15;Canada_Jugador_15;Mediocampo;90;0;0;0;0
+Canada;16;Canada_Jugador_16;Mediocampo;390;0;0;0;0
+Canada;17;Canada_Jugador_17;Delantero;0;0;0;0;0
+Canada;18;Canada_Jugador_18;Delantero;90;0;0;0;0
+Canada;19;Canada_Jugador_19;Delantero;300;0;2;0;1
+Canada;20;Canada_Jugador_20;Delantero;90;0;0;0;0
+Canada;21;Canada_Jugador_21;Delantero;210;0;0;0;0
+Canada;22;Canada_Jugador_22;Delantero;180;1;0;0;0
+Canada;23;Canada_Jugador_23;Delantero;390;0;0;0;1
+Jordan;1;Jordan_Jugador_1;Portero;180;0;0;0;0
+Jordan;2;Jordan_Jugador_2;Defensa;420;0;0;0;0
+Jordan;3;Jordan_Jugador_3;Defensa;90;0;0;0;0
+Jordan;4;Jordan_Jugador_4;Defensa;300;0;0;0;1
+Jordan;5;Jordan_Jugador_5;Defensa;210;0;0;0;0
+Jordan;6;Jordan_Jugador_6;Defensa;90;0;1;0;0
+Jordan;7;Jordan_Jugador_7;Defensa;90;0;0;0;0
+Jordan;8;Jordan_Jugador_8;Defensa;390;1;0;0;1
+Jordan;9;Jordan_Jugador_9;Mediocampo;300;0;1;0;1
+Jordan;10;Jordan_Jugador_10;Mediocampo;210;0;0;0;1
+Jordan;11;Jordan_Jugador_11;Mediocampo;330;0;0;0;1
+Jordan;12;Jordan_Jugador_12;Mediocampo;300;0;0;0;0
+Jordan;13;Jordan_Jugador_13;Mediocampo;300;1;0;0;1
+Jordan;14;Jordan_Jugador_14;Mediocampo;330;1;0;0;2
+Jordan;15;Jordan_Jugador_15;Mediocampo;0;0;0;0;0
+Jordan;16;Jordan_Jugador_16;Mediocampo;330;0;0;0;0
+Jordan;17;Jordan_Jugador_17;Delantero;420;1;0;0;1
+Jordan;18;Jordan_Jugador_18;Delantero;210;1;0;0;0
+Jordan;19;Jordan_Jugador_19;Delantero;120;0;0;0;0
+Jordan;20;Jordan_Jugador_20;Delantero;300;1;0;0;1
+Jordan;21;Jordan_Jugador_21;Delantero;390;2;0;0;2
+Jordan;22;Jordan_Jugador_22;Delantero;180;0;0;0;1
+Jordan;23;Jordan_Jugador_23;Delantero;120;0;0;0;0
+Japan;1;Japan_Jugador_1;Portero;780;2;1;0;1
+Japan;2;Japan_Jugador_2;Defensa;300;0;0;0;1
+Japan;3;Japan_Jugador_3;Defensa;690;0;0;0;0
+Japan;4;Japan_Jugador_4;Defensa;180;0;0;0;0
+Japan;5;Japan_Jugador_5;Defensa;450;1;1;0;0
+Japan;6;Japan_Jugador_6;Defensa;210;0;0;0;0
+Japan;7;Japan_Jugador_7;Defensa;690;3;1;0;0
+Japan;8;Japan_Jugador_8;Defensa;420;2;0;0;1
+Japan;9;Japan_Jugador_9;Mediocampo;420;2;1;0;1
+Japan;10;Japan_Jugador_10;Mediocampo;360;0;0;0;0
+Japan;11;Japan_Jugador_11;Mediocampo;480;0;1;0;0
+Japan;12;Japan_Jugador_12;Mediocampo;630;2;0;0;1
+Japan;13;Japan_Jugador_13;Mediocampo;420;2;0;0;1
+Japan;14;Japan_Jugador_14;Mediocampo;540;3;2;0;1
+Japan;15;Japan_Jugador_15;Mediocampo;420;1;0;0;1
+Japan;16;Japan_Jugador_16;Mediocampo;780;2;0;0;1
+Japan;17;Japan_Jugador_17;Delantero;660;1;0;0;3
+Japan;18;Japan_Jugador_18;Delantero;630;2;1;0;0
+Japan;19;Japan_Jugador_19;Delantero;450;0;1;0;0
+Japan;20;Japan_Jugador_20;Delantero;360;0;0;0;0
+Japan;21;Japan_Jugador_21;Delantero;360;0;1;0;2
+Japan;22;Japan_Jugador_22;Delantero;330;1;1;0;1
+Japan;23;Japan_Jugador_23;Delantero;330;1;0;0;1
+Saudi Arabia;1;Saudi Arabia_Jugador_1;Portero;120;0;0;0;0
+Saudi Arabia;2;Saudi Arabia_Jugador_2;Defensa;390;0;1;0;1
+Saudi Arabia;3;Saudi Arabia_Jugador_3;Defensa;390;0;0;0;0
+Saudi Arabia;4;Saudi Arabia_Jugador_4;Defensa;120;0;0;0;0
+Saudi Arabia;5;Saudi Arabia_Jugador_5;Defensa;180;0;0;0;0
+Saudi Arabia;6;Saudi Arabia_Jugador_6;Defensa;390;0;1;0;0
+Saudi Arabia;7;Saudi Arabia_Jugador_7;Defensa;90;0;0;0;0
+Saudi Arabia;8;Saudi Arabia_Jugador_8;Defensa;210;0;0;0;1
+Saudi Arabia;9;Saudi Arabia_Jugador_9;Mediocampo;300;0;0;0;0
+Saudi Arabia;10;Saudi Arabia_Jugador_10;Mediocampo;210;2;0;0;1
+Saudi Arabia;11;Saudi Arabia_Jugador_11;Mediocampo;90;0;0;0;0
+Saudi Arabia;12;Saudi Arabia_Jugador_12;Mediocampo;90;0;0;0;0
+Saudi Arabia;13;Saudi Arabia_Jugador_13;Mediocampo;270;0;1;0;0
+Saudi Arabia;14;Saudi Arabia_Jugador_14;Mediocampo;90;0;0;0;0
+Saudi Arabia;15;Saudi Arabia_Jugador_15;Mediocampo;210;0;1;0;1
+Saudi Arabia;16;Saudi Arabia_Jugador_16;Mediocampo;90;0;0;0;0
+Saudi Arabia;17;Saudi Arabia_Jugador_17;Delantero;180;0;0;0;1
+Saudi Arabia;18;Saudi Arabia_Jugador_18;Delantero;300;0;1;0;1
+Saudi Arabia;19;Saudi Arabia_Jugador_19;Delantero;90;0;0;0;0
+Saudi Arabia;20;Saudi Arabia_Jugador_20;Delantero;180;0;0;0;0
+Saudi Arabia;21;Saudi Arabia_Jugador_21;Delantero;210;0;0;0;0
+Saudi Arabia;22;Saudi Arabia_Jugador_22;Delantero;0;0;0;0;0
+Saudi Arabia;23;Saudi Arabia_Jugador_23;Delantero;90;0;0;0;0
+Iran;1;Iran_Jugador_1;Portero;90;0;0;0;0
+Iran;2;Iran_Jugador_2;Defensa;90;0;0;0;1
+Iran;3;Iran_Jugador_3;Defensa;210;0;0;0;0
+Iran;4;Iran_Jugador_4;Defensa;210;0;0;0;0
+Iran;5;Iran_Jugador_5;Defensa;210;0;0;0;1
+Iran;6;Iran_Jugador_6;Defensa;180;0;0;0;0
+Iran;7;Iran_Jugador_7;Defensa;120;1;0;0;1
+Iran;8;Iran_Jugador_8;Defensa;90;0;0;0;1
+Iran;9;Iran_Jugador_9;Mediocampo;270;0;2;1;0
+Iran;10;Iran_Jugador_10;Mediocampo;300;1;1;0;0
+Iran;11;Iran_Jugador_11;Mediocampo;0;0;0;0;0
+Iran;12;Iran_Jugador_12;Mediocampo;210;0;0;0;1
+Iran;13;Iran_Jugador_13;Mediocampo;300;0;0;0;0
+Iran;14;Iran_Jugador_14;Mediocampo;180;0;0;0;0
+Iran;15;Iran_Jugador_15;Mediocampo;210;1;1;0;0
+Iran;16;Iran_Jugador_16;Mediocampo;90;0;0;0;0
+Iran;17;Iran_Jugador_17;Delantero;180;1;0;0;0
+Iran;18;Iran_Jugador_18;Delantero;210;2;0;0;0
+Iran;19;Iran_Jugador_19;Delantero;270;1;0;0;0
+Iran;20;Iran_Jugador_20;Delantero;300;2;0;0;1
+Iran;21;Iran_Jugador_21;Delantero;90;1;0;0;1
+Iran;22;Iran_Jugador_22;Delantero;180;0;0;0;0
+Iran;23;Iran_Jugador_23;Delantero;300;0;0;0;0
+Italy;1;Italy_Jugador_1;Portero;390;0;1;0;2
+Italy;2;Italy_Jugador_2;Defensa;330;2;0;0;1
+Italy;3;Italy_Jugador_3;Defensa;0;0;0;0;0
+Italy;4;Italy_Jugador_4;Defensa;210;1;1;0;0
+Italy;5;Italy_Jugador_5;Defensa;420;0;1;0;2
+Italy;6;Italy_Jugador_6;Defensa;180;1;0;0;0
+Italy;7;Italy_Jugador_7;Defensa;420;0;0;0;0
+Italy;8;Italy_Jugador_8;Defensa;120;0;0;0;0
+Italy;9;Italy_Jugador_9;Mediocampo;90;1;0;0;0
+Italy;10;Italy_Jugador_10;Mediocampo;180;0;0;0;0
+Italy;11;Italy_Jugador_11;Mediocampo;420;0;1;0;0
+Italy;12;Italy_Jugador_12;Mediocampo;210;1;0;0;0
+Italy;13;Italy_Jugador_13;Mediocampo;330;0;0;0;0
+Italy;14;Italy_Jugador_14;Mediocampo;90;0;0;0;1
+Italy;15;Italy_Jugador_15;Mediocampo;210;0;0;0;1
+Italy;16;Italy_Jugador_16;Mediocampo;210;0;0;0;0
+Italy;17;Italy_Jugador_17;Delantero;300;0;0;0;1
+Italy;18;Italy_Jugador_18;Delantero;90;0;0;0;0
+Italy;19;Italy_Jugador_19;Delantero;240;0;0;0;0
+Italy;20;Italy_Jugador_20;Delantero;180;0;0;0;0
+Italy;21;Italy_Jugador_21;Delantero;510;0;0;0;1
+Italy;22;Italy_Jugador_22;Delantero;300;0;0;0;2
+Italy;23;Italy_Jugador_23;Delantero;180;0;0;0;0
+Senegal;1;Senegal_Jugador_1;Portero;180;0;0;0;0
+Senegal;2;Senegal_Jugador_2;Defensa;270;0;0;0;0
+Senegal;3;Senegal_Jugador_3;Defensa;90;0;0;0;0
+Senegal;4;Senegal_Jugador_4;Defensa;300;1;0;0;2
+Senegal;5;Senegal_Jugador_5;Defensa;210;0;0;0;0
+Senegal;6;Senegal_Jugador_6;Defensa;300;0;0;0;0
+Senegal;7;Senegal_Jugador_7;Defensa;390;2;1;0;2
+Senegal;8;Senegal_Jugador_8;Defensa;120;0;0;0;0
+Senegal;9;Senegal_Jugador_9;Mediocampo;180;0;0;0;1
+Senegal;10;Senegal_Jugador_10;Mediocampo;300;0;0;0;1
+Senegal;11;Senegal_Jugador_11;Mediocampo;180;0;0;0;1
+Senegal;12;Senegal_Jugador_12;Mediocampo;90;0;0;0;0
+Senegal;13;Senegal_Jugador_13;Mediocampo;180;0;1;0;0
+Senegal;14;Senegal_Jugador_14;Mediocampo;120;0;0;0;1
+Senegal;15;Senegal_Jugador_15;Mediocampo;210;0;0;0;1
+Senegal;16;Senegal_Jugador_16;Mediocampo;180;1;0;0;0
+Senegal;17;Senegal_Jugador_17;Delantero;90;0;0;0;0
+Senegal;18;Senegal_Jugador_18;Delantero;90;1;0;0;0
+Senegal;19;Senegal_Jugador_19;Delantero;120;0;0;0;0
+Senegal;20;Senegal_Jugador_20;Delantero;210;1;0;0;1
+Senegal;21;Senegal_Jugador_21;Delantero;90;0;0;0;1
+Senegal;22;Senegal_Jugador_22;Delantero;90;1;0;0;0
+Senegal;23;Senegal_Jugador_23;Delantero;300;1;1;0;0
+Belgium;1;Belgium_Jugador_1;Portero;210;2;0;0;1
+Belgium;2;Belgium_Jugador_2;Defensa;540;1;0;0;0
+Belgium;3;Belgium_Jugador_3;Defensa;300;0;1;0;1
+Belgium;4;Belgium_Jugador_4;Defensa;420;0;0;0;0
+Belgium;5;Belgium_Jugador_5;Defensa;120;1;0;0;1
+Belgium;6;Belgium_Jugador_6;Defensa;210;0;0;0;0
+Belgium;7;Belgium_Jugador_7;Defensa;300;1;0;0;1
+Belgium;8;Belgium_Jugador_8;Defensa;300;0;0;0;1
+Belgium;9;Belgium_Jugador_9;Mediocampo;210;0;0;0;0
+Belgium;10;Belgium_Jugador_10;Mediocampo;420;1;0;0;0
+Belgium;11;Belgium_Jugador_11;Mediocampo;330;1;0;0;0
+Belgium;12;Belgium_Jugador_12;Mediocampo;420;3;1;0;2
+Belgium;13;Belgium_Jugador_13;Mediocampo;120;0;0;0;1
+Belgium;14;Belgium_Jugador_14;Mediocampo;210;0;0;0;0
+Belgium;15;Belgium_Jugador_15;Mediocampo;390;0;0;0;1
+Belgium;16;Belgium_Jugador_16;Mediocampo;450;0;2;0;1
+Belgium;17;Belgium_Jugador_17;Delantero;390;1;0;0;0
+Belgium;18;Belgium_Jugador_18;Delantero;210;0;0;0;0
+Belgium;19;Belgium_Jugador_19;Delantero;210;0;0;0;0
+Belgium;20;Belgium_Jugador_20;Delantero;330;0;0;0;1
+Belgium;21;Belgium_Jugador_21;Delantero;300;0;1;0;0
+Belgium;22;Belgium_Jugador_22;Delantero;330;0;0;0;0
+Belgium;23;Belgium_Jugador_23;Delantero;210;0;1;0;0
+Denmark;1;Denmark_Jugador_1;Portero;0;0;0;0;0
+Denmark;2;Denmark_Jugador_2;Defensa;180;1;0;0;0
+Denmark;3;Denmark_Jugador_3;Defensa;180;0;0;0;0
+Denmark;4;Denmark_Jugador_4;Defensa;180;0;0;0;0
+Denmark;5;Denmark_Jugador_5;Defensa;180;0;0;0;0
+Denmark;6;Denmark_Jugador_6;Defensa;180;0;1;0;0
+Denmark;7;Denmark_Jugador_7;Defensa;90;0;0;0;0
+Denmark;8;Denmark_Jugador_8;Defensa;90;1;0;0;1
+Denmark;9;Denmark_Jugador_9;Mediocampo;210;0;0;0;0
+Denmark;10;Denmark_Jugador_10;Mediocampo;120;0;0;0;0
+Denmark;11;Denmark_Jugador_11;Mediocampo;90;0;0;0;0
+Denmark;12;Denmark_Jugador_12;Mediocampo;180;1;0;0;0
+Denmark;13;Denmark_Jugador_13;Mediocampo;390;0;0;0;0
+Denmark;14;Denmark_Jugador_14;Mediocampo;90;0;0;0;0
+Denmark;15;Denmark_Jugador_15;Mediocampo;300;0;0;0;3
+Denmark;16;Denmark_Jugador_16;Mediocampo;210;0;0;0;0
+Denmark;17;Denmark_Jugador_17;Delantero;210;1;0;0;0
+Denmark;18;Denmark_Jugador_18;Delantero;300;0;1;0;1
+Denmark;19;Denmark_Jugador_19;Delantero;210;2;0;0;0
+Denmark;20;Denmark_Jugador_20;Delantero;300;1;0;0;1
+Denmark;21;Denmark_Jugador_21;Delantero;210;0;0;0;0
+Denmark;22;Denmark_Jugador_22;Delantero;210;1;0;0;0
+Denmark;23;Denmark_Jugador_23;Delantero;180;0;0;0;1
+United States;1;United States_Jugador_1;Portero;300;0;1;0;0
+United States;2;United States_Jugador_2;Defensa;300;2;1;0;0
+United States;3;United States_Jugador_3;Defensa;420;2;0;0;0
+United States;4;United States_Jugador_4;Defensa;90;0;0;0;0
+United States;5;United States_Jugador_5;Defensa;300;0;0;0;1
+United States;6;United States_Jugador_6;Defensa;180;0;0;0;0
+United States;7;United States_Jugador_7;Defensa;0;0;0;0;0
+United States;8;United States_Jugador_8;Defensa;420;1;1;0;0
+United States;9;United States_Jugador_9;Mediocampo;180;0;0;0;1
+United States;10;United States_Jugador_10;Mediocampo;90;1;0;0;1
+United States;11;United States_Jugador_11;Mediocampo;240;0;0;0;1
+United States;12;United States_Jugador_12;Mediocampo;180;0;0;0;0
+United States;13;United States_Jugador_13;Mediocampo;120;0;0;0;0
+United States;14;United States_Jugador_14;Mediocampo;210;0;0;0;0
+United States;15;United States_Jugador_15;Mediocampo;210;0;0;0;1
+United States;16;United States_Jugador_16;Mediocampo;210;0;0;0;0
+United States;17;United States_Jugador_17;Delantero;210;0;0;0;0
+United States;18;United States_Jugador_18;Delantero;300;0;0;0;0
+United States;19;United States_Jugador_19;Delantero;330;0;0;0;0
+United States;20;United States_Jugador_20;Delantero;420;1;0;0;0
+United States;21;United States_Jugador_21;Delantero;300;0;0;0;0
+United States;22;United States_Jugador_22;Delantero;210;0;0;0;1
+United States;23;United States_Jugador_23;Delantero;390;0;0;0;0
+Tunisia;1;Tunisia_Jugador_1;Portero;330;1;0;0;0
+Tunisia;2;Tunisia_Jugador_2;Defensa;120;0;0;0;0
+Tunisia;3;Tunisia_Jugador_3;Defensa;120;0;0;0;0
+Tunisia;4;Tunisia_Jugador_4;Defensa;450;1;0;0;0
+Tunisia;5;Tunisia_Jugador_5;Defensa;420;0;1;0;2
+Tunisia;6;Tunisia_Jugador_6;Defensa;300;0;0;0;1
+Tunisia;7;Tunisia_Jugador_7;Defensa;330;1;0;0;0
+Tunisia;8;Tunisia_Jugador_8;Defensa;0;0;0;0;0
+Tunisia;9;Tunisia_Jugador_9;Mediocampo;420;1;0;0;2
+Tunisia;10;Tunisia_Jugador_10;Mediocampo;630;1;0;0;0
+Tunisia;11;Tunisia_Jugador_11;Mediocampo;420;1;0;0;0
+Tunisia;12;Tunisia_Jugador_12;Mediocampo;540;2;0;0;0
+Tunisia;13;Tunisia_Jugador_13;Mediocampo;120;0;0;0;0
+Tunisia;14;Tunisia_Jugador_14;Mediocampo;660;2;0;0;3
+Tunisia;15;Tunisia_Jugador_15;Mediocampo;330;0;0;0;1
+Tunisia;16;Tunisia_Jugador_16;Mediocampo;390;1;0;0;0
+Tunisia;17;Tunisia_Jugador_17;Delantero;450;0;0;0;1
+Tunisia;18;Tunisia_Jugador_18;Delantero;330;1;2;0;0
+Tunisia;19;Tunisia_Jugador_19;Delantero;240;0;0;0;0
+Tunisia;20;Tunisia_Jugador_20;Delantero;540;0;1;0;0
+Tunisia;21;Tunisia_Jugador_21;Delantero;390;0;1;0;0
+Tunisia;22;Tunisia_Jugador_22;Delantero;210;1;0;0;0
+Tunisia;23;Tunisia_Jugador_23;Delantero;510;2;1;0;2
+New Zealand;1;New Zealand_Jugador_1;Portero;270;1;0;0;0
+New Zealand;2;New Zealand_Jugador_2;Defensa;120;0;0;0;0
+New Zealand;3;New Zealand_Jugador_3;Defensa;300;1;1;0;2
+New Zealand;4;New Zealand_Jugador_4;Defensa;90;0;0;0;0
+New Zealand;5;New Zealand_Jugador_5;Defensa;90;0;0;0;0
+New Zealand;6;New Zealand_Jugador_6;Defensa;210;0;0;0;0
+New Zealand;7;New Zealand_Jugador_7;Defensa;90;0;0;0;0
+New Zealand;8;New Zealand_Jugador_8;Defensa;390;0;0;0;0
+New Zealand;9;New Zealand_Jugador_9;Mediocampo;210;1;1;0;1
+New Zealand;10;New Zealand_Jugador_10;Mediocampo;210;0;0;0;1
+New Zealand;11;New Zealand_Jugador_11;Mediocampo;120;0;0;0;0
+New Zealand;12;New Zealand_Jugador_12;Mediocampo;390;0;0;0;2
+New Zealand;13;New Zealand_Jugador_13;Mediocampo;180;0;0;0;0
+New Zealand;14;New Zealand_Jugador_14;Mediocampo;120;0;0;0;0
+New Zealand;15;New Zealand_Jugador_15;Mediocampo;90;0;0;0;0
+New Zealand;16;New Zealand_Jugador_16;Mediocampo;90;0;0;0;0
+New Zealand;17;New Zealand_Jugador_17;Delantero;180;0;1;0;0
+New Zealand;18;New Zealand_Jugador_18;Delantero;90;0;0;0;0
+New Zealand;19;New Zealand_Jugador_19;Delantero;90;0;0;0;0
+New Zealand;20;New Zealand_Jugador_20;Delantero;210;1;0;0;0
+New Zealand;21;New Zealand_Jugador_21;Delantero;180;0;0;0;1
+New Zealand;22;New Zealand_Jugador_22;Delantero;390;0;0;0;0
+New Zealand;23;New Zealand_Jugador_23;Delantero;180;1;0;0;0
+Germany;1;Germany_Jugador_1;Portero;300;0;0;0;0
+Germany;2;Germany_Jugador_2;Defensa;330;0;0;0;0
+Germany;3;Germany_Jugador_3;Defensa;210;0;0;0;0
+Germany;4;Germany_Jugador_4;Defensa;420;1;1;0;2
+Germany;5;Germany_Jugador_5;Defensa;210;0;0;0;1
+Germany;6;Germany_Jugador_6;Defensa;210;1;1;0;0
+Germany;7;Germany_Jugador_7;Defensa;210;0;0;0;0
+Germany;8;Germany_Jugador_8;Defensa;180;1;0;0;1
+Germany;9;Germany_Jugador_9;Mediocampo;330;1;0;0;1
+Germany;10;Germany_Jugador_10;Mediocampo;210;0;0;0;0
+Germany;11;Germany_Jugador_11;Mediocampo;330;0;0;0;1
+Germany;12;Germany_Jugador_12;Mediocampo;300;0;0;0;1
+Germany;13;Germany_Jugador_13;Mediocampo;90;0;0;0;0
+Germany;14;Germany_Jugador_14;Mediocampo;300;1;0;0;0
+Germany;15;Germany_Jugador_15;Mediocampo;300;1;0;0;0
+Germany;16;Germany_Jugador_16;Mediocampo;90;0;1;0;1
+Germany;17;Germany_Jugador_17;Delantero;0;0;0;0;0
+Germany;18;Germany_Jugador_18;Delantero;180;0;0;0;1
+Germany;19;Germany_Jugador_19;Delantero;300;0;0;0;1
+Germany;20;Germany_Jugador_20;Delantero;420;0;0;0;2
+Germany;21;Germany_Jugador_21;Delantero;90;0;0;0;0
+Germany;22;Germany_Jugador_22;Delantero;300;0;0;0;1
+Germany;23;Germany_Jugador_23;Delantero;300;0;0;0;0
+Netherlands;1;Netherlands_Jugador_1;Portero;120;0;0;0;0
+Netherlands;2;Netherlands_Jugador_2;Defensa;180;0;0;0;0
+Netherlands;3;Netherlands_Jugador_3;Defensa;120;0;0;0;0
+Netherlands;4;Netherlands_Jugador_4;Defensa;300;0;1;0;0
+Netherlands;5;Netherlands_Jugador_5;Defensa;300;0;0;0;1
+Netherlands;6;Netherlands_Jugador_6;Defensa;180;0;0;0;0
+Netherlands;7;Netherlands_Jugador_7;Defensa;0;0;0;0;0
+Netherlands;8;Netherlands_Jugador_8;Defensa;270;0;0;0;0
+Netherlands;9;Netherlands_Jugador_9;Mediocampo;270;0;0;0;0
+Netherlands;10;Netherlands_Jugador_10;Mediocampo;90;1;0;0;0
+Netherlands;11;Netherlands_Jugador_11;Mediocampo;210;0;2;1;2
+Netherlands;12;Netherlands_Jugador_12;Mediocampo;210;0;0;0;0
+Netherlands;13;Netherlands_Jugador_13;Mediocampo;180;0;0;0;1
+Netherlands;14;Netherlands_Jugador_14;Mediocampo;300;2;1;0;2
+Netherlands;15;Netherlands_Jugador_15;Mediocampo;90;0;0;0;0
+Netherlands;16;Netherlands_Jugador_16;Mediocampo;300;0;0;0;0
+Netherlands;17;Netherlands_Jugador_17;Delantero;270;1;0;0;1
+Netherlands;18;Netherlands_Jugador_18;Delantero;90;0;0;0;0
+Netherlands;19;Netherlands_Jugador_19;Delantero;120;0;0;0;0
+Netherlands;20;Netherlands_Jugador_20;Delantero;210;0;0;0;0
+Netherlands;21;Netherlands_Jugador_21;Delantero;90;0;0;0;0
+Netherlands;22;Netherlands_Jugador_22;Delantero;180;1;0;0;0
+Netherlands;23;Netherlands_Jugador_23;Delantero;210;0;0;0;0
+Qatar;1;Qatar_Jugador_1;Portero;330;1;0;0;1
+Qatar;2;Qatar_Jugador_2;Defensa;360;0;0;0;1
+Qatar;3;Qatar_Jugador_3;Defensa;330;1;0;0;1
+Qatar;4;Qatar_Jugador_4;Defensa;420;0;0;0;0
+Qatar;5;Qatar_Jugador_5;Defensa;120;0;0;0;0
+Qatar;6;Qatar_Jugador_6;Defensa;390;0;0;0;0
+Qatar;7;Qatar_Jugador_7;Defensa;330;0;2;0;0
+Qatar;8;Qatar_Jugador_8;Defensa;180;3;0;0;0
+Qatar;9;Qatar_Jugador_9;Mediocampo;390;0;0;0;1
+Qatar;10;Qatar_Jugador_10;Mediocampo;120;0;0;0;0
+Qatar;11;Qatar_Jugador_11;Mediocampo;90;0;1;0;0
+Qatar;12;Qatar_Jugador_12;Mediocampo;330;1;0;0;0
+Qatar;13;Qatar_Jugador_13;Mediocampo;180;0;0;0;0
+Qatar;14;Qatar_Jugador_14;Mediocampo;390;1;1;0;0
+Qatar;15;Qatar_Jugador_15;Mediocampo;210;1;0;0;0
+Qatar;16;Qatar_Jugador_16;Mediocampo;330;0;1;0;2
+Qatar;17;Qatar_Jugador_17;Delantero;450;0;0;0;1
+Qatar;18;Qatar_Jugador_18;Delantero;300;2;0;0;1
+Qatar;19;Qatar_Jugador_19;Delantero;390;1;0;0;0
+Qatar;20;Qatar_Jugador_20;Delantero;540;3;0;0;0
+Qatar;21;Qatar_Jugador_21;Delantero;210;0;0;0;0
+Qatar;22;Qatar_Jugador_22;Delantero;300;0;1;0;0
+Qatar;23;Qatar_Jugador_23;Delantero;240;1;0;0;0
+Scotland;1;Scotland_Jugador_1;Portero;0;0;0;0;0
+Scotland;2;Scotland_Jugador_2;Defensa;210;0;0;0;0
+Scotland;3;Scotland_Jugador_3;Defensa;300;0;0;0;0
+Scotland;4;Scotland_Jugador_4;Defensa;300;0;0;0;1
+Scotland;5;Scotland_Jugador_5;Defensa;90;0;0;0;1
+Scotland;6;Scotland_Jugador_6;Defensa;300;0;0;0;0
+Scotland;7;Scotland_Jugador_7;Defensa;390;3;0;0;0
+Scotland;8;Scotland_Jugador_8;Defensa;300;1;0;0;0
+Scotland;9;Scotland_Jugador_9;Mediocampo;300;0;0;0;3
+Scotland;10;Scotland_Jugador_10;Mediocampo;90;0;0;0;0
+Scotland;11;Scotland_Jugador_11;Mediocampo;300;0;0;0;0
+Scotland;12;Scotland_Jugador_12;Mediocampo;270;0;0;0;0
+Scotland;13;Scotland_Jugador_13;Mediocampo;90;0;0;0;0
+Scotland;14;Scotland_Jugador_14;Mediocampo;210;0;0;0;1
+Scotland;15;Scotland_Jugador_15;Mediocampo;180;1;0;0;0
+Scotland;16;Scotland_Jugador_16;Mediocampo;0;0;0;0;0
+Scotland;17;Scotland_Jugador_17;Delantero;0;0;0;0;0
+Scotland;18;Scotland_Jugador_18;Delantero;90;0;0;0;0
+Scotland;19;Scotland_Jugador_19;Delantero;90;0;0;0;0
+Scotland;20;Scotland_Jugador_20;Delantero;300;0;1;0;0
+Scotland;21;Scotland_Jugador_21;Delantero;300;0;0;0;0
+Scotland;22;Scotland_Jugador_22;Delantero;90;0;0;0;0
+Scotland;23;Scotland_Jugador_23;Delantero;90;0;0;0;0
+Morocco;1;Morocco_Jugador_1;Portero;390;1;1;0;1
+Morocco;2;Morocco_Jugador_2;Defensa;210;1;0;0;0
+Morocco;3;Morocco_Jugador_3;Defensa;300;1;0;0;0
+Morocco;4;Morocco_Jugador_4;Defensa;210;1;3;1;0
+Morocco;5;Morocco_Jugador_5;Defensa;300;1;0;0;1
+Morocco;6;Morocco_Jugador_6;Defensa;240;0;0;0;0
+Morocco;7;Morocco_Jugador_7;Defensa;300;0;0;0;1
+Morocco;8;Morocco_Jugador_8;Defensa;300;1;1;0;1
+Morocco;9;Morocco_Jugador_9;Mediocampo;180;1;0;0;0
+Morocco;10;Morocco_Jugador_10;Mediocampo;120;0;0;0;0
+Morocco;11;Morocco_Jugador_11;Mediocampo;420;0;0;0;0
+Morocco;12;Morocco_Jugador_12;Mediocampo;210;0;0;0;0
+Morocco;13;Morocco_Jugador_13;Mediocampo;210;0;0;0;1
+Morocco;14;Morocco_Jugador_14;Mediocampo;420;0;0;0;0
+Morocco;15;Morocco_Jugador_15;Mediocampo;210;0;0;0;0
+Morocco;16;Morocco_Jugador_16;Mediocampo;240;0;0;0;0
+Morocco;17;Morocco_Jugador_17;Delantero;90;0;0;0;0
+Morocco;18;Morocco_Jugador_18;Delantero;300;0;0;0;0
+Morocco;19;Morocco_Jugador_19;Delantero;270;1;0;0;0
+Morocco;20;Morocco_Jugador_20;Delantero;210;1;0;0;0
+Morocco;21;Morocco_Jugador_21;Delantero;90;1;0;0;0
+Morocco;22;Morocco_Jugador_22;Delantero;300;0;0;0;0
+Morocco;23;Morocco_Jugador_23;Delantero;90;0;0;0;0
+DR Congo;1;DR Congo_Jugador_1;Portero;0;0;0;0;0
+DR Congo;2;DR Congo_Jugador_2;Defensa;180;0;0;0;0
+DR Congo;3;DR Congo_Jugador_3;Defensa;270;1;0;0;1
+DR Congo;4;DR Congo_Jugador_4;Defensa;270;0;0;0;0
+DR Congo;5;DR Congo_Jugador_5;Defensa;210;0;0;0;0
+DR Congo;6;DR Congo_Jugador_6;Defensa;300;0;0;0;3
+DR Congo;7;DR Congo_Jugador_7;Defensa;0;0;0;0;0
 DR Congo;8;DR Congo_Jugador_8;Defensa;90;0;0;0;0
 DR Congo;9;DR Congo_Jugador_9;Mediocampo;180;0;0;0;0
-DR Congo;10;DR Congo_Jugador_10;Mediocampo;90;0;0;0;1
+DR Congo;10;DR Congo_Jugador_10;Mediocampo;300;0;0;0;0
 DR Congo;11;DR Congo_Jugador_11;Mediocampo;90;0;0;0;0
 DR Congo;12;DR Congo_Jugador_12;Mediocampo;90;0;0;0;0
-DR Congo;13;DR Congo_Jugador_13;Mediocampo;180;0;0;0;0
-DR Congo;14;DR Congo_Jugador_14;Mediocampo;90;0;0;0;0
+DR Congo;13;DR Congo_Jugador_13;Mediocampo;300;0;0;0;1
+DR Congo;14;DR Congo_Jugador_14;Mediocampo;120;0;1;0;1
 DR Congo;15;DR Congo_Jugador_15;Mediocampo;90;0;0;0;0
 DR Congo;16;DR Congo_Jugador_16;Mediocampo;90;0;0;0;0
 DR Congo;17;DR Congo_Jugador_17;Delantero;90;0;1;0;0
-DR Congo;18;DR Congo_Jugador_18;Delantero;90;0;0;0;1
-DR Congo;19;DR Congo_Jugador_19;Delantero;90;0;0;0;0
-DR Congo;20;DR Congo_Jugador_20;Delantero;90;0;0;0;0
-DR Congo;21;DR Congo_Jugador_21;Delantero;180;0;0;0;0
-DR Congo;22;DR Congo_Jugador_22;Delantero;270;0;0;0;0
-DR Congo;23;DR Congo_Jugador_23;Delantero;270;0;0;0;0
-Germany;1;Germany_Jugador_1;Portero;90;0;0;0;1
-Germany;2;Germany_Jugador_2;Defensa;180;0;0;0;0
-Germany;3;Germany_Jugador_3;Defensa;0;0;0;0;0
-Germany;4;Germany_Jugador_4;Defensa;180;0;0;0;1
-Germany;5;Germany_Jugador_5;Defensa;90;0;0;0;0
-Germany;6;Germany_Jugador_6;Defensa;270;0;0;0;1
-Germany;7;Germany_Jugador_7;Defensa;180;0;0;0;0
-Germany;8;Germany_Jugador_8;Defensa;0;0;0;0;0
-Germany;9;Germany_Jugador_9;Mediocampo;90;1;1;0;0
-Germany;10;Germany_Jugador_10;Mediocampo;90;0;0;0;0
-Germany;11;Germany_Jugador_11;Mediocampo;90;0;0;0;0
-Germany;12;Germany_Jugador_12;Mediocampo;90;0;0;0;1
-Germany;13;Germany_Jugador_13;Mediocampo;270;0;0;0;0
-Germany;14;Germany_Jugador_14;Mediocampo;180;0;0;0;1
-Germany;15;Germany_Jugador_15;Mediocampo;90;0;0;0;1
-Germany;16;Germany_Jugador_16;Mediocampo;180;0;0;0;0
-Germany;17;Germany_Jugador_17;Delantero;0;0;0;0;0
-Germany;18;Germany_Jugador_18;Delantero;180;0;0;0;0
-Germany;19;Germany_Jugador_19;Delantero;90;0;0;0;0
-Germany;20;Germany_Jugador_20;Delantero;180;0;0;0;0
-Germany;21;Germany_Jugador_21;Delantero;180;1;0;0;1
-Germany;22;Germany_Jugador_22;Delantero;90;1;0;0;1
-Germany;23;Germany_Jugador_23;Delantero;180;1;0;0;0
-Korea Republic;1;Korea Republic_Jugador_1;Portero;90;0;0;0;0
-Korea Republic;2;Korea Republic_Jugador_2;Defensa;0;0;0;0;0
-Korea Republic;3;Korea Republic_Jugador_3;Defensa;180;2;0;0;0
-Korea Republic;4;Korea Republic_Jugador_4;Defensa;270;0;1;0;0
-Korea Republic;5;Korea Republic_Jugador_5;Defensa;180;0;0;0;1
-Korea Republic;6;Korea Republic_Jugador_6;Defensa;180;0;0;0;0
-Korea Republic;7;Korea Republic_Jugador_7;Defensa;180;0;0;0;0
-Korea Republic;8;Korea Republic_Jugador_8;Defensa;90;0;1;0;0
-Korea Republic;9;Korea Republic_Jugador_9;Mediocampo;90;1;0;0;0
-Korea Republic;10;Korea Republic_Jugador_10;Mediocampo;180;0;0;0;0
-Korea Republic;11;Korea Republic_Jugador_11;Mediocampo;90;0;0;0;0
-Korea Republic;12;Korea Republic_Jugador_12;Mediocampo;180;0;0;0;1
-Korea Republic;13;Korea Republic_Jugador_13;Mediocampo;180;0;0;0;0
-Korea Republic;14;Korea Republic_Jugador_14;Mediocampo;0;0;0;0;0
-Korea Republic;15;Korea Republic_Jugador_15;Mediocampo;180;0;0;0;0
-Korea Republic;16;Korea Republic_Jugador_16;Mediocampo;0;0;0;0;0
-Korea Republic;17;Korea Republic_Jugador_17;Delantero;270;0;0;0;0
-Korea Republic;18;Korea Republic_Jugador_18;Delantero;180;1;0;0;1
-Korea Republic;19;Korea Republic_Jugador_19;Delantero;90;0;0;0;0
-Korea Republic;20;Korea Republic_Jugador_20;Delantero;0;0;0;0;0
-Korea Republic;21;Korea Republic_Jugador_21;Delantero;180;0;0;0;0
-Korea Republic;22;Korea Republic_Jugador_22;Delantero;90;0;0;0;0
-Korea Republic;23;Korea Republic_Jugador_23;Delantero;90;0;0;0;0
-Czech Republic;1;Czech Republic_Jugador_1;Portero;90;0;0;0;0
-Czech Republic;2;Czech Republic_Jugador_2;Defensa;270;1;1;0;0
-Czech Republic;3;Czech Republic_Jugador_3;Defensa;0;0;0;0;0
-Czech Republic;4;Czech Republic_Jugador_4;Defensa;180;0;0;0;1
-Czech Republic;5;Czech Republic_Jugador_5;Defensa;180;0;0;0;1
-Czech Republic;6;Czech Republic_Jugador_6;Defensa;180;0;0;0;0
-Czech Republic;7;Czech Republic_Jugador_7;Defensa;90;0;0;0;0
-Czech Republic;8;Czech Republic_Jugador_8;Defensa;90;1;0;0;0
-Czech Republic;9;Czech Republic_Jugador_9;Mediocampo;270;1;0;0;1
-Czech Republic;10;Czech Republic_Jugador_10;Mediocampo;90;0;0;0;1
-Czech Republic;11;Czech Republic_Jugador_11;Mediocampo;0;0;0;0;0
-Czech Republic;12;Czech Republic_Jugador_12;Mediocampo;0;0;0;0;0
-Czech Republic;13;Czech Republic_Jugador_13;Mediocampo;90;0;0;0;0
-Czech Republic;14;Czech Republic_Jugador_14;Mediocampo;270;0;0;0;0
-Czech Republic;15;Czech Republic_Jugador_15;Mediocampo;0;0;0;0;0
-Czech Republic;16;Czech Republic_Jugador_16;Mediocampo;270;0;0;0;1
-Czech Republic;17;Czech Republic_Jugador_17;Delantero;270;1;0;0;1
-Czech Republic;18;Czech Republic_Jugador_18;Delantero;180;1;0;0;0
-Czech Republic;19;Czech Republic_Jugador_19;Delantero;0;0;0;0;0
-Czech Republic;20;Czech Republic_Jugador_20;Delantero;90;0;0;0;0
-Czech Republic;21;Czech Republic_Jugador_21;Delantero;90;0;0;0;0
-Czech Republic;22;Czech Republic_Jugador_22;Delantero;180;0;0;0;1
-Czech Republic;23;Czech Republic_Jugador_23;Delantero;90;0;0;0;0
-Haiti;1;Haiti_Jugador_1;Portero;90;0;0;0;0
-Haiti;2;Haiti_Jugador_2;Defensa;90;0;1;0;1
-Haiti;3;Haiti_Jugador_3;Defensa;90;1;1;0;1
-Haiti;4;Haiti_Jugador_4;Defensa;180;0;1;0;0
-Haiti;5;Haiti_Jugador_5;Defensa;180;0;0;0;0
-Haiti;6;Haiti_Jugador_6;Defensa;180;0;0;0;1
-Haiti;7;Haiti_Jugador_7;Defensa;0;0;0;0;0
-Haiti;8;Haiti_Jugador_8;Defensa;180;1;0;0;0
-Haiti;9;Haiti_Jugador_9;Mediocampo;90;0;0;0;0
-Haiti;10;Haiti_Jugador_10;Mediocampo;0;0;0;0;0
-Haiti;11;Haiti_Jugador_11;Mediocampo;0;0;0;0;0
-Haiti;12;Haiti_Jugador_12;Mediocampo;270;1;0;0;1
-Haiti;13;Haiti_Jugador_13;Mediocampo;90;0;0;0;0
-Haiti;14;Haiti_Jugador_14;Mediocampo;90;0;0;0;0
-Haiti;15;Haiti_Jugador_15;Mediocampo;180;0;0;0;0
-Haiti;16;Haiti_Jugador_16;Mediocampo;270;1;0;0;1
-Haiti;17;Haiti_Jugador_17;Delantero;180;0;0;0;0
-Haiti;18;Haiti_Jugador_18;Delantero;180;0;0;0;0
-Haiti;19;Haiti_Jugador_19;Delantero;180;0;0;0;1
-Haiti;20;Haiti_Jugador_20;Delantero;180;0;0;0;1
-Haiti;21;Haiti_Jugador_21;Delantero;90;0;0;0;0
-Haiti;22;Haiti_Jugador_22;Delantero;90;0;0;0;0
-Haiti;23;Haiti_Jugador_23;Delantero;90;0;0;0;0
-Italy;1;Italy_Jugador_1;Portero;90;0;0;0;1
-Italy;2;Italy_Jugador_2;Defensa;180;0;0;0;0
-Italy;3;Italy_Jugador_3;Defensa;180;0;0;0;0
-Italy;4;Italy_Jugador_4;Defensa;270;0;1;0;1
-Italy;5;Italy_Jugador_5;Defensa;270;1;0;0;0
-Italy;6;Italy_Jugador_6;Defensa;180;0;0;0;0
-Italy;7;Italy_Jugador_7;Defensa;180;1;0;0;0
-Italy;8;Italy_Jugador_8;Defensa;180;0;0;0;0
-Italy;9;Italy_Jugador_9;Mediocampo;180;0;0;0;0
-Italy;10;Italy_Jugador_10;Mediocampo;180;0;0;0;0
-Italy;11;Italy_Jugador_11;Mediocampo;0;0;0;0;0
-Italy;12;Italy_Jugador_12;Mediocampo;90;0;0;0;0
-Italy;13;Italy_Jugador_13;Mediocampo;90;0;0;0;0
-Italy;14;Italy_Jugador_14;Mediocampo;90;1;0;0;0
-Italy;15;Italy_Jugador_15;Mediocampo;90;0;0;0;0
-Italy;16;Italy_Jugador_16;Mediocampo;90;0;0;0;0
-Italy;17;Italy_Jugador_17;Delantero;0;0;0;0;0
-Italy;18;Italy_Jugador_18;Delantero;270;0;0;0;0
-Italy;19;Italy_Jugador_19;Delantero;0;0;0;0;0
-Italy;20;Italy_Jugador_20;Delantero;90;0;0;0;0
-Italy;21;Italy_Jugador_21;Delantero;180;0;0;0;1
-Italy;22;Italy_Jugador_22;Delantero;0;0;0;0;0
-Italy;23;Italy_Jugador_23;Delantero;90;0;0;0;0
-Australia;1;Australia_Jugador_1;Portero;90;0;0;0;0
-Australia;2;Australia_Jugador_2;Defensa;0;0;0;0;0
-Australia;3;Australia_Jugador_3;Defensa;180;1;1;0;0
-Australia;4;Australia_Jugador_4;Defensa;0;0;0;0;0
-Australia;5;Australia_Jugador_5;Defensa;90;0;0;0;0
-Australia;6;Australia_Jugador_6;Defensa;270;0;0;0;0
-Australia;7;Australia_Jugador_7;Defensa;180;0;1;0;0
-Australia;8;Australia_Jugador_8;Defensa;90;0;0;0;0
-Australia;9;Australia_Jugador_9;Mediocampo;90;0;0;0;0
-Australia;10;Australia_Jugador_10;Mediocampo;270;0;0;0;0
-Australia;11;Australia_Jugador_11;Mediocampo;0;0;0;0;0
-Australia;12;Australia_Jugador_12;Mediocampo;90;0;0;0;0
-Australia;13;Australia_Jugador_13;Mediocampo;180;0;1;0;0
-Australia;14;Australia_Jugador_14;Mediocampo;270;0;0;0;0
-Australia;15;Australia_Jugador_15;Mediocampo;90;0;0;0;0
-Australia;16;Australia_Jugador_16;Mediocampo;90;0;0;0;0
-Australia;17;Australia_Jugador_17;Delantero;0;0;0;0;0
-Australia;18;Australia_Jugador_18;Delantero;90;0;0;0;0
-Australia;19;Australia_Jugador_19;Delantero;180;0;0;0;0
-Australia;20;Australia_Jugador_20;Delantero;270;1;1;0;1
-Australia;21;Australia_Jugador_21;Delantero;90;0;0;0;0
-Australia;22;Australia_Jugador_22;Delantero;270;1;0;0;0
-Australia;23;Australia_Jugador_23;Delantero;90;0;0;0;0
-Qatar;1;Qatar_Jugador_1;Portero;270;0;0;0;0
-Qatar;2;Qatar_Jugador_2;Defensa;180;0;1;0;1
-Qatar;3;Qatar_Jugador_3;Defensa;0;0;0;0;0
-Qatar;4;Qatar_Jugador_4;Defensa;180;1;0;0;0
-Qatar;5;Qatar_Jugador_5;Defensa;90;0;0;0;0
-Qatar;6;Qatar_Jugador_6;Defensa;180;0;0;0;0
-Qatar;7;Qatar_Jugador_7;Defensa;0;0;0;0;0
-Qatar;8;Qatar_Jugador_8;Defensa;90;0;0;0;0
-Qatar;9;Qatar_Jugador_9;Mediocampo;90;0;0;0;0
-Qatar;10;Qatar_Jugador_10;Mediocampo;180;0;1;0;0
-Qatar;11;Qatar_Jugador_11;Mediocampo;0;0;0;0;0
-Qatar;12;Qatar_Jugador_12;Mediocampo;180;0;0;0;1
-Qatar;13;Qatar_Jugador_13;Mediocampo;90;0;0;0;1
-Qatar;14;Qatar_Jugador_14;Mediocampo;270;0;0;0;0
-Qatar;15;Qatar_Jugador_15;Mediocampo;90;0;0;0;1
-Qatar;16;Qatar_Jugador_16;Mediocampo;90;1;0;0;0
-Qatar;17;Qatar_Jugador_17;Delantero;180;0;0;0;0
-Qatar;18;Qatar_Jugador_18;Delantero;90;0;1;0;0
-Qatar;19;Qatar_Jugador_19;Delantero;180;0;0;0;2
-Qatar;20;Qatar_Jugador_20;Delantero;180;0;0;0;0
-Qatar;21;Qatar_Jugador_21;Delantero;180;0;0;0;0
-Qatar;22;Qatar_Jugador_22;Delantero;180;0;0;0;0
-Qatar;23;Qatar_Jugador_23;Delantero;0;0;0;0;0
-New Zealand;1;New Zealand_Jugador_1;Portero;180;1;0;0;0
-New Zealand;2;New Zealand_Jugador_2;Defensa;270;1;0;0;0
-New Zealand;3;New Zealand_Jugador_3;Defensa;270;0;0;0;0
-New Zealand;4;New Zealand_Jugador_4;Defensa;0;0;0;0;0
-New Zealand;5;New Zealand_Jugador_5;Defensa;180;1;0;0;0
-New Zealand;6;New Zealand_Jugador_6;Defensa;90;0;0;0;0
-New Zealand;7;New Zealand_Jugador_7;Defensa;90;0;1;0;0
-New Zealand;8;New Zealand_Jugador_8;Defensa;0;0;0;0;0
-New Zealand;9;New Zealand_Jugador_9;Mediocampo;180;0;0;0;0
-New Zealand;10;New Zealand_Jugador_10;Mediocampo;270;1;1;0;0
-New Zealand;11;New Zealand_Jugador_11;Mediocampo;180;0;0;0;0
-New Zealand;12;New Zealand_Jugador_12;Mediocampo;180;0;0;0;0
-New Zealand;13;New Zealand_Jugador_13;Mediocampo;180;2;0;0;0
-New Zealand;14;New Zealand_Jugador_14;Mediocampo;90;0;0;0;0
-New Zealand;15;New Zealand_Jugador_15;Mediocampo;0;0;0;0;0
-New Zealand;16;New Zealand_Jugador_16;Mediocampo;90;1;0;0;0
-New Zealand;17;New Zealand_Jugador_17;Delantero;90;0;0;0;0
-New Zealand;18;New Zealand_Jugador_18;Delantero;180;1;0;0;0
-New Zealand;19;New Zealand_Jugador_19;Delantero;90;1;0;0;0
-New Zealand;20;New Zealand_Jugador_20;Delantero;180;1;0;0;0
-New Zealand;21;New Zealand_Jugador_21;Delantero;0;0;0;0;0
-New Zealand;22;New Zealand_Jugador_22;Delantero;90;1;0;0;0
-New Zealand;23;New Zealand_Jugador_23;Delantero;90;0;0;0;1
-Morocco;1;Morocco_Jugador_1;Portero;180;0;0;0;0
-Morocco;2;Morocco_Jugador_2;Defensa;270;1;1;0;0
-Morocco;3;Morocco_Jugador_3;Defensa;270;0;0;0;1
-Morocco;4;Morocco_Jugador_4;Defensa;90;0;0;0;0
-Morocco;5;Morocco_Jugador_5;Defensa;270;0;1;0;1
-Morocco;6;Morocco_Jugador_6;Defensa;90;0;0;0;0
-Morocco;7;Morocco_Jugador_7;Defensa;180;0;0;0;2
-Morocco;8;Morocco_Jugador_8;Defensa;90;0;0;0;0
-Morocco;9;Morocco_Jugador_9;Mediocampo;180;1;0;0;0
-Morocco;10;Morocco_Jugador_10;Mediocampo;90;0;0;0;0
-Morocco;11;Morocco_Jugador_11;Mediocampo;90;1;0;0;0
-Morocco;12;Morocco_Jugador_12;Mediocampo;180;0;0;0;0
-Morocco;13;Morocco_Jugador_13;Mediocampo;0;0;0;0;0
-Morocco;14;Morocco_Jugador_14;Mediocampo;180;1;0;0;0
-Morocco;15;Morocco_Jugador_15;Mediocampo;90;0;0;0;0
-Morocco;16;Morocco_Jugador_16;Mediocampo;180;1;0;0;0
-Morocco;17;Morocco_Jugador_17;Delantero;90;0;0;0;1
-Morocco;18;Morocco_Jugador_18;Delantero;90;0;0;0;0
-Morocco;19;Morocco_Jugador_19;Delantero;180;1;0;0;0
-Morocco;20;Morocco_Jugador_20;Delantero;90;0;0;0;0
-Morocco;21;Morocco_Jugador_21;Delantero;0;0;0;0;0
-Morocco;22;Morocco_Jugador_22;Delantero;0;0;0;0;0
-Morocco;23;Morocco_Jugador_23;Delantero;90;0;0;0;1
-Turkey;1;Turkey_Jugador_1;Portero;90;0;0;0;0
-Turkey;2;Turkey_Jugador_2;Defensa;270;1;0;0;0
-Turkey;3;Turkey_Jugador_3;Defensa;270;0;0;0;0
-Turkey;4;Turkey_Jugador_4;Defensa;0;0;0;0;0
-Turkey;5;Turkey_Jugador_5;Defensa;90;0;0;0;0
-Turkey;6;Turkey_Jugador_6;Defensa;0;0;0;0;0
-Turkey;7;Turkey_Jugador_7;Defensa;90;1;0;0;0
-Turkey;8;Turkey_Jugador_8;Defensa;90;0;0;0;0
-Turkey;9;Turkey_Jugador_9;Mediocampo;180;1;0;0;1
-Turkey;10;Turkey_Jugador_10;Mediocampo;270;0;0;0;0
-Turkey;11;Turkey_Jugador_11;Mediocampo;0;0;0;0;0
-Turkey;12;Turkey_Jugador_12;Mediocampo;90;0;0;0;2
-Turkey;13;Turkey_Jugador_13;Mediocampo;180;0;0;0;2
-Turkey;14;Turkey_Jugador_14;Mediocampo;270;0;0;0;1
-Turkey;15;Turkey_Jugador_15;Mediocampo;180;0;0;0;0
-Turkey;16;Turkey_Jugador_16;Mediocampo;90;0;0;0;0
-Turkey;17;Turkey_Jugador_17;Delantero;90;0;0;0;0
-Turkey;18;Turkey_Jugador_18;Delantero;180;0;1;0;0
-Turkey;19;Turkey_Jugador_19;Delantero;180;0;0;0;1
-Turkey;20;Turkey_Jugador_20;Delantero;0;0;0;0;0
-Turkey;21;Turkey_Jugador_21;Delantero;90;1;0;0;0
-Turkey;22;Turkey_Jugador_22;Delantero;90;0;0;0;0
-Turkey;23;Turkey_Jugador_23;Delantero;180;2;0;0;0
-Cameroon;1;Cameroon_Jugador_1;Portero;90;0;0;0;0
-Cameroon;2;Cameroon_Jugador_2;Defensa;180;0;0;0;0
-Cameroon;3;Cameroon_Jugador_3;Defensa;90;0;0;0;0
-Cameroon;4;Cameroon_Jugador_4;Defensa;0;0;0;0;0
-Cameroon;5;Cameroon_Jugador_5;Defensa;180;1;1;0;0
-Cameroon;6;Cameroon_Jugador_6;Defensa;0;0;0;0;0
-Cameroon;7;Cameroon_Jugador_7;Defensa;180;0;0;0;0
-Cameroon;8;Cameroon_Jugador_8;Defensa;90;0;0;0;0
-Cameroon;9;Cameroon_Jugador_9;Mediocampo;180;2;0;0;1
-Cameroon;10;Cameroon_Jugador_10;Mediocampo;90;0;0;0;0
-Cameroon;11;Cameroon_Jugador_11;Mediocampo;270;0;0;0;0
-Cameroon;12;Cameroon_Jugador_12;Mediocampo;270;1;1;0;0
-Cameroon;13;Cameroon_Jugador_13;Mediocampo;180;0;0;0;0
-Cameroon;14;Cameroon_Jugador_14;Mediocampo;180;0;0;0;0
-Cameroon;15;Cameroon_Jugador_15;Mediocampo;180;2;0;0;1
-Cameroon;16;Cameroon_Jugador_16;Mediocampo;90;0;0;0;0
-Cameroon;17;Cameroon_Jugador_17;Delantero;90;0;0;0;0
-Cameroon;18;Cameroon_Jugador_18;Delantero;180;0;0;0;0
-Cameroon;19;Cameroon_Jugador_19;Delantero;90;0;0;0;0
-Cameroon;20;Cameroon_Jugador_20;Delantero;90;0;0;0;1
-Cameroon;21;Cameroon_Jugador_21;Delantero;90;1;0;0;0
-Cameroon;22;Cameroon_Jugador_22;Delantero;90;1;0;0;0
-Cameroon;23;Cameroon_Jugador_23;Delantero;90;0;0;0;0
-Cabo Verde;1;Cabo Verde_Jugador_1;Portero;0;0;0;0;0
-Cabo Verde;2;Cabo Verde_Jugador_2;Defensa;270;0;0;0;2
-Cabo Verde;3;Cabo Verde_Jugador_3;Defensa;90;0;0;0;0
-Cabo Verde;4;Cabo Verde_Jugador_4;Defensa;180;0;0;0;0
+DR Congo;18;DR Congo_Jugador_18;Delantero;300;0;0;0;0
+DR Congo;19;DR Congo_Jugador_19;Delantero;120;0;0;0;0
+DR Congo;20;DR Congo_Jugador_20;Delantero;120;0;0;0;0
+DR Congo;21;DR Congo_Jugador_21;Delantero;300;0;0;0;0
+DR Congo;22;DR Congo_Jugador_22;Delantero;390;0;0;0;2
+DR Congo;23;DR Congo_Jugador_23;Delantero;390;1;0;0;2
+England;1;England_Jugador_1;Portero;450;1;1;0;0
+England;2;England_Jugador_2;Defensa;240;0;0;0;0
+England;3;England_Jugador_3;Defensa;630;1;0;0;1
+England;4;England_Jugador_4;Defensa;210;0;1;0;0
+England;5;England_Jugador_5;Defensa;780;1;0;0;1
+England;6;England_Jugador_6;Defensa;300;0;0;0;0
+England;7;England_Jugador_7;Defensa;510;1;0;0;0
+England;8;England_Jugador_8;Defensa;120;0;0;0;1
+England;9;England_Jugador_9;Mediocampo;480;2;0;0;0
+England;10;England_Jugador_10;Mediocampo;570;0;0;0;0
+England;11;England_Jugador_11;Mediocampo;690;0;0;0;1
+England;12;England_Jugador_12;Mediocampo;540;0;0;0;0
+England;13;England_Jugador_13;Mediocampo;630;1;0;0;3
+England;14;England_Jugador_14;Mediocampo;300;1;0;0;0
+England;15;England_Jugador_15;Mediocampo;300;0;0;0;1
+England;16;England_Jugador_16;Mediocampo;720;0;0;0;1
+England;17;England_Jugador_17;Delantero;660;1;0;0;1
+England;18;England_Jugador_18;Delantero;540;0;0;0;0
+England;19;England_Jugador_19;Delantero;210;0;0;0;0
+England;20;England_Jugador_20;Delantero;690;1;0;0;1
+England;21;England_Jugador_21;Delantero;450;1;0;0;2
+England;22;England_Jugador_22;Delantero;480;1;0;0;0
+England;23;England_Jugador_23;Delantero;390;0;0;0;0
+Colombia;1;Colombia_Jugador_1;Portero;180;0;0;0;1
+Colombia;2;Colombia_Jugador_2;Defensa;210;0;0;0;1
+Colombia;3;Colombia_Jugador_3;Defensa;180;0;0;0;0
+Colombia;4;Colombia_Jugador_4;Defensa;210;0;0;0;1
+Colombia;5;Colombia_Jugador_5;Defensa;90;0;0;0;0
+Colombia;6;Colombia_Jugador_6;Defensa;180;1;0;0;1
+Colombia;7;Colombia_Jugador_7;Defensa;300;0;0;0;1
+Colombia;8;Colombia_Jugador_8;Defensa;300;0;1;0;0
+Colombia;9;Colombia_Jugador_9;Mediocampo;120;0;0;0;0
+Colombia;10;Colombia_Jugador_10;Mediocampo;0;0;0;0;0
+Colombia;11;Colombia_Jugador_11;Mediocampo;270;1;0;0;0
+Colombia;12;Colombia_Jugador_12;Mediocampo;300;0;0;0;0
+Colombia;13;Colombia_Jugador_13;Mediocampo;90;0;0;0;0
+Colombia;14;Colombia_Jugador_14;Mediocampo;90;1;0;0;1
+Colombia;15;Colombia_Jugador_15;Mediocampo;300;1;0;0;1
+Colombia;16;Colombia_Jugador_16;Mediocampo;90;1;0;0;0
+Colombia;17;Colombia_Jugador_17;Delantero;300;0;0;0;0
+Colombia;18;Colombia_Jugador_18;Delantero;90;0;0;0;0
+Colombia;19;Colombia_Jugador_19;Delantero;300;0;0;0;0
+Colombia;20;Colombia_Jugador_20;Delantero;180;0;1;0;0
+Colombia;21;Colombia_Jugador_21;Delantero;210;0;0;0;0
+Colombia;22;Colombia_Jugador_22;Delantero;210;0;0;0;0
+Colombia;23;Colombia_Jugador_23;Delantero;90;0;0;0;1
+Cabo Verde;1;Cabo Verde_Jugador_1;Portero;300;2;0;0;1
+Cabo Verde;2;Cabo Verde_Jugador_2;Defensa;210;0;0;0;0
+Cabo Verde;3;Cabo Verde_Jugador_3;Defensa;0;0;0;0;0
+Cabo Verde;4;Cabo Verde_Jugador_4;Defensa;120;0;1;0;0
 Cabo Verde;5;Cabo Verde_Jugador_5;Defensa;90;0;0;0;0
-Cabo Verde;6;Cabo Verde_Jugador_6;Defensa;180;0;1;0;0
-Cabo Verde;7;Cabo Verde_Jugador_7;Defensa;180;0;0;0;0
-Cabo Verde;8;Cabo Verde_Jugador_8;Defensa;180;0;0;0;0
-Cabo Verde;9;Cabo Verde_Jugador_9;Mediocampo;90;0;0;0;0
-Cabo Verde;10;Cabo Verde_Jugador_10;Mediocampo;90;0;0;0;0
-Cabo Verde;11;Cabo Verde_Jugador_11;Mediocampo;0;0;0;0;0
-Cabo Verde;12;Cabo Verde_Jugador_12;Mediocampo;90;0;1;0;0
-Cabo Verde;13;Cabo Verde_Jugador_13;Mediocampo;90;0;0;0;0
+Cabo Verde;6;Cabo Verde_Jugador_6;Defensa;180;1;0;0;1
+Cabo Verde;7;Cabo Verde_Jugador_7;Defensa;180;0;0;0;1
+Cabo Verde;8;Cabo Verde_Jugador_8;Defensa;180;0;1;0;0
+Cabo Verde;9;Cabo Verde_Jugador_9;Mediocampo;0;0;0;0;0
+Cabo Verde;10;Cabo Verde_Jugador_10;Mediocampo;300;1;1;0;0
+Cabo Verde;11;Cabo Verde_Jugador_11;Mediocampo;300;0;0;0;1
+Cabo Verde;12;Cabo Verde_Jugador_12;Mediocampo;210;0;1;0;0
+Cabo Verde;13;Cabo Verde_Jugador_13;Mediocampo;300;0;1;0;1
 Cabo Verde;14;Cabo Verde_Jugador_14;Mediocampo;270;0;0;0;0
-Cabo Verde;15;Cabo Verde_Jugador_15;Mediocampo;90;0;0;0;0
-Cabo Verde;16;Cabo Verde_Jugador_16;Mediocampo;180;0;0;0;0
-Cabo Verde;17;Cabo Verde_Jugador_17;Delantero;180;0;0;0;1
-Cabo Verde;18;Cabo Verde_Jugador_18;Delantero;90;0;0;0;0
-Cabo Verde;19;Cabo Verde_Jugador_19;Delantero;90;0;0;0;1
-Cabo Verde;20;Cabo Verde_Jugador_20;Delantero;90;0;0;0;0
-Cabo Verde;21;Cabo Verde_Jugador_21;Delantero;180;0;0;0;0
-Cabo Verde;22;Cabo Verde_Jugador_22;Delantero;180;0;0;0;0
-Cabo Verde;23;Cabo Verde_Jugador_23;Delantero;90;0;0;0;0
+Cabo Verde;15;Cabo Verde_Jugador_15;Mediocampo;180;0;0;0;0
+Cabo Verde;16;Cabo Verde_Jugador_16;Mediocampo;300;1;0;0;1
+Cabo Verde;17;Cabo Verde_Jugador_17;Delantero;270;1;1;0;1
+Cabo Verde;18;Cabo Verde_Jugador_18;Delantero;180;0;0;0;0
+Cabo Verde;19;Cabo Verde_Jugador_19;Delantero;90;0;0;0;0
+Cabo Verde;20;Cabo Verde_Jugador_20;Delantero;0;0;0;0;0
+Cabo Verde;21;Cabo Verde_Jugador_21;Delantero;120;1;0;0;0
+Cabo Verde;22;Cabo Verde_Jugador_22;Delantero;300;0;0;0;0
+Cabo Verde;23;Cabo Verde_Jugador_23;Delantero;210;0;0;0;0
+Spain;1;Spain_Jugador_1;Portero;210;1;0;0;0
+Spain;2;Spain_Jugador_2;Defensa;90;0;0;0;0
+Spain;3;Spain_Jugador_3;Defensa;210;0;0;0;0
+Spain;4;Spain_Jugador_4;Defensa;330;0;0;0;3
+Spain;5;Spain_Jugador_5;Defensa;300;1;0;0;1
+Spain;6;Spain_Jugador_6;Defensa;180;0;0;0;0
+Spain;7;Spain_Jugador_7;Defensa;420;1;0;0;0
+Spain;8;Spain_Jugador_8;Defensa;420;2;0;0;4
+Spain;9;Spain_Jugador_9;Mediocampo;90;0;0;0;0
+Spain;10;Spain_Jugador_10;Mediocampo;420;1;0;0;2
+Spain;11;Spain_Jugador_11;Mediocampo;300;0;0;0;1
+Spain;12;Spain_Jugador_12;Mediocampo;420;0;0;0;0
+Spain;13;Spain_Jugador_13;Mediocampo;390;1;0;0;1
+Spain;14;Spain_Jugador_14;Mediocampo;180;1;0;0;0
+Spain;15;Spain_Jugador_15;Mediocampo;300;0;0;0;1
+Spain;16;Spain_Jugador_16;Mediocampo;210;0;0;0;0
+Spain;17;Spain_Jugador_17;Delantero;300;0;0;0;0
+Spain;18;Spain_Jugador_18;Delantero;120;0;0;0;0
+Spain;19;Spain_Jugador_19;Delantero;90;0;0;0;0
+Spain;20;Spain_Jugador_20;Delantero;180;1;0;0;0
+Spain;21;Spain_Jugador_21;Delantero;210;1;0;0;0
+Spain;22;Spain_Jugador_22;Delantero;0;0;0;0;0
+Spain;23;Spain_Jugador_23;Delantero;240;0;1;0;0
+Mexico;1;Mexico_Jugador_1;Portero;180;0;0;0;0
+Mexico;2;Mexico_Jugador_2;Defensa;210;0;0;0;0
+Mexico;3;Mexico_Jugador_3;Defensa;210;1;0;0;0
+Mexico;4;Mexico_Jugador_4;Defensa;300;2;0;0;0
+Mexico;5;Mexico_Jugador_5;Defensa;120;1;0;0;0
+Mexico;6;Mexico_Jugador_6;Defensa;420;0;0;0;0
+Mexico;7;Mexico_Jugador_7;Defensa;0;0;0;0;0
+Mexico;8;Mexico_Jugador_8;Defensa;330;0;0;0;0
+Mexico;9;Mexico_Jugador_9;Mediocampo;90;0;0;0;0
+Mexico;10;Mexico_Jugador_10;Mediocampo;330;1;0;0;0
+Mexico;11;Mexico_Jugador_11;Mediocampo;300;0;1;0;0
+Mexico;12;Mexico_Jugador_12;Mediocampo;210;1;0;0;0
+Mexico;13;Mexico_Jugador_13;Mediocampo;300;0;0;0;0
+Mexico;14;Mexico_Jugador_14;Mediocampo;420;0;0;0;1
+Mexico;15;Mexico_Jugador_15;Mediocampo;270;0;0;0;1
+Mexico;16;Mexico_Jugador_16;Mediocampo;300;0;1;0;0
+Mexico;17;Mexico_Jugador_17;Delantero;390;2;0;0;0
+Mexico;18;Mexico_Jugador_18;Delantero;210;0;0;0;0
+Mexico;19;Mexico_Jugador_19;Delantero;210;1;0;0;1
+Mexico;20;Mexico_Jugador_20;Delantero;420;0;0;0;0
+Mexico;21;Mexico_Jugador_21;Delantero;0;0;0;0;0
+Mexico;22;Mexico_Jugador_22;Delantero;210;0;1;0;0
+Mexico;23;Mexico_Jugador_23;Delantero;180;0;0;0;0
+Czech Republic;1;Czech Republic_Jugador_1;Portero;210;0;0;0;0
+Czech Republic;2;Czech Republic_Jugador_2;Defensa;300;1;0;0;1
+Czech Republic;3;Czech Republic_Jugador_3;Defensa;90;0;0;0;0
+Czech Republic;4;Czech Republic_Jugador_4;Defensa;90;1;1;0;1
+Czech Republic;5;Czech Republic_Jugador_5;Defensa;90;0;0;0;0
+Czech Republic;6;Czech Republic_Jugador_6;Defensa;180;0;1;0;1
+Czech Republic;7;Czech Republic_Jugador_7;Defensa;90;0;0;0;0
+Czech Republic;8;Czech Republic_Jugador_8;Defensa;210;0;0;0;0
+Czech Republic;9;Czech Republic_Jugador_9;Mediocampo;210;0;0;0;0
+Czech Republic;10;Czech Republic_Jugador_10;Mediocampo;180;0;0;0;0
+Czech Republic;11;Czech Republic_Jugador_11;Mediocampo;180;0;0;0;1
+Czech Republic;12;Czech Republic_Jugador_12;Mediocampo;270;1;1;0;0
+Czech Republic;13;Czech Republic_Jugador_13;Mediocampo;210;0;0;0;1
+Czech Republic;14;Czech Republic_Jugador_14;Mediocampo;120;0;0;0;0
+Czech Republic;15;Czech Republic_Jugador_15;Mediocampo;180;1;0;0;0
+Czech Republic;16;Czech Republic_Jugador_16;Mediocampo;300;0;0;0;2
+Czech Republic;17;Czech Republic_Jugador_17;Delantero;300;0;0;0;0
+Czech Republic;18;Czech Republic_Jugador_18;Delantero;300;1;0;0;4
+Czech Republic;19;Czech Republic_Jugador_19;Delantero;180;0;0;0;0
+Czech Republic;20;Czech Republic_Jugador_20;Delantero;180;0;1;0;0
+Czech Republic;21;Czech Republic_Jugador_21;Delantero;0;0;0;0;0
+Czech Republic;22;Czech Republic_Jugador_22;Delantero;210;0;0;0;0
+Czech Republic;23;Czech Republic_Jugador_23;Delantero;210;0;0;0;0
+Brazil;1;Brazil_Jugador_1;Portero;330;1;0;0;2
+Brazil;2;Brazil_Jugador_2;Defensa;120;0;0;0;0
+Brazil;3;Brazil_Jugador_3;Defensa;210;0;0;0;0
+Brazil;4;Brazil_Jugador_4;Defensa;210;1;0;0;0
+Brazil;5;Brazil_Jugador_5;Defensa;330;1;0;0;0
+Brazil;6;Brazil_Jugador_6;Defensa;90;0;0;0;0
+Brazil;7;Brazil_Jugador_7;Defensa;240;0;0;0;0
+Brazil;8;Brazil_Jugador_8;Defensa;420;1;0;0;0
+Brazil;9;Brazil_Jugador_9;Mediocampo;90;1;1;0;0
+Brazil;10;Brazil_Jugador_10;Mediocampo;270;0;0;0;1
+Brazil;11;Brazil_Jugador_11;Mediocampo;330;0;0;0;1
+Brazil;12;Brazil_Jugador_12;Mediocampo;540;1;0;0;1
+Brazil;13;Brazil_Jugador_13;Mediocampo;270;0;0;0;0
+Brazil;14;Brazil_Jugador_14;Mediocampo;510;2;0;0;1
+Brazil;15;Brazil_Jugador_15;Mediocampo;420;0;1;0;1
+Brazil;16;Brazil_Jugador_16;Mediocampo;420;0;0;0;2
+Brazil;17;Brazil_Jugador_17;Delantero;300;0;0;0;0
+Brazil;18;Brazil_Jugador_18;Delantero;300;0;0;0;0
+Brazil;19;Brazil_Jugador_19;Delantero;450;0;1;0;0
+Brazil;20;Brazil_Jugador_20;Delantero;300;0;0;0;0
+Brazil;21;Brazil_Jugador_21;Delantero;120;0;0;0;0
+Brazil;22;Brazil_Jugador_22;Delantero;330;0;0;0;0
+Brazil;23;Brazil_Jugador_23;Delantero;330;0;1;0;0
+Panama;1;Panama_Jugador_1;Portero;120;0;0;0;0
+Panama;2;Panama_Jugador_2;Defensa;180;0;0;0;2
+Panama;3;Panama_Jugador_3;Defensa;300;1;0;0;0
+Panama;4;Panama_Jugador_4;Defensa;300;1;0;0;0
+Panama;5;Panama_Jugador_5;Defensa;210;0;0;0;0
+Panama;6;Panama_Jugador_6;Defensa;300;1;0;0;1
+Panama;7;Panama_Jugador_7;Defensa;90;0;0;0;1
+Panama;8;Panama_Jugador_8;Defensa;90;0;0;0;1
+Panama;9;Panama_Jugador_9;Mediocampo;180;0;0;0;0
+Panama;10;Panama_Jugador_10;Mediocampo;180;1;0;0;0
+Panama;11;Panama_Jugador_11;Mediocampo;210;0;0;0;0
+Panama;12;Panama_Jugador_12;Mediocampo;180;0;0;0;0
+Panama;13;Panama_Jugador_13;Mediocampo;120;0;0;0;0
+Panama;14;Panama_Jugador_14;Mediocampo;210;0;1;0;1
+Panama;15;Panama_Jugador_15;Mediocampo;90;0;0;0;0
+Panama;16;Panama_Jugador_16;Mediocampo;180;0;0;0;0
+Panama;17;Panama_Jugador_17;Delantero;300;1;1;0;0
+Panama;18;Panama_Jugador_18;Delantero;180;1;0;0;0
+Panama;19;Panama_Jugador_19;Delantero;0;0;0;0;0
+Panama;20;Panama_Jugador_20;Delantero;0;0;0;0;0
+Panama;21;Panama_Jugador_21;Delantero;300;0;0;0;0
+Panama;22;Panama_Jugador_22;Delantero;270;0;0;0;0
+Panama;23;Panama_Jugador_23;Delantero;300;0;0;0;0
