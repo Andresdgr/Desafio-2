@@ -537,18 +537,35 @@ int main()
         cout << "11. Generar estadisticas finales del torneo\n";
         cout << "0. Salir\n";
         cout << "Seleccione una opcion: ";
-
         cin >> opcion;
 
         switch (opcion)
         {
         case 1:
+        {
+            if (equiposCargados)
+            {
+                cout << "Los equipos ya fueron cargados.\n";
+                break;
+            }
+
+            MedidorRecursos::reiniciar();
+
             gestor.cargarEquiposDesdeCSV(
                 "C:/udea/informatica_2/DESAFIO2/selecciones_clasificadas_mundial.csv",
-                equipos);
+                equipos
+                );
+
             equiposCargados = true;
-            cout << "Equipos cargados\n";
+            cout << "Equipos cargados correctamente.\n";
+
+            MedidorRecursos::mostrarReporte(
+                "Carga de equipos desde CSV",
+                calcularMemoriaTotal(equipos, bombo1, bombo2, bombo3, bombo4, grupos, partidos)
+                );
+
             break;
+        }
 
         case 2:
         {
@@ -564,14 +581,17 @@ int main()
                 break;
             }
 
-            cout << "Ordenando equipos por ranking...\n";
+            MedidorRecursos::reiniciar();
 
+            cout << "Ordenando equipos por ranking...\n";
             equipos.ordenar();
 
             cout << "Ajustando anfitrion...\n";
 
             for (int i = 0; i < equipos.tamano(); i++)
             {
+                MedidorRecursos::sumarIteracion();
+
                 string pais = equipos.consultar(i).getPais();
 
                 if (pais == "United States" || pais == "Estados Unidos")
@@ -580,6 +600,7 @@ int main()
 
                     for (int j = i; j > 0; j--)
                     {
+                        MedidorRecursos::sumarIteracion();
                         equipos.consultar(j) = equipos.consultar(j - 1);
                     }
 
@@ -597,6 +618,8 @@ int main()
 
             for (int i = 0; i < equipos.tamano(); i++)
             {
+                MedidorRecursos::sumarIteracion();
+
                 if (i < 12)
                     bombo1.agregarEquipo(equipos.consultar(i));
                 else if (i < 24)
@@ -613,10 +636,16 @@ int main()
             imprimirBombo(bombo4);
 
             bombosCreados = true;
-
             cout << "\nBombos creados correctamente.\n";
+
+            MedidorRecursos::mostrarReporte(
+                "Creacion de bombos",
+                calcularMemoriaTotal(equipos, bombo1, bombo2, bombo3, bombo4, grupos, partidos)
+                );
+
             break;
         }
+
         case 3:
         {
             if (!bombosCreados)
@@ -631,8 +660,12 @@ int main()
                 break;
             }
 
+            MedidorRecursos::reiniciar();
+
             for (int i = 0; i < 12; i++)
             {
+                MedidorRecursos::sumarIteracion();
+
                 Grupo grupo('A' + i);
 
                 grupo.agregarEquipo(bombo1.getEquipos().consultar(i));
@@ -644,62 +677,132 @@ int main()
             }
 
             imprimirGrupos(grupos);
-            gruposCreados = true;
 
+            gruposCreados = true;
             cout << "\nGrupos creados correctamente.\n";
+
+            MedidorRecursos::mostrarReporte(
+                "Creacion de grupos",
+                calcularMemoriaTotal(equipos, bombo1, bombo2, bombo3, bombo4, grupos, partidos)
+                );
+
             break;
         }
+
         case 4:
+        {
             if (!gruposCreados)
             {
-                cout << "Primero cree los grupos\n";
+                cout << "Primero cree los grupos.\n";
                 break;
             }
+
+            if (calendarioGenerado)
+            {
+                cout << "El calendario ya fue generado.\n";
+                break;
+            }
+
+            MedidorRecursos::reiniciar();
 
             partidos = calendario.generarCalendarioFaseGrupos(grupos);
             calendarioGenerado = true;
-            cout << "Calendario generado\n";
+
+            cout << "Calendario generado correctamente.\n";
+
+            MedidorRecursos::mostrarReporte(
+                "Generacion de calendario de fase de grupos",
+                calcularMemoriaTotal(equipos, bombo1, bombo2, bombo3, bombo4, grupos, partidos)
+                );
+
             break;
+        }
 
         case 5:
+        {
             if (!calendarioGenerado)
             {
-                cout << "Primero genere el calendario\n";
+                cout << "Primero genere el calendario.\n";
                 break;
             }
 
+            if (gruposSimulados)
+            {
+                cout << "La fase de grupos ya fue simulada.\n";
+                break;
+            }
+
+            MedidorRecursos::reiniciar();
+
             for (int i = 0; i < partidos.tamano(); i++)
             {
+                MedidorRecursos::sumarIteracion();
                 partidos.consultar(i).simular();
             }
 
             imprimirPartidosPorGrupo(partidos);
             actualizarHistoricoDesdeGrupos(grupos, historicoFinal);
+
             gruposSimulados = true;
+            cout << "\nFase de grupos simulada correctamente.\n";
+
+            MedidorRecursos::mostrarReporte(
+                "Simulacion de fase de grupos",
+                calcularMemoriaTotal(equipos, bombo1, bombo2, bombo3, bombo4, grupos, partidos)
+                );
 
             break;
+        }
 
         case 6:
+        {
             if (!gruposSimulados)
             {
-                cout << "Primero simule la fase de grupos\n";
+                cout << "Primero simule la fase de grupos.\n";
                 break;
             }
 
+            MedidorRecursos::reiniciar();
+
+            imprimirEstadisticasGrupos(grupos);
             imprimirTablasClasificacion(grupos);
+
+            MedidorRecursos::mostrarReporte(
+                "Visualizacion de tablas y estadisticas de grupos",
+                calcularMemoriaTotal(equipos, bombo1, bombo2, bombo3, bombo4, grupos, partidos)
+                );
+
             break;
+        }
 
         case 7:
+        {
             if (!gruposSimulados)
             {
-                cout << "Primero simule la fase de grupos\n";
+                cout << "Primero simule la fase de grupos.\n";
                 break;
             }
+
+            if (clasificadosListos)
+            {
+                cout << "Los clasificados ya fueron obtenidos.\n";
+                break;
+            }
+
+            MedidorRecursos::reiniciar();
 
             obtenerClasificados(grupos, primeros, segundos, terceros);
             imprimirClasificados(primeros, segundos, terceros);
+
             clasificadosListos = true;
+
+            MedidorRecursos::mostrarReporte(
+                "Obtencion de clasificados",
+                calcularMemoriaTotal(equipos, bombo1, bombo2, bombo3, bombo4, grupos, partidos)
+                );
+
             break;
+        }
 
         case 8:
         {
@@ -708,6 +811,14 @@ int main()
                 cout << "Primero obtenga los clasificados.\n";
                 break;
             }
+
+            if (eliminatoriasSimuladas)
+            {
+                cout << "Las eliminatorias ya fueron simuladas.\n";
+                break;
+            }
+
+            MedidorRecursos::reiniciar();
 
             Lista<Partido> dieciseisavos =
                 eliminatorias.generarDieciseisavos(primeros, segundos, terceros);
@@ -746,6 +857,9 @@ int main()
             eliminatorias.imprimirRonda(semifinales, "SEMIFINALES");
             actualizarHistoricoDesdePartidos(semifinales, historicoFinal);
 
+            Lista<Equipo> ganadoresSemifinales =
+                eliminatorias.obtenerGanadores(semifinales);
+
             Lista<Equipo> perdedoresSemifinales =
                 eliminatorias.obtenerPerdedores(semifinales);
 
@@ -759,17 +873,16 @@ int main()
             tercerLugarGlobal = eliminatorias.obtenerGanadores(tercerPuesto);
             cuartoLugarGlobal = eliminatorias.obtenerPerdedores(tercerPuesto);
 
-            Lista<Equipo> ganadoresSemifinales =
-                eliminatorias.obtenerGanadores(semifinales);
-
             Lista<Partido> final =
                 eliminatorias.generarSiguienteRonda(ganadoresSemifinales, "Final");
 
             eliminatorias.simularRonda(final);
             eliminatorias.imprimirRonda(final, "FINAL");
             actualizarHistoricoDesdePartidos(final, historicoFinal);
+
             campeonGlobal = eliminatorias.obtenerGanadores(final);
             subcampeonGlobal = eliminatorias.obtenerPerdedores(final);
+            campeonDisponible = true;
 
             r16Global = ganadoresDieciseisavos;
             r8Global = ganadoresOctavos;
@@ -779,15 +892,16 @@ int main()
 
             cout << "\nEliminatorias simuladas correctamente.\n";
 
-            Lista<Equipo> campeon =
-                campeonGlobal = eliminatorias.obtenerGanadores(final);
-                campeonDisponible = true;
-
-            if (!campeon.esVacia())
+            if (!campeonGlobal.esVacia())
             {
                 cout << "\n===== CAMPEON DEL MUNDIAL =====\n";
-                cout << campeon.consultar(0).getPais() << endl;
+                cout << campeonGlobal.consultar(0).getPais() << endl;
             }
+
+            MedidorRecursos::mostrarReporte(
+                "Simulacion de eliminatorias",
+                calcularMemoriaTotal(equipos, bombo1, bombo2, bombo3, bombo4, grupos, final)
+                );
 
             break;
         }
@@ -800,10 +914,49 @@ int main()
                 break;
             }
 
+            MedidorRecursos::reiniciar();
+
             cout << "\n===== CAMPEON DEL MUNDIAL =====\n";
             cout << campeonGlobal.consultar(0).getPais() << endl;
+
+            MedidorRecursos::mostrarReporte(
+                "Visualizacion del campeon",
+                calcularMemoriaTotal(equipos, bombo1, bombo2, bombo3, bombo4, grupos, partidos)
+                );
+
             break;
         }
+
+        case 10:
+        {
+            if (!eliminatoriasSimuladas)
+            {
+                cout << "Primero simule todo el torneo antes de guardar historicos.\n";
+                break;
+            }
+
+            MedidorRecursos::reiniciar();
+
+            gestor.guardarHistoricoEquipoDesdeLista(
+                "C:/udea/informatica_2/DESAFIO2/historico_equipos.csv",
+                historicoFinal
+                );
+
+            gestor.guardarHistoricoJugadoresDesdeLista(
+                "C:/udea/informatica_2/DESAFIO2/historico_jugadores.csv",
+                historicoFinal
+                );
+
+            cout << "Historicos guardados correctamente.\n";
+
+            MedidorRecursos::mostrarReporte(
+                "Guardado de historicos",
+                calcularMemoriaTotal(equipos, bombo1, bombo2, bombo3, bombo4, grupos, partidos)
+                );
+
+            break;
+        }
+
         case 11:
         {
             if (!eliminatoriasSimuladas)
@@ -811,6 +964,8 @@ int main()
                 cout << "Primero simule las eliminatorias.\n";
                 break;
             }
+
+            MedidorRecursos::reiniciar();
 
             imprimirInformeFinalTorneo(
                 historicoFinal,
@@ -823,17 +978,20 @@ int main()
                 r4Global
                 );
 
+            MedidorRecursos::mostrarReporte(
+                "Generacion de estadisticas finales del torneo",
+                calcularMemoriaTotal(equipos, bombo1, bombo2, bombo3, bombo4, grupos, partidos)
+                );
+
             break;
         }
-
-
 
         case 0:
             cout << "Saliendo...\n";
             break;
 
         default:
-            cout << "Opcion invalida\n";
+            cout << "Opcion invalida.\n";
         }
 
     } while (opcion != 0);
